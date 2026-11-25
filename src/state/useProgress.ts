@@ -6,7 +6,7 @@ import type { DayLog, Progress } from '../lib/progressTypes'
 import { loadProgress, reconcile, saveProgress, SCHEMA_VERSION, STORAGE_KEY } from '../lib/store'
 
 export const UNREADABLE_PREFIX = 'dansk-daily:progress-unreadable-'
-/** One safe-copy slot per action and day; a later Replace/Reset the same day overwrites it. */
+/** Safe copies before a Replace/Reset: '<prefix><kind>-<day>', then '-2', '-3'… the same day. */
 export const BEFORE_PREFIX = 'dansk-daily:progress-before-'
 
 export const SAFE_COPY_ERROR =
@@ -16,9 +16,12 @@ export const SAFE_COPY_ERROR =
 export const SAVE_ERROR =
   "Couldn't save your progress on this iPhone. Storage may be full, or Private Browsing may be on. " +
   'Free up some space and keep the app open; your progress since the last save may be lost.'
-const STASH_ERROR =
+export const STASH_ERROR =
   "Your saved progress couldn't be read, and there's no room to keep a safe copy of it. " +
   "Nothing will be saved until space is freed, so the old data isn't overwritten."
+export const UNREADABLE_NOTICE =
+  "Your saved progress couldn't be read, so the app started fresh. A copy of it was kept on this iPhone. " +
+  'If you have a backup file, use Import backup in Settings to carry on where you left off.'
 
 /** True when stored text exists but loadProgress would throw it away (corrupt or newer schema). */
 function isUnreadable(text: string): boolean {
@@ -32,9 +35,11 @@ function isUnreadable(text: string): boolean {
   }
 }
 
-/** Keep unreadable stored text under a dated key so the first save never destroys it. */
-function stashUnreadable(storage: Storage, text: string, today: string): void {
-  const base = UNREADABLE_PREFIX + today
+/**
+ * Keep `text` under `base`, else `base-2`, `base-3`…: an existing copy is never overwritten,
+ * and text already kept in one of them isn't written again. Throws when storage refuses.
+ */
+function keepCopy(storage: Storage, base: string, text: string): void {
   for (let n = 1; ; n++) {
     const key = n === 1 ? base : `${base}-${n}`
     const existing = storage.getItem(key)
@@ -66,7 +71,8 @@ export function startProgress(storage: Storage, content: Content, today: string)
   let error: string | null = null
   if (text !== null && isUnreadable(text)) {
     try {
-      stashUnreadable(storage, text, today)
+      keepCopy(storage, UNREADABLE_PREFIX + today, text)
+      error = UNREADABLE_NOTICE
     } catch {
       blocked = true
       error = STASH_ERROR
@@ -81,7 +87,7 @@ export function startProgress(storage: Storage, content: Content, today: string)
     try {
       saveProgress(storage, p)
     } catch {
-      error = SAVE_ERROR
+      error = error === null ? SAVE_ERROR : `${error} ${SAVE_ERROR}`
     }
   }
   return { p, newContent, error, blocked }
@@ -110,7 +116,8 @@ export interface ProgressApi {
   dismissNewContent: () => void
   /**
    * Replace all progress (import or reset). First stashes the raw stored progress under
-   * 'dansk-daily:progress-before-<kind>-<today>'; if that fails nothing changes.
+   * 'dansk-daily:progress-before-<kind>-<today>' (or the next free '-2', '-3'… slot, so an
+   * earlier copy is never overwritten); if that fails nothing changes.
    * Returns null on success, or a readable message.
    */
   replace: (next: Progress, kind: 'replace' | 'reset') => string | null
@@ -134,7 +141,11 @@ export function useProgress(content: Content, storage: Storage, now: () => Date)
       if (next === pRef.current) return
       pRef.current = next
       setP(next)
-      if (blocked.current) return
+      if (blocked.current) {
+        // Not saved: keep warning on every skipped save, even after OK was tapped.
+        setSaveError(STASH_ERROR)
+        return
+      }
       try {
         saveProgress(storage, next)
       } catch {
@@ -148,12 +159,15 @@ export function useProgress(content: Content, storage: Storage, now: () => Date)
     (next: Progress, kind: 'replace' | 'reset'): string | null => {
       try {
         const raw = storage.getItem(STORAGE_KEY)
-        if (raw !== null) storage.setItem(`${BEFORE_PREFIX}${kind}-${localDay(now())}`, raw)
+        if (raw !== null) keepCopy(storage, `${BEFORE_PREFIX}${kind}-${localDay(now())}`, raw)
       } catch {
         return SAFE_COPY_ERROR
       }
       // Whatever was stored (even unreadable data) is now kept safe, so saving may resume.
-      blocked.current = false
+      if (blocked.current) {
+        blocked.current = false
+        setSaveError(e => (e === STASH_ERROR ? null : e))
+      }
       pRef.current = next
       setP(next)
       try {

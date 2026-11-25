@@ -251,6 +251,14 @@ export function Settings({ content, p, today, now, update, replace, audio, onRep
                 ? 'A safe copy of your current progress is kept on this iPhone.'
                 : 'Your words, lessons and streak start again from zero. A safe copy is kept on this iPhone.'}
             </p>
+            <button type="button" class="btn btn-ghost" onClick={exportBackup} disabled={exp.busy}>
+              Export backup first
+            </button>
+            {exp.link && (
+              <a class="btn btn-ghost" href={exp.link.href} download={exp.link.name}>
+                Save backup file
+              </a>
+            )}
             <div class="two">
               <button type="button" class="btn btn-ghost" onClick={() => setConfirm(null)}>
                 Cancel

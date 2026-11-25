@@ -129,6 +129,61 @@ describe('never lose progress', () => {
     expect(s.getItem(`dansk-daily:progress-unreadable-${TODAY}`)).toBe(newer)
   })
 
+  it("after a successful stash, tells the learner once that the data couldn't be read and a copy was kept", () => {
+    const s = memoryStorage({ [STORAGE_KEY]: '{not json' })
+    renderApp(s)
+    const alert = screen.getByRole('alert').textContent!
+    expect(alert).toMatch(/saved progress couldn't be read/i)
+    expect(alert).toMatch(/copy .*kept/i)
+    expect(alert).toMatch(/import backup/i)
+    fireEvent.click(screen.getByRole('button', { name: 'OK' }))
+    expect(screen.queryByRole('alert')).toBeNull()
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    expect(screen.queryByRole('alert')).toBeNull()
+  })
+
+  it('readable stored progress shows no notice', () => {
+    renderApp(storageWith(placedProgress({ contentVersion: content.version })))
+    expect(screen.queryByRole('alert')).toBeNull()
+  })
+
+  /** Unreadable stored text, and no room to stash it: saving is blocked. */
+  function blockedStorage() {
+    const base = memoryStorage({ [STORAGE_KEY]: '{not json' })
+    const setItem = base.setItem
+    base.setItem = (k: string, v: string) => {
+      if (k.startsWith('dansk-daily:progress-unreadable-')) throw new DOMException('Quota', 'QuotaExceededError')
+      setItem(k, v)
+    }
+    return base
+  }
+
+  it('while saving is blocked, the warning comes back on every skipped save', () => {
+    const s = blockedStorage()
+    renderApp(s)
+    expect(screen.getByRole('alert').textContent).toMatch(/nothing will be saved/i)
+    fireEvent.click(screen.getByRole('button', { name: 'OK' }))
+    expect(screen.queryByRole('alert')).toBeNull()
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    expect(screen.getByRole('alert').textContent).toMatch(/nothing will be saved/i)
+    expect(s.getItem(STORAGE_KEY)).toBe('{not json')
+  })
+
+  it('the blocked warning clears once a later safe copy succeeds (Reset)', () => {
+    const s = blockedStorage()
+    renderApp(s)
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    expect(screen.getByRole('alert').textContent).toMatch(/nothing will be saved/i)
+    fireEvent.click(within(screen.getByRole('navigation')).getByRole('button', { name: 'Settings' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Reset' }))
+    expect(s.getItem(`dansk-daily:progress-before-reset-${TODAY}`)).toBe('{not json')
+    expect(screen.queryByText(/nothing will be saved/i)).toBeNull()
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    expect(screen.queryByRole('alert')).toBeNull()
+    expect(stored(s).placement.done).toBe(true)
+  })
+
   it('a failing save shows a readable message instead of crashing', () => {
     renderApp(memoryStorage({}, { failSet: true }))
     fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))

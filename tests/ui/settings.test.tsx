@@ -118,6 +118,81 @@ describe('Settings: import', () => {
   })
 })
 
+describe('Settings: safe copies are never overwritten', () => {
+  it('two Replaces on one day keep both earlier copies', async () => {
+    const s = openSettings()
+    const original = s.getItem(STORAGE_KEY)
+    pickFile(backupOf(placedProgress({ lessonsDone: { 'u01-l01': true } })))
+    fireEvent.click(within(await screen.findByRole('alertdialog')).getByRole('button', { name: 'Replace' }))
+    const afterFirst = s.getItem(STORAGE_KEY)
+    fireEvent.click(within(screen.getByRole('navigation')).getByRole('button', { name: 'Settings' }))
+    pickFile(backupOf(placedProgress({ lessonsDone: { 'u01-l02': true } })))
+    fireEvent.click(within(await screen.findByRole('alertdialog')).getByRole('button', { name: 'Replace' }))
+    expect(s.getItem(`dansk-daily:progress-before-replace-${TODAY}`)).toBe(original)
+    expect(s.getItem(`dansk-daily:progress-before-replace-${TODAY}-2`)).toBe(afterFirst)
+    expect(stored(s).lessonsDone).toEqual({ 'u01-l02': true })
+  })
+
+  it('a second Reset on one day keeps the pre-reset progress', () => {
+    const s = openSettings(placedProgress({ contentVersion: content.version, lessonsDone: { 'u01-l01': true } }))
+    const original = s.getItem(STORAGE_KEY)
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Reset' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    const afterFirst = s.getItem(STORAGE_KEY)
+    fireEvent.click(within(screen.getByRole('navigation')).getByRole('button', { name: 'Settings' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Reset' }))
+    expect(s.getItem(`dansk-daily:progress-before-reset-${TODAY}`)).toBe(original)
+    expect(s.getItem(`dansk-daily:progress-before-reset-${TODAY}-2`)).toBe(afterFirst)
+  })
+
+  it('the same progress is not copied twice', () => {
+    const s = openSettings()
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Reset' }))
+    const kept = s.getItem(`dansk-daily:progress-before-reset-${TODAY}`)
+    fireEvent.click(screen.getByRole('button', { name: 'Skip, start from the beginning' }))
+    // the stored text is the same as the kept copy again: resetting adds no second slot
+    s.setItem(STORAGE_KEY, kept!)
+    fireEvent.click(within(screen.getByRole('navigation')).getByRole('button', { name: 'Settings' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Reset' }))
+    expect(s.getItem(`dansk-daily:progress-before-reset-${TODAY}-2`)).toBeNull()
+  })
+})
+
+describe('Settings: export backup first (from the confirm sheets)', () => {
+  it('Replace sheet: "Export backup first" shares the current progress and keeps the sheet open', async () => {
+    const share = vi.fn(() => Promise.resolve())
+    setNav('canShare', vi.fn(() => true))
+    setNav('share', share)
+    const s = openSettings(placedProgress({ contentVersion: content.version, lessonsDone: { 'u01-l01': true } }))
+    pickFile(backupOf(placedProgress({ lessonsDone: { 'u01-l02': true } })))
+    const dialog = await screen.findByRole('alertdialog')
+    fireEvent.click(within(dialog).getByRole('button', { name: 'Export backup first' }))
+    await waitFor(() => expect(share).toHaveBeenCalledTimes(1))
+    const files = (share.mock.calls[0] as unknown as [{ files: File[] }])[0].files
+    expect(JSON.parse(await files[0].text()).progress.lessonsDone).toEqual({ 'u01-l01': true })
+    expect(screen.getByRole('alertdialog')).toBeTruthy()
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Replace' }))
+    expect(stored(s).lessonsDone).toEqual({ 'u01-l02': true })
+  })
+
+  it('Reset sheet: without a share sheet the download link shows inside the sheet; Cancel still works', async () => {
+    setNav('canShare', undefined)
+    const s = openSettings(placedProgress({ contentVersion: content.version, lessonsDone: { 'u01-l01': true } }))
+    fireEvent.click(screen.getByRole('button', { name: 'Reset all progress' }))
+    const dialog = screen.getByRole('alertdialog')
+    fireEvent.click(within(dialog).getByRole('button', { name: 'Export backup first' }))
+    const link = await within(screen.getByRole('alertdialog')).findByRole('link', { name: /save backup file/i })
+    expect(link.getAttribute('download')).toBe(`dansk-daily-backup-${TODAY}.json`)
+    fireEvent.click(within(screen.getByRole('alertdialog')).getByRole('button', { name: 'Cancel' }))
+    expect(screen.queryByRole('alertdialog')).toBeNull()
+    expect(stored(s).lessonsDone).toEqual({ 'u01-l01': true })
+  })
+})
+
 describe('Settings: reset', () => {
   it('asks first; Reset stashes the current progress and starts over', () => {
     const s = openSettings(placedProgress({ contentVersion: content.version, lessonsDone: { 'u01-l01': true } }))
