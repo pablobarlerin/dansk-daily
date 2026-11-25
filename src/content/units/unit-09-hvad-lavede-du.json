@@ -1,0 +1,1124 @@
+{
+ "id": "u09",
+ "order": 9,
+ "title": "Hvad lavede du …?",
+ "subtitle": "Talking about the past: what you did and where you were",
+ "pages": [
+  47,
+  48
+ ],
+ "lessons": [
+  {
+   "id": "u09-l01",
+   "title": "Where were you? What did you do?",
+   "pages": [
+    47
+   ],
+   "taughtInClass": true,
+   "tip": "To talk about the past, use the past tense: er becomes var (was/were) and laver becomes lavede (did/made). Add a time expression: Hvad lavede du i lørdags? Put a weekday and a time of day together to say when: lørdag aften, søndag eftermiddag, mandag morgen.",
+   "items": [
+    {
+     "id": "u09-p47-hvor-var-du-i-gaar-aftes",
+     "kind": "phrase",
+     "da": "Hvor var du i går aftes?",
+     "en": "Where were you last night?",
+     "sentences": [
+      {
+       "da": "I går aftes var jeg ude hos en veninde.",
+       "en": "Last night I was out at a friend's place.",
+       "gap": "var"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-hvad-lavede-du-i-loerdags",
+     "kind": "phrase",
+     "da": "Hvad lavede du i lørdags?",
+     "en": "What did you do last Saturday?",
+     "sentences": [
+      {
+       "da": "I lørdags lavede jeg ikke noget særligt.",
+       "en": "Last Saturday I didn't do anything special.",
+       "gap": "lavede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-var-det-sjovt",
+     "kind": "phrase",
+     "da": "Var det sjovt?",
+     "en": "Was it fun?",
+     "sentences": [
+      {
+       "da": "Ja, det var rigtig sjovt i går.",
+       "en": "Yes, it was really fun yesterday.",
+       "gap": "var"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-gaar",
+     "kind": "phrase",
+     "da": "i går",
+     "en": "yesterday",
+     "sentences": [
+      {
+       "da": "Jeg var hjemme i går.",
+       "en": "I was at home yesterday.",
+       "gap": "i går"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-gaar-aftes",
+     "kind": "phrase",
+     "da": "i går aftes",
+     "en": "last night",
+     "alt": {
+      "en": [
+       "yesterday evening"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Vi var i biografen i går aftes.",
+       "en": "We were at the cinema last night.",
+       "gap": "i går aftes"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-forgaars",
+     "kind": "phrase",
+     "da": "i forgårs",
+     "en": "the day before yesterday",
+     "sentences": [
+      {
+       "da": "Jeg var i skole i forgårs.",
+       "en": "I was at school the day before yesterday.",
+       "gap": "i forgårs"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-mandags",
+     "kind": "phrase",
+     "da": "i mandags",
+     "en": "last Monday",
+     "sentences": [
+      {
+       "da": "Jeg var hjemme i mandags.",
+       "en": "I was at home last Monday.",
+       "gap": "i mandags"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-tirsdags",
+     "kind": "phrase",
+     "da": "i tirsdags",
+     "en": "last Tuesday",
+     "sentences": [
+      {
+       "da": "Jeg var i skole i tirsdags.",
+       "en": "I was at school last Tuesday.",
+       "gap": "i tirsdags"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-i-onsdags",
+     "kind": "phrase",
+     "da": "i onsdags",
+     "en": "last Wednesday",
+     "sentences": [
+      {
+       "da": "Jeg var ude i onsdags.",
+       "en": "I was out last Wednesday.",
+       "gap": "i onsdags"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-hjemme",
+     "kind": "phrase",
+     "da": "hjemme",
+     "en": "at home",
+     "sentences": [
+      {
+       "da": "Jeg var bare hjemme.",
+       "en": "I was just at home.",
+       "gap": "hjemme"
+      },
+      {
+       "da": "Jeg er hjemme.",
+       "en": "I'm at home.",
+       "gap": "hjemme"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-ude-hos",
+     "kind": "phrase",
+     "da": "ude hos",
+     "en": "out at (someone's place)",
+     "sentences": [
+      {
+       "da": "Jeg var ude hos en ven.",
+       "en": "I was out at a friend's place.",
+       "gap": "ude hos"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-soendag-eftermiddag",
+     "kind": "pattern",
+     "da": "søndag eftermiddag",
+     "en": "Sunday afternoon",
+     "sentences": [
+      {
+       "da": "søndag eftermiddag",
+       "en": "Sunday afternoon",
+       "gap": "eftermiddag"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "Hvor var du i går aftes?",
+     "en": "Where were you last night?"
+    },
+    {
+     "da": "Jeg lavede ikke noget særligt.",
+     "en": "I didn't do anything special."
+    },
+    {
+     "da": "Jeg var bare hjemme.",
+     "en": "I was just at home."
+    }
+   ]
+  },
+  {
+   "id": "u09-l02",
+   "title": "Places: i, på, hos, til",
+   "pages": [
+    47
+   ],
+   "taughtInClass": true,
+   "tip": "Which preposition goes with which place has to be learned: i + skole, biografen, byen; på + arbejde, biblioteket, restaurant; hos + lægen, frisøren; til + fest, koncert, fodbold. Example: Jeg var hos lægen.",
+   "items": [
+    {
+     "id": "u09-p47-jeg-var-i-biografen",
+     "kind": "pattern",
+     "da": "Jeg var i biografen.",
+     "en": "I was at the cinema.",
+     "sentences": [
+      {
+       "da": "Jeg var i biografen.",
+       "en": "I was at the cinema.",
+       "gap": "i"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-jeg-var-til-fest-i-roskilde",
+     "kind": "pattern",
+     "da": "Jeg var til fest i Roskilde.",
+     "en": "I was at a party in Roskilde.",
+     "sentences": [
+      {
+       "da": "Jeg var til fest i Roskilde.",
+       "en": "I was at a party in Roskilde.",
+       "gap": "til"
+      }
+     ]
+    },
+    {
+     "id": "u09-p47-jeg-var-hos-laegen",
+     "kind": "pattern",
+     "da": "Jeg var hos lægen.",
+     "en": "I was at the doctor's.",
+     "sentences": [
+      {
+       "da": "Jeg var hos lægen.",
+       "en": "I was at the doctor's.",
+       "gap": "hos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-l03",
+   "title": "Past tense, group 1: -ede",
+   "pages": [
+    48
+   ],
+   "taughtInClass": true,
+   "tip": "Many verbs form the past tense with -ede: vågner becomes vågnede, laver becomes lavede. The ending -ede is pronounced [ðð]; the e's are silent. Example: Jeg lavede mad i går.",
+   "items": [
+    {
+     "id": "u09-p48-vaagnede",
+     "kind": "word",
+     "da": "vågnede",
+     "en": "woke up",
+     "alt": {
+      "en": [
+       "woke"
+      ]
+     },
+     "forms": [
+      "vågne",
+      "vågner"
+     ],
+     "sentences": [
+      {
+       "da": "I går vågnede jeg kl. 7.",
+       "en": "Yesterday I woke up at 7.",
+       "gap": "vågnede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-lavede",
+     "kind": "word",
+     "da": "lavede",
+     "en": "made",
+     "alt": {
+      "en": [
+       "did"
+      ]
+     },
+     "forms": [
+      "lave",
+      "laver"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg lavede mad i går.",
+       "en": "I made food yesterday.",
+       "gap": "lavede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-vaskede",
+     "kind": "word",
+     "da": "vaskede",
+     "en": "washed",
+     "forms": [
+      "vaske",
+      "vasker"
+     ],
+     "sentences": [
+      {
+       "da": "Hun vaskede op i går.",
+       "en": "She washed up yesterday.",
+       "gap": "vaskede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-stoevsugede",
+     "kind": "word",
+     "da": "støvsugede",
+     "en": "vacuumed",
+     "alt": {
+      "en": [
+       "hoovered"
+      ]
+     },
+     "forms": [
+      "støvsuge",
+      "støvsuger"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg støvsugede i lørdags.",
+       "en": "I vacuumed last Saturday.",
+       "gap": "støvsugede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-spillede",
+     "kind": "word",
+     "da": "spillede",
+     "en": "played",
+     "forms": [
+      "spille",
+      "spiller"
+     ],
+     "sentences": [
+      {
+       "da": "Vi spillede fodbold i går.",
+       "en": "We played football yesterday.",
+       "gap": "spillede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-snakkede",
+     "kind": "word",
+     "da": "snakkede",
+     "en": "talked",
+     "alt": {
+      "en": [
+       "chatted"
+      ]
+     },
+     "forms": [
+      "snakke",
+      "snakker"
+     ],
+     "sentences": [
+      {
+       "da": "Vi snakkede i telefon i går aftes.",
+       "en": "We talked on the phone last night.",
+       "gap": "snakkede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-ringede",
+     "kind": "word",
+     "da": "ringede",
+     "en": "called",
+     "alt": {
+      "en": [
+       "phoned",
+       "rang"
+      ]
+     },
+     "forms": [
+      "ringe",
+      "ringer"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg ringede til min mor i går.",
+       "en": "I called my mother yesterday.",
+       "gap": "ringede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-cyklede",
+     "kind": "word",
+     "da": "cyklede",
+     "en": "cycled",
+     "alt": {
+      "en": [
+       "biked"
+      ]
+     },
+     "forms": [
+      "cykle",
+      "cykler"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg cyklede hjem i går.",
+       "en": "I cycled home yesterday.",
+       "gap": "cyklede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-arbejdede",
+     "kind": "word",
+     "da": "arbejdede",
+     "en": "worked",
+     "forms": [
+      "arbejde",
+      "arbejder"
+     ],
+     "sentences": [
+      {
+       "da": "Han arbejdede i går aftes.",
+       "en": "He worked last night.",
+       "gap": "arbejdede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-passede",
+     "kind": "word",
+     "da": "passede",
+     "en": "looked after",
+     "alt": {
+      "en": [
+       "minded",
+       "took care of"
+      ]
+     },
+     "forms": [
+      "passe",
+      "passer"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg passede børnene i går.",
+       "en": "I looked after the children yesterday.",
+       "gap": "passede"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-slappede-af",
+     "kind": "word",
+     "da": "slappede af",
+     "en": "relaxed",
+     "forms": [
+      "slappe af",
+      "slapper af"
+     ],
+     "sentences": [
+      {
+       "da": "Vi slappede af hjemme i går aftes.",
+       "en": "We relaxed at home last night.",
+       "gap": "slappede af"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-jeg-vaagnede-kl",
+     "kind": "phrase",
+     "da": "Jeg vågnede kl. 7.",
+     "en": "I woke up at 7 o'clock.",
+     "sentences": [
+      {
+       "da": "Jeg vågnede kl. 8 i går.",
+       "en": "I woke up at 8 yesterday.",
+       "gap": "vågnede"
+      }
+     ],
+     "alt": {
+      "da": [
+       "Jeg vågnede klokken 7.",
+       "Jeg vågnede klokken syv.",
+       "Jeg vågnede kl. syv."
+      ],
+      "en": [
+       "I woke up at 7.",
+       "I woke up at seven."
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "u09-l04",
+   "title": "Past tense, group 2: -te",
+   "pages": [
+    48
+   ],
+   "taughtInClass": true,
+   "tip": "Another group of verbs forms the past tense with -te: læser becomes læste, køber becomes købte. Example: Jeg besøgte en ven.",
+   "items": [
+    {
+     "id": "u09-p48-laeste",
+     "kind": "word",
+     "da": "læste",
+     "en": "read",
+     "alt": {
+      "en": [
+       "studied"
+      ]
+     },
+     "forms": [
+      "læse",
+      "læser"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg læste en bog i går.",
+       "en": "I read a book yesterday.",
+       "gap": "læste"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-spiste",
+     "kind": "word",
+     "da": "spiste",
+     "en": "ate",
+     "forms": [
+      "spise",
+      "spiser"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg spiste morgenmad kl. 7 i går.",
+       "en": "I ate breakfast at 7 yesterday.",
+       "gap": "spiste"
+      },
+      {
+       "da": "I går spiste jeg ris.",
+       "en": "Yesterday I ate rice.",
+       "gap": "spiste"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-hoerte",
+     "kind": "word",
+     "da": "hørte",
+     "en": "heard",
+     "alt": {
+      "en": [
+       "listened to",
+       "listened"
+      ]
+     },
+     "forms": [
+      "høre",
+      "hører"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg hørte musik i går.",
+       "en": "I listened to music yesterday.",
+       "gap": "hørte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-talte",
+     "kind": "word",
+     "da": "talte",
+     "en": "spoke",
+     "alt": {
+      "en": [
+       "talked"
+      ]
+     },
+     "forms": [
+      "tale",
+      "taler"
+     ],
+     "sentences": [
+      {
+       "da": "Vi talte dansk i klassen i går.",
+       "en": "We spoke Danish in class yesterday.",
+       "gap": "talte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-koebte",
+     "kind": "word",
+     "da": "købte",
+     "en": "bought",
+     "forms": [
+      "købe",
+      "køber"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg købte en bog i går.",
+       "en": "I bought a book yesterday.",
+       "gap": "købte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-besoegte",
+     "kind": "word",
+     "da": "besøgte",
+     "en": "visited",
+     "forms": [
+      "besøge",
+      "besøger"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg besøgte min mor i går.",
+       "en": "I visited my mother yesterday.",
+       "gap": "besøgte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-koebte-ind",
+     "kind": "phrase",
+     "da": "købte ind",
+     "en": "did the shopping",
+     "alt": {
+      "en": [
+       "shopped",
+       "went shopping"
+      ]
+     },
+     "forms": [
+      "købe ind",
+      "køber ind"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg købte ind i går.",
+       "en": "I did the shopping yesterday.",
+       "gap": "købte ind"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-l05",
+   "title": "Past tense, group 3: irregular verbs",
+   "pages": [
+    48
+   ],
+   "taughtInClass": true,
+   "tip": "Irregular verbs have their own past forms that you learn one by one: tager becomes tog, går becomes gik, kommer becomes kom. Example: Jeg tog bussen i går.",
+   "items": [
+    {
+     "id": "u09-p48-tog",
+     "kind": "word",
+     "da": "tog",
+     "en": "took",
+     "forms": [
+      "tage",
+      "tager"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg tog bussen i går.",
+       "en": "I took the bus yesterday.",
+       "gap": "tog"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-gjorde",
+     "kind": "word",
+     "da": "gjorde",
+     "en": "did",
+     "forms": [
+      "gøre",
+      "gør"
+     ],
+     "sentences": [
+      {
+       "da": "Arbejdede du i går? Ja, det gjorde jeg.",
+       "en": "Did you work yesterday? Yes, I did.",
+       "gap": "gjorde"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-saa",
+     "kind": "word",
+     "da": "så",
+     "en": "saw",
+     "alt": {
+      "en": [
+       "watched"
+      ]
+     },
+     "forms": [
+      "se",
+      "ser"
+     ],
+     "sentences": [
+      {
+       "da": "Vi så fjernsyn i går aftes.",
+       "en": "We watched TV last night.",
+       "gap": "så"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-skrev",
+     "kind": "word",
+     "da": "skrev",
+     "en": "wrote",
+     "forms": [
+      "skrive",
+      "skriver"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skrev en e-mail i går.",
+       "en": "I wrote an email yesterday.",
+       "gap": "skrev"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-drak",
+     "kind": "word",
+     "da": "drak",
+     "en": "drank",
+     "forms": [
+      "drikke",
+      "drikker"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg drak en kop kaffe i går.",
+       "en": "I drank a cup of coffee yesterday.",
+       "gap": "drak"
+      },
+      {
+       "da": "I går drak han te.",
+       "en": "Yesterday he drank tea.",
+       "gap": "drak"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-gik",
+     "kind": "word",
+     "da": "gik",
+     "en": "walked",
+     "alt": {
+      "en": [
+       "went"
+      ]
+     },
+     "forms": [
+      "gå",
+      "går"
+     ],
+     "sentences": [
+      {
+       "da": "I går gik jeg hjem kl. 5.",
+       "en": "Yesterday I went home at 5.",
+       "gap": "gik"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-fik",
+     "kind": "word",
+     "da": "fik",
+     "en": "got",
+     "alt": {
+      "en": [
+       "received"
+      ]
+     },
+     "forms": [
+      "få",
+      "får"
+     ],
+     "sentences": [
+      {
+       "da": "Hun fik en bog i går.",
+       "en": "She got a book yesterday.",
+       "gap": "fik"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-staa",
+     "kind": "word",
+     "da": "stå",
+     "en": "to stand",
+     "alt": {
+      "da": [
+       "at stå"
+      ],
+      "en": [
+       "stand"
+      ]
+     },
+     "forms": [
+      "står",
+      "stod"
+     ],
+     "sentences": [
+      {
+       "da": "Han stod ved bussen i går.",
+       "en": "He stood by the bus yesterday.",
+       "gap": "stod"
+      },
+      {
+       "da": "Han står ved bussen.",
+       "en": "He is standing by the bus.",
+       "gap": "står"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-kom",
+     "kind": "word",
+     "da": "kom",
+     "en": "came",
+     "forms": [
+      "komme",
+      "kommer"
+     ],
+     "sentences": [
+      {
+       "da": "I går kom jeg hjem kl. 6.",
+       "en": "Yesterday I came home at 6.",
+       "gap": "kom"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-sov",
+     "kind": "word",
+     "da": "sov",
+     "en": "slept",
+     "forms": [
+      "sove",
+      "sover"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg sov længe i lørdags.",
+       "en": "I slept late last Saturday.",
+       "gap": "sov"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-hed",
+     "kind": "word",
+     "da": "hed",
+     "en": "was called",
+     "alt": {
+      "en": [
+       "was named"
+      ]
+     },
+     "forms": [
+      "hedde",
+      "hedder"
+     ],
+     "sentences": [
+      {
+       "da": "Før hed hun Jensen, nu hedder hun Hansen.",
+       "en": "She used to be called Jensen, now she's called Hansen.",
+       "gap": "hed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-l06",
+   "title": "Past tense of modal and helper verbs",
+   "pages": [
+    48
+   ],
+   "taughtInClass": true,
+   "tip": "Modal and helper verbs have short past forms: kan becomes kunne, skal becomes skulle, vil becomes ville, må becomes måtte, er becomes var, har becomes havde. Example: Om aftenen havde jeg gæster.",
+   "items": [
+    {
+     "id": "u09-p48-kunne",
+     "kind": "word",
+     "da": "kunne",
+     "en": "could",
+     "alt": {
+      "en": [
+       "was able to",
+       "were able to"
+      ]
+     },
+     "forms": [
+      "kunne",
+      "kan"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg kunne ikke komme i går.",
+       "en": "I couldn't come yesterday.",
+       "gap": "kunne"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-skulle",
+     "kind": "word",
+     "da": "skulle",
+     "en": "had to, was going to",
+     "alt": {
+      "en": [
+       "had to",
+       "was going to",
+       "were going to",
+       "was supposed to"
+      ]
+     },
+     "forms": [
+      "skulle",
+      "skal"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skulle på arbejde i går.",
+       "en": "I had to go to work yesterday.",
+       "gap": "skulle"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-ville",
+     "kind": "word",
+     "da": "ville",
+     "en": "wanted to",
+     "alt": {
+      "en": [
+       "wanted",
+       "would"
+      ]
+     },
+     "forms": [
+      "ville",
+      "vil"
+     ],
+     "sentences": [
+      {
+       "da": "I lørdags ville jeg sove længe.",
+       "en": "Last Saturday I wanted to sleep in.",
+       "gap": "ville"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-maatte",
+     "kind": "word",
+     "da": "måtte",
+     "en": "had to, was allowed to",
+     "alt": {
+      "en": [
+       "had to",
+       "was allowed to",
+       "were allowed to"
+      ]
+     },
+     "forms": [
+      "måtte",
+      "må"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg måtte blive hjemme i går.",
+       "en": "I had to stay at home yesterday.",
+       "gap": "måtte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-var",
+     "kind": "word",
+     "da": "var",
+     "en": "was",
+     "alt": {
+      "en": [
+       "were"
+      ]
+     },
+     "forms": [
+      "være",
+      "er"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg var hjemme i går.",
+       "en": "I was at home yesterday.",
+       "gap": "var"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-havde",
+     "kind": "word",
+     "da": "havde",
+     "en": "had",
+     "forms": [
+      "have",
+      "har"
+     ],
+     "sentences": [
+      {
+       "da": "Vi havde gæster i går.",
+       "en": "We had guests yesterday.",
+       "gap": "havde"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-om-aftenen-havde-jeg-gaester",
+     "kind": "pattern",
+     "da": "Om aftenen havde jeg gæster.",
+     "en": "In the evening I had guests.",
+     "sentences": [
+      {
+       "da": "Om aftenen havde jeg gæster.",
+       "en": "In the evening I had guests.",
+       "gap": "havde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u09-l07",
+   "title": "Talking about your day",
+   "pages": [
+    48
+   ],
+   "taughtInClass": true,
+   "items": [
+    {
+     "id": "u09-p48-hvor-var-du-fredag-aften",
+     "kind": "phrase",
+     "da": "Hvor var du fredag aften?",
+     "en": "Where were you Friday evening?",
+     "sentences": [
+      {
+       "da": "I fredags var jeg i Næstved.",
+       "en": "Last Friday I was in Næstved.",
+       "gap": "var"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-hvad-lavede-du-der",
+     "kind": "phrase",
+     "da": "Hvad lavede du der?",
+     "en": "What did you do there?",
+     "sentences": [
+      {
+       "da": "I går besøgte jeg nogle venner.",
+       "en": "Yesterday I visited some friends.",
+       "gap": "besøgte"
+      }
+     ]
+    },
+    {
+     "id": "u09-p48-hvad-lavede-du-i-torsdags",
+     "kind": "phrase",
+     "da": "Hvad lavede du i torsdags?",
+     "en": "What did you do last Thursday?",
+     "sentences": [
+      {
+       "da": "I torsdags var jeg i skole om formiddagen.",
+       "en": "Last Thursday I was at school in the morning.",
+       "gap": "var"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "Hvad lavede du i torsdags?",
+     "en": "What did you do last Thursday?",
+     "tip": "The ending -ede is pronounced [ðð]; the e's are not pronounced (as in lavede)."
+    },
+    {
+     "da": "Jeg købte ind og lavede mad.",
+     "en": "I did the shopping and made food.",
+     "tip": "The ending -ede is pronounced [ðð]; the e's are silent."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "u05",
+  "order": 5,
+  "title": "Klokken",
+  "subtitle": "Telling the time",
+  "pages": [29, 30],
+  "lessons": [
+    {
+      "id": "u05-l01",
+      "title": "What time is it?",
+      "pages": [29],
+      "taughtInClass": true,
+      "tip": "Danish counts half hours towards the NEXT hour: halv fire = 3:30 (half way to four), halv ni = 8:30.\nWhole hours: Den er 8. Quarters: kvart over 8 = 8:15, kvart i 9 = 8:45. Minutes: 2 minutter over 8, 13 minutter i 8.\nExample: Den er halv ni. = It is half past eight.",
+      "items": [
+        { "id": "u05-p29-time-hour-half", "kind": "generated", "da": "klokken: hel og halv", "en": "Telling the time: whole and half hours", "generator": { "type": "time", "minutes": [0, 30] } },
+        { "id": "u05-p29-time-quarter", "kind": "generated", "da": "klokken: kvart over og kvart i", "en": "Telling the time: quarter past and quarter to", "generator": { "type": "time", "minutes": [15, 45] } },
+        { "id": "u05-p29-time-minutes", "kind": "generated", "da": "klokken: minutter over og i", "en": "Telling the time: minutes past and to", "generator": { "type": "time", "minutes": [5, 10, 20, 40, 50, 55] } },
+        { "id": "u05-p29-time-around-half", "kind": "generated", "da": "klokken: minutter omkring halv", "en": "Telling the time: minutes around the half hour", "generator": { "type": "time", "minutes": [25, 35] } },
+        { "id": "u05-p29-hvad-er-klokken", "kind": "phrase", "da": "Hvad er klokken?", "en": "What time is it?", "alt": { "en": ["What's the time?", "What is the time?"] },
+          "sentences": [ { "da": "Den er halv ni.", "en": "It is half past eight.", "gap": "halv" } ] },
+        { "id": "u05-p29-hvornaar-har-vi-pause", "kind": "phrase", "da": "Hvornår har vi pause?", "en": "When do we have a break?", "alt": { "en": ["When is our break?", "When is the break?", "When do we have a pause?"] },
+          "sentences": [ { "da": "Vi holder pause nu.", "en": "We are taking a break now.", "gap": "pause" } ] },
+        { "id": "u05-p29-hvor-lang-pause-har-vi", "kind": "phrase", "da": "Hvor lang pause har vi?", "en": "How long is the break?", "alt": { "en": ["How long a break do we have?", "How long is our break?"] },
+          "sentences": [ { "da": "I har et kvarter.", "en": "You have a quarter of an hour.", "gap": "kvarter" } ] },
+        { "id": "u05-p29-sekund", "kind": "word", "da": "et sekund", "en": "second (of time)", "alt": { "en": ["second"] }, "gender": "et", "forms": ["sekundet", "sekunder", "sekunderne"],
+          "sentences": [ { "da": "Et minut har tres sekunder.", "en": "A minute has sixty seconds.", "gap": "sekunder" } ] },
+        { "id": "u05-p29-kvarter", "kind": "word", "da": "et kvarter", "en": "quarter of an hour", "alt": { "en": ["quarter hour", "a quarter of an hour", "15 minutes", "fifteen minutes"] }, "gender": "et", "note": "et kvarter = 15 minutter",
+          "sentences": [ { "da": "Vi har pause i et kvarter.", "en": "We have a break for a quarter of an hour.", "gap": "kvarter" } ] },
+        { "id": "u05-p29-time", "kind": "word", "da": "en time", "en": "hour", "alt": { "en": ["lesson"] }, "gender": "en", "forms": ["timen", "timer", "timerne"], "note": "en time = 60 minutter",
+          "sentences": [ { "da": "Vi har en time.", "en": "We have an hour.", "gap": "time" } ] },
+        { "id": "u05-p29-halv-time", "kind": "word", "da": "en halv time", "en": "half an hour", "alt": { "en": ["a half hour", "half hour"] }, "gender": "en", "note": "30 minutter",
+          "sentences": [ { "da": "Vi holder pause i en halv time.", "en": "We take a break for half an hour.", "gap": "halv time" } ] },
+        { "id": "u05-p29-doegn", "kind": "word", "da": "et døgn", "en": "a day and night (24 hours)", "alt": { "en": ["24 hours", "twenty-four hours", "a day and a night", "a full day"] }, "gender": "et", "forms": ["døgnet", "døgn", "døgnene"], "note": "et døgn = 24 timer",
+          "sentences": [ { "da": "Et døgn har fireogtyve timer.", "en": "A full day has twenty-four hours.", "gap": "døgn" } ] },
+        { "id": "u05-p29-morgen", "kind": "word", "da": "en morgen", "en": "morning (until 09:00)", "alt": { "en": ["morning"] }, "gender": "en", "forms": ["morgenen", "morgener", "morgenerne"],
+          "sentences": [ { "da": "Jeg cykler om morgenen.", "en": "I cycle in the morning.", "gap": "morgenen" } ] },
+        { "id": "u05-p29-formiddag", "kind": "word", "da": "en formiddag", "en": "late morning (09:00-12:00)", "alt": { "en": ["late morning", "morning", "forenoon", "mid-morning"] }, "gender": "en", "forms": ["formiddagen", "formiddage", "formiddagene"],
+          "sentences": [ { "da": "Vi har dansk om formiddagen.", "en": "We have Danish in the late morning.", "gap": "formiddagen" } ] },
+        { "id": "u05-p29-eftermiddag", "kind": "word", "da": "en eftermiddag", "en": "afternoon (12:00-18:00)", "alt": { "en": ["afternoon"] }, "gender": "en", "forms": ["eftermiddagen", "eftermiddage", "eftermiddagene"],
+          "sentences": [ { "da": "Jeg arbejder om eftermiddagen.", "en": "I work in the afternoon.", "gap": "eftermiddagen" } ] },
+        { "id": "u05-p29-aften", "kind": "word", "da": "en aften", "en": "evening (18:00-24:00)", "alt": { "en": ["evening"] }, "gender": "en", "forms": ["aftenen", "aftener", "aftenerne"],
+          "sentences": [ { "da": "Jeg læser om aftenen.", "en": "I read in the evening.", "gap": "aftenen" } ] },
+        { "id": "u05-p29-nat", "kind": "word", "da": "en nat", "en": "night (from 24:00)", "alt": { "en": ["night"] }, "gender": "en", "forms": ["natten", "nætter", "nætterne"],
+          "sentences": [ { "da": "Han arbejder om natten.", "en": "He works at night.", "gap": "natten" } ] }
+      ],
+      "repeatLines": [{ "da": "Vi holder pause nu.", "en": "We are taking a break now." }, { "da": "Vi ses om lidt.", "en": "See you in a bit." }]
+    },
+    {
+      "id": "u05-l02",
+      "title": "Digital and analog time",
+      "pages": [30],
+      "taughtInClass": true,
+      "tip": "Around the half hour you count from halv: 9 minutter i halv 9 = 8:21, 2 minutter over halv 9 = 8:32.\nDigital time uses 0-24 and is exact: kl. 8:15 = kl. otte femten, kl. 13:00 = kl. tretten nul nul. Analog time uses 0-12, so add om + the part of the day (definite): kl. et om eftermiddagen, kl. halv tolv om formiddagen.",
+      "items": [],
+      "repeatLines": [
+        { "da": "Den er ni minutter i halv ni.", "en": "It is 8:21 (nine minutes to half past eight)." },
+        { "da": "Den er to minutter over halv ni.", "en": "It is 8:32 (two minutes past half past eight)." },
+        { "da": "Klokken tyve nul ni.", "en": "20:09 (digital time)." },
+        { "da": "Klokken ni minutter over otte om aftenen.", "en": "Nine minutes past eight in the evening (20:09, analog time)." },
+        { "da": "Klokken kvart over otte om morgenen.", "en": "Quarter past eight in the morning." },
+        { "da": "Klokken kvart i to om natten.", "en": "Quarter to two at night." }
+      ]
+    }
+  ]
+}

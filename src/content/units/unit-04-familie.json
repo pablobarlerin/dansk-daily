@@ -1,0 +1,132 @@
+{
+  "id": "u04",
+  "order": 4,
+  "title": "Familie",
+  "subtitle": "Talking about your family",
+  "pages": [27, 28],
+  "lessons": [
+    {
+      "id": "u04-l01",
+      "title": "Family members",
+      "pages": [27],
+      "taughtInClass": true,
+      "tip": "Family words have irregular plurals: et barn – børn, en datter – døtre, en søn – sønner, en søster – søstre, en bror – brødre.\nBig and little siblings: en storebror, en lillebror (two words: to små brødre for plural little brothers).",
+      "items": [
+        { "id": "u04-p27-aegtepar", "kind": "word", "da": "et ægtepar", "en": "married couple", "alt": { "en": ["couple"] }, "gender": "et", "forms": ["ægteparret", "ægtepar", "ægteparrene"],
+          "sentences": [ { "da": "De er et ægtepar.", "en": "They are a married couple.", "gap": "ægtepar" } ] },
+        { "id": "u04-p27-mor", "kind": "word", "da": "en mor", "en": "mother", "alt": { "en": ["mum", "mom"] }, "gender": "en", "forms": ["moren", "mødre", "mødrene"],
+          "sentences": [ { "da": "Min mor bor i Odense.", "en": "My mother lives in Odense.", "gap": "mor" } ] },
+        { "id": "u04-p27-far", "kind": "word", "da": "en far", "en": "father", "alt": { "en": ["dad"] }, "gender": "en", "forms": ["faren", "fædre", "fædrene"],
+          "sentences": [ { "da": "Min far er pensionist.", "en": "My father is retired.", "gap": "far" } ] },
+        { "id": "u04-p27-foraeldre", "kind": "word", "da": "forældre", "en": "parents",
+          "sentences": [ { "da": "Mine forældre bor i Aarhus.", "en": "My parents live in Aarhus.", "gap": "forældre" } ] },
+        { "id": "u04-p27-soeskende", "kind": "word", "da": "søskende", "en": "siblings", "alt": { "en": ["brothers and sisters"] },
+          "sentences": [ { "da": "Har du søskende?", "en": "Do you have siblings?", "gap": "søskende" } ] },
+        { "id": "u04-p27-soester", "kind": "word", "da": "en søster", "en": "sister", "gender": "en", "forms": ["søsteren", "søstre", "søstrene"],
+          "sentences": [ { "da": "Jeg har to søstre.", "en": "I have two sisters.", "gap": "søstre" } ] },
+        { "id": "u04-p27-bror", "kind": "word", "da": "en bror", "en": "brother", "gender": "en", "forms": ["broren", "brødre", "brødrene"],
+          "sentences": [ { "da": "Jeg har to brødre.", "en": "I have two brothers.", "gap": "brødre" } ] },
+        { "id": "u04-p27-lillebror", "kind": "word", "da": "en lillebror", "en": "little brother", "alt": { "en": ["younger brother"] }, "gender": "en", "forms": ["lillebroren", "små brødre"],
+          "sentences": [ { "da": "Min lillebror er tolv år.", "en": "My little brother is twelve years old.", "gap": "lillebror" } ] },
+        { "id": "u04-p27-storebror", "kind": "word", "da": "en storebror", "en": "big brother", "alt": { "en": ["older brother", "elder brother"] }, "gender": "en", "forms": ["storebroren", "storebrødre", "storebrødrene"],
+          "sentences": [ { "da": "Min storebror bor i Berlin.", "en": "My big brother lives in Berlin.", "gap": "storebror" } ] },
+        { "id": "u04-p27-lillesoester", "kind": "word", "da": "en lillesøster", "en": "little sister", "alt": { "en": ["younger sister"] }, "gender": "en", "forms": ["lillesøsteren", "små søstre"],
+          "sentences": [ { "da": "Jeg bor sammen med min lillesøster.", "en": "I live with my little sister.", "gap": "lillesøster" } ] },
+        { "id": "u04-p27-storesoester", "kind": "word", "da": "en storesøster", "en": "big sister", "alt": { "en": ["older sister", "elder sister"] }, "gender": "en", "forms": ["storesøsteren", "storesøstre", "storesøstrene"],
+          "sentences": [ { "da": "Min storesøster er lærer.", "en": "My big sister is a teacher.", "gap": "storesøster" } ] }
+      ],
+      "repeatLines": []
+    },
+    {
+      "id": "u04-l02",
+      "title": "Uffe's family: people",
+      "pages": [28],
+      "taughtInClass": true,
+      "tip": "Your mother's parents are mormor and morfar (mor + mor/far).\nPeople words take no article after \"er\": Han er pensionist. Niels er studerende.",
+      "items": [
+        { "id": "u04-p28-mormor", "kind": "word", "da": "en mormor", "en": "grandmother (mother's mother)", "alt": { "en": ["maternal grandmother", "grandmother", "grandma"] }, "gender": "en", "forms": ["mormoren", "mormødre"],
+          "sentences": [ { "da": "Min mormor bor i Odense.", "en": "My grandmother lives in Odense.", "gap": "mormor" } ] },
+        { "id": "u04-p28-morfar", "kind": "word", "da": "en morfar", "en": "grandfather (mother's father)", "alt": { "en": ["maternal grandfather", "grandfather", "grandpa"] }, "gender": "en", "forms": ["morfaren", "morfædre"],
+          "sentences": [ { "da": "Min morfar er pensionist.", "en": "My grandfather is retired.", "gap": "morfar" } ] },
+        { "id": "u04-p28-eksmand", "kind": "word", "da": "en eksmand", "en": "ex-husband", "alt": { "en": ["former husband"] }, "gender": "en", "forms": ["eksmanden", "eksmænd", "eksmændene"],
+          "sentences": [ { "da": "Hendes eksmand bor i Aalborg.", "en": "Her ex-husband lives in Aalborg.", "gap": "eksmand" } ] },
+        { "id": "u04-p28-enke", "kind": "word", "da": "en enke", "en": "widow", "gender": "en", "forms": ["enken", "enker", "enkerne"],
+          "sentences": [ { "da": "Min mormor er enke.", "en": "My grandmother is a widow.", "gap": "enke" } ] },
+        { "id": "u04-p28-pensionist", "kind": "word", "da": "en pensionist", "en": "pensioner", "alt": { "en": ["retired person", "retiree"] }, "gender": "en", "forms": ["pensionisten", "pensionister", "pensionisterne"],
+          "sentences": [ { "da": "Hendes far er pensionist.", "en": "Her father is a pensioner.", "gap": "pensionist" } ] },
+        { "id": "u04-p28-studerende", "kind": "word", "da": "en studerende", "en": "student (at university)", "alt": { "en": ["student", "university student"] }, "gender": "en", "forms": ["den studerende", "studerende", "de studerende"],
+          "sentences": [ { "da": "Niels er studerende.", "en": "Niels is a student.", "gap": "studerende" } ] },
+        { "id": "u04-p28-hus", "kind": "word", "da": "et hus", "en": "house", "gender": "et", "forms": ["huset", "huse", "husene"],
+          "sentences": [ { "da": "Mine forældre bor i et hus.", "en": "My parents live in a house.", "gap": "hus" } ] },
+        { "id": "u04-p28-lejlighed", "kind": "word", "da": "en lejlighed", "en": "flat", "alt": { "en": ["apartment"] }, "gender": "en", "forms": ["lejligheden", "lejligheder", "lejlighederne"],
+          "sentences": [ { "da": "Jeg bor i en lejlighed.", "en": "I live in a flat.", "gap": "lejlighed" } ] },
+        { "id": "u04-p28-han-er-single", "kind": "phrase", "da": "Han er single.", "en": "He is single.", "alt": { "en": ["He's single."] },
+          "sentences": [ { "da": "Han er single.", "en": "He is single.", "gap": "single" } ] },
+        { "id": "u04-p28-han-er-ikke-gift", "kind": "phrase", "da": "Han er ikke gift.", "en": "He is not married.", "alt": { "en": ["He isn't married.", "He's not married."] },
+          "sentences": [ { "da": "Han er ikke gift.", "en": "He is not married.", "gap": "ikke" } ] },
+        { "id": "u04-p28-hun-er-skilt", "kind": "phrase", "da": "Hun er skilt.", "en": "She is divorced.", "alt": { "en": ["She's divorced."] },
+          "sentences": [ { "da": "Hun er skilt.", "en": "She is divorced.", "gap": "skilt" } ] },
+        { "id": "u04-p28-hun-er-enke", "kind": "phrase", "da": "Hun er enke.", "en": "She is a widow.", "alt": { "en": ["She's a widow."] },
+          "sentences": [ { "da": "Hun er enke.", "en": "She is a widow.", "gap": "enke" } ] },
+        { "id": "u04-p28-han-er-doed", "kind": "phrase", "da": "Han er død.", "en": "He is dead.", "alt": { "en": ["He's dead."] },
+          "sentences": [ { "da": "Hans far er død.", "en": "His father is dead.", "gap": "død" } ] },
+        { "id": "u04-p28-enlig-mor", "kind": "phrase", "da": "enlig mor", "en": "single mother", "alt": { "en": ["single mum", "single mom"] },
+          "sentences": [ { "da": "Hun er enlig mor.", "en": "She is a single mother.", "gap": "enlig" } ] },
+        { "id": "u04-p28-han-bor-alene", "kind": "phrase", "da": "Han bor alene.", "en": "He lives alone.", "alt": { "en": ["He lives on his own."] },
+          "sentences": [ { "da": "Min morfar bor alene.", "en": "My grandfather lives alone.", "gap": "alene" } ] }
+      ],
+      "repeatLines": [
+        { "da": "Han bor sammen med en ven.", "en": "He lives together with a friend." }
+      ]
+    },
+    {
+      "id": "u04-l03",
+      "title": "Talking about your family: verbs",
+      "pages": [28],
+      "taughtInClass": true,
+      "tip": "Danish verbs end in -r in the present, the same for every person: jeg bor, hun bor, de bor.\nExample: Jeg savner min familie.",
+      "items": [
+        { "id": "u04-p28-bo", "kind": "word", "da": "bo", "en": "to live", "alt": { "da": ["at bo"], "en": ["live", "to reside"] }, "forms": ["bor", "boede"],
+          "sentences": [ { "da": "Min bror bor i Berlin.", "en": "My brother lives in Berlin.", "gap": "bor" } ] },
+        { "id": "u04-p28-studere", "kind": "word", "da": "studere", "en": "to study", "alt": { "da": ["at studere"], "en": ["study"] }, "forms": ["studerer"],
+          "sentences": [ { "da": "Hun studerer i København.", "en": "She studies in Copenhagen.", "gap": "studerer" } ] },
+        { "id": "u04-p28-laese", "kind": "word", "da": "læse", "en": "to read", "alt": { "da": ["at læse"], "en": ["read", "to study"] }, "forms": ["læser"],
+          "note": "læse + a subject = to study it at university: Han læser medicin.",
+          "sentences": [ { "da": "Niels læser medicin.", "en": "Niels is studying medicine.", "gap": "læser" } ] },
+        { "id": "u04-p28-savne", "kind": "word", "da": "savne", "en": "to miss", "alt": { "da": ["at savne"], "en": ["miss"] }, "forms": ["savner"],
+          "sentences": [ { "da": "Jeg savner min familie.", "en": "I miss my family.", "gap": "savner" } ] },
+        { "id": "u04-p28-taenke-paa", "kind": "word", "da": "tænke på", "en": "to think about", "alt": { "da": ["at tænke på"], "en": ["think about", "to think of", "think of"] }, "forms": ["tænker på"],
+          "sentences": [ { "da": "Hun tænker på sin søster.", "en": "She thinks about her sister.", "gap": "tænker på" } ] },
+        { "id": "u04-p28-besoege", "kind": "word", "da": "besøge", "en": "to visit", "alt": { "da": ["at besøge"], "en": ["visit"] }, "forms": ["besøger"],
+          "sentences": [ { "da": "Jeg besøger min mor.", "en": "I visit my mother.", "gap": "besøger" } ] }
+      ],
+      "repeatLines": []
+    },
+    {
+      "id": "u04-l04",
+      "title": "Questions about your family",
+      "pages": [28],
+      "taughtInClass": true,
+      "items": [
+        { "id": "u04-p28-hvad-hedder-dine-foraeldre", "kind": "phrase", "da": "Hvad hedder dine forældre?", "en": "What are your parents called?", "alt": { "en": ["What are your parents' names?"] },
+          "sentences": [ { "da": "Mine forældre hedder Anna og Emil.", "en": "My parents are called Anna and Emil.", "gap": "hedder" } ] },
+        { "id": "u04-p28-hvor-bor-de", "kind": "phrase", "da": "Hvor bor de?", "en": "Where do they live?",
+          "sentences": [ { "da": "De bor i Odense.", "en": "They live in Odense.", "gap": "bor" } ] },
+        { "id": "u04-p28-hvor-gammel-er-din-mor", "kind": "phrase", "da": "Hvor gammel er din mor?", "en": "How old is your mother?", "alt": { "en": ["How old is your mum?", "How old is your mom?"] },
+          "sentences": [ { "da": "Min mor er tres år.", "en": "My mother is sixty years old.", "gap": "år" } ] },
+        { "id": "u04-p28-hvor-mange-soeskende-har-du", "kind": "phrase", "da": "Hvor mange søskende har du?", "en": "How many siblings do you have?", "alt": { "en": ["How many brothers and sisters do you have?"] },
+          "sentences": [ { "da": "Jeg har to søskende.", "en": "I have two siblings.", "gap": "søskende" } ] },
+        { "id": "u04-p28-er-de-gift", "kind": "phrase", "da": "Er de gift?", "en": "Are they married?",
+          "sentences": [ { "da": "Nej, de er skilt.", "en": "No, they are divorced.", "gap": "skilt" } ] },
+        { "id": "u04-p28-har-de-boern", "kind": "phrase", "da": "Har de børn?", "en": "Do they have children?", "alt": { "en": ["Do they have kids?", "Have they got children?"] },
+          "sentences": [ { "da": "Ja, de har tre børn.", "en": "Yes, they have three children.", "gap": "børn" } ] },
+        { "id": "u04-p28-lever-din-mormor", "kind": "phrase", "da": "Lever din mormor?", "en": "Is your grandmother alive?", "alt": { "en": ["Is your grandmother still alive?", "Is your grandma alive?"] },
+          "note": "leve = to be alive; bo = to live somewhere.",
+          "sentences": [ { "da": "Nej, hun er død.", "en": "No, she is dead.", "gap": "død" } ] }
+      ],
+      "repeatLines": [
+        { "da": "selvfølgelig", "en": "of course", "tip": "The stress falls on the second part: selv-FØL-ge-lig." }
+      ]
+    }
+  ]
+}

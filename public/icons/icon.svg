@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Dansk Daily app icon. Source for every PNG in this folder (scripts/render-icons.ts).
+       Dannebrog red ground, a chunky white speech bubble with a pressed edge (the app's
+       button language), and the Danish flag inside it: "speak Danish". -->
+  <defs>
+    <clipPath id="flag-clip">
+      <rect x="152" y="142" width="208" height="157" rx="18"/>
+    </clipPath>
+  </defs>
+  <rect width="512" height="512" fill="#C8102E"/>
+  <g id="art">
+    <!-- pressed edge -->
+    <g fill="#8E0B20" stroke="#8E0B20" stroke-width="16" stroke-linejoin="round" transform="translate(0 18)">
+      <rect x="96" y="100" width="320" height="240" rx="60" stroke="none"/>
+      <path d="M160 320 L142 400 L246 320 Z"/>
+    </g>
+    <!-- bubble -->
+    <g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="16" stroke-linejoin="round">
+      <rect x="96" y="100" width="320" height="240" rx="60" stroke="none"/>
+      <path d="M160 320 L142 400 L246 320 Z"/>
+    </g>
+    <!-- Dannebrog, 37:28 with the cross at 12+4 / 12+4 -->
+    <rect x="152" y="152" width="208" height="157" rx="18" fill="#8E0B20"/>
+    <g clip-path="url(#flag-clip)">
+      <rect x="152" y="142" width="208" height="157" fill="#C8102E"/>
+      <rect x="219.5" y="142" width="22.5" height="157" fill="#FFFFFF"/>
+      <rect x="152" y="209.5" width="208" height="22.5" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>

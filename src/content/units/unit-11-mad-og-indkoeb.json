@@ -1,0 +1,4503 @@
+{
+  "id": "u11",
+  "order": 11,
+  "title": "Mad og indkøb",
+  "subtitle": "Food, tastes, shops and prices",
+  "pages": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "lessons": [
+    {
+      "id": "u11-l01",
+      "title": "What do you eat and drink?",
+      "pages": [
+        51
+      ],
+      "taughtInClass": false,
+      "tip": "Use \"kan godt lide\" for liking something and \"vil gerne\" for politely wanting something.\nExample: Jeg kan godt lide kaffe, og jeg vil gerne have en kop.",
+      "items": [
+        {
+          "id": "u11-p51-hvad-spiser-du-til-morgenmad",
+          "kind": "phrase",
+          "da": "Hvad spiser du til morgenmad?",
+          "en": "What do you eat for breakfast?",
+          "sentences": [
+            {
+              "da": "Jeg spiser brød til morgenmad.",
+              "en": "I eat bread for breakfast.",
+              "gap": "spiser"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-hvad-drikker-du-til-maden",
+          "kind": "phrase",
+          "da": "Hvad drikker du til maden?",
+          "en": "What do you drink with the meal?",
+          "sentences": [
+            {
+              "da": "Jeg drikker vand til maden.",
+              "en": "I drink water with the meal.",
+              "gap": "drikker"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-madvane",
+          "kind": "word",
+          "da": "en madvane",
+          "en": "eating habit",
+          "gender": "en",
+          "forms": [
+            "madvanen",
+            "madvaner",
+            "madvanerne"
+          ],
+          "sentences": [
+            {
+              "da": "Mine madvaner er sunde.",
+              "en": "My eating habits are healthy.",
+              "gap": "madvaner"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-kantine",
+          "kind": "word",
+          "da": "en kantine",
+          "en": "canteen",
+          "gender": "en",
+          "forms": [
+            "kantinen",
+            "kantiner",
+            "kantinerne"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser i kantinen.",
+              "en": "We eat in the canteen.",
+              "gap": "kantinen"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-kilo",
+          "kind": "word",
+          "da": "et kilo",
+          "en": "kilo",
+          "gender": "et",
+          "forms": [
+            "kiloet",
+            "kilo"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber et kilo æbler.",
+              "en": "I buy a kilo of apples.",
+              "gap": "et kilo"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vaegt",
+          "kind": "word",
+          "da": "en vægt",
+          "en": "weight",
+          "gender": "en",
+          "forms": [
+            "vægten",
+            "vægte"
+          ],
+          "alt": {
+            "en": [
+              "scales"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hans vægt er 80 kilo.",
+              "en": "His weight is 80 kilos.",
+              "gap": "vægt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-kan-godt-lide",
+          "kind": "phrase",
+          "da": "kan godt lide",
+          "en": "likes",
+          "alt": {
+            "en": [
+              "to like",
+              "like"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han kan godt lide leverpostej.",
+              "en": "He likes liver pâté.",
+              "gap": "kan godt lide"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vaere-sulten",
+          "kind": "phrase",
+          "da": "være sulten",
+          "en": "to be hungry",
+          "alt": {
+            "da": [
+              "at være sulten"
+            ],
+            "en": [
+              "be hungry"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg er sulten nu.",
+              "en": "I am hungry now.",
+              "gap": "sulten"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vaere-toerstig",
+          "kind": "phrase",
+          "da": "være tørstig",
+          "en": "to be thirsty",
+          "alt": {
+            "da": [
+              "at være tørstig"
+            ],
+            "en": [
+              "be thirsty"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Er du tørstig?",
+              "en": "Are you thirsty?",
+              "gap": "tørstig"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-det-smager-godt",
+          "kind": "phrase",
+          "da": "Det smager godt.",
+          "en": "It tastes good.",
+          "alt": {
+            "en": [
+              "It tastes nice."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager godt.",
+              "en": "It tastes good.",
+              "gap": "smager"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-det-er-ikke-sundt",
+          "kind": "phrase",
+          "da": "Det er ikke sundt.",
+          "en": "It isn't healthy.",
+          "alt": {
+            "en": [
+              "It is not healthy."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det er ikke sundt.",
+              "en": "It isn't healthy.",
+              "gap": "sundt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vil-gerne",
+          "kind": "phrase",
+          "da": "vil gerne",
+          "en": "would like to",
+          "alt": {
+            "en": [
+              "would like"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have kaffe.",
+              "en": "I would like some coffee.",
+              "gap": "vil gerne"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-tabe-sig",
+          "kind": "phrase",
+          "da": "tabe sig",
+          "en": "to lose weight",
+          "alt": {
+            "da": [
+              "at tabe sig"
+            ],
+            "en": [
+              "lose weight"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han vil gerne tabe sig.",
+              "en": "He would like to lose weight.",
+              "gap": "tabe sig"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vaere-ked-af-det",
+          "kind": "phrase",
+          "da": "være ked af det",
+          "en": "to be upset about it",
+          "alt": {
+            "da": [
+              "at være ked af det"
+            ],
+            "en": [
+              "to be sad about it",
+              "be upset about it"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun er ked af det.",
+              "en": "She is upset about it.",
+              "gap": "ked af det"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-vaere-glad-for-mad",
+          "kind": "phrase",
+          "da": "være glad for mad",
+          "en": "to be fond of food",
+          "alt": {
+            "da": [
+              "at være glad for mad"
+            ],
+            "en": [
+              "be fond of food",
+              "to love food"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han er glad for mad.",
+              "en": "He is fond of food.",
+              "gap": "glad for mad"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hvad drikker du til maden?",
+          "en": "What do you drink with the meal?"
+        },
+        {
+          "da": "Han kan godt lide leverpostej.",
+          "en": "He likes liver pâté."
+        }
+      ]
+    },
+    {
+      "id": "u11-l02",
+      "title": "Danish foods",
+      "pages": [
+        51
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p51-wienerbroed",
+          "kind": "word",
+          "da": "et wienerbrød",
+          "en": "Danish pastry",
+          "gender": "et",
+          "forms": [
+            "wienerbrødet",
+            "wienerbrød"
+          ],
+          "alt": {
+            "en": [
+              "Danish"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Et wienerbrød til kaffen, tak.",
+              "en": "A Danish pastry with the coffee, please.",
+              "gap": "wienerbrød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-smoerrebroed",
+          "kind": "word",
+          "da": "smørrebrød",
+          "en": "open sandwich",
+          "alt": {
+            "da": [
+              "et smørrebrød"
+            ],
+            "en": [
+              "open-faced sandwich",
+              "smørrebrød"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg spiser smørrebrød til frokost.",
+              "en": "I eat open sandwiches for lunch.",
+              "gap": "smørrebrød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-paalaeg",
+          "kind": "word",
+          "da": "pålæg",
+          "en": "sandwich toppings, cold cuts",
+          "alt": {
+            "en": [
+              "cold cuts",
+              "toppings"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber pålæg til brødet.",
+              "en": "I buy cold cuts for the bread.",
+              "gap": "pålæg"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-leverpostej",
+          "kind": "word",
+          "da": "leverpostej",
+          "en": "liver pâté",
+          "alt": {
+            "da": [
+              "en leverpostej"
+            ],
+            "en": [
+              "liver pate",
+              "liver paste"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han kan godt lide leverpostej.",
+              "en": "He likes liver pâté.",
+              "gap": "leverpostej"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-reje",
+          "kind": "word",
+          "da": "en reje",
+          "en": "prawn, shrimp",
+          "gender": "en",
+          "forms": [
+            "rejen",
+            "rejer",
+            "rejerne"
+          ],
+          "alt": {
+            "en": [
+              "shrimp",
+              "prawn"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Rejer er lækre.",
+              "en": "Prawns are delicious.",
+              "gap": "Rejer"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-frikadelle",
+          "kind": "word",
+          "da": "en frikadelle",
+          "en": "Danish meatball",
+          "gender": "en",
+          "forms": [
+            "frikadellen",
+            "frikadeller",
+            "frikadellerne"
+          ],
+          "alt": {
+            "en": [
+              "meatball"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi spiser frikadeller med kartofler.",
+              "en": "We eat meatballs with potatoes.",
+              "gap": "frikadeller"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-sovs",
+          "kind": "word",
+          "da": "sovs",
+          "en": "gravy, sauce",
+          "alt": {
+            "en": [
+              "gravy",
+              "sauce"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have sovs.",
+              "en": "I would like some gravy.",
+              "gap": "sovs"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-kartoffel",
+          "kind": "word",
+          "da": "en kartoffel",
+          "en": "potato",
+          "gender": "en",
+          "forms": [
+            "kartoflen",
+            "kartofler",
+            "kartoflerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg koger kartofler til aftensmad.",
+              "en": "I boil potatoes for dinner.",
+              "gap": "kartofler"
+            }
+          ]
+        },
+        {
+          "id": "u11-p51-cola",
+          "kind": "word",
+          "da": "cola",
+          "en": "cola",
+          "sentences": [
+            {
+              "da": "Børnene drikker cola.",
+              "en": "The children drink cola.",
+              "gap": "cola"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l03",
+      "title": "Food groups and fruit",
+      "pages": [
+        52
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p52-madvare",
+          "kind": "word",
+          "da": "en madvare",
+          "en": "food item, grocery",
+          "gender": "en",
+          "forms": [
+            "madvaren",
+            "madvarer"
+          ],
+          "sentences": [
+            {
+              "da": "Hvilke madvarer køber du?",
+              "en": "Which groceries do you buy?",
+              "gap": "madvarer"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-frugt",
+          "kind": "word",
+          "da": "frugt",
+          "en": "fruit",
+          "sentences": [
+            {
+              "da": "Jeg spiser frugt hver dag.",
+              "en": "I eat fruit every day.",
+              "gap": "frugt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-groentsag",
+          "kind": "word",
+          "da": "en grøntsag",
+          "en": "vegetable",
+          "gender": "en",
+          "forms": [
+            "grøntsagen",
+            "grøntsager",
+            "grøntsagerne"
+          ],
+          "sentences": [
+            {
+              "da": "Grøntsager er sunde.",
+              "en": "Vegetables are healthy.",
+              "gap": "Grøntsager"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-koed",
+          "kind": "word",
+          "da": "kød",
+          "en": "meat",
+          "sentences": [
+            {
+              "da": "Jeg spiser ikke kød.",
+              "en": "I do not eat meat.",
+              "gap": "kød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-fisk",
+          "kind": "word",
+          "da": "fisk",
+          "en": "fish",
+          "forms": [
+            "fisken",
+            "fisk"
+          ],
+          "sentences": [
+            {
+              "da": "Han køber en fisk.",
+              "en": "He buys a fish.",
+              "gap": "en fisk"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en fisk"
+            ]
+          }
+        },
+        {
+          "id": "u11-p52-drikke",
+          "kind": "word",
+          "da": "drikke",
+          "en": "drinks (the food category)",
+          "sentences": [
+            {
+              "da": "Vi køber mad og drikke.",
+              "en": "We buy food and drinks.",
+              "gap": "drikke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-aeble",
+          "kind": "word",
+          "da": "et æble",
+          "en": "apple",
+          "gender": "et",
+          "forms": [
+            "æblet",
+            "æbler",
+            "æblerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg spiser et æble.",
+              "en": "I eat an apple.",
+              "gap": "et æble"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-paere",
+          "kind": "word",
+          "da": "en pære",
+          "en": "pear",
+          "gender": "en",
+          "forms": [
+            "pæren",
+            "pærer",
+            "pærerne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun vil have en pære.",
+              "en": "She wants a pear.",
+              "gap": "en pære"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-vindrue",
+          "kind": "word",
+          "da": "en vindrue",
+          "en": "grape",
+          "gender": "en",
+          "forms": [
+            "vindruen",
+            "vindruer",
+            "vindruerne"
+          ],
+          "sentences": [
+            {
+              "da": "Børnene spiser vindruer.",
+              "en": "The children eat grapes.",
+              "gap": "vindruer"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-ananas",
+          "kind": "word",
+          "da": "en ananas",
+          "en": "pineapple",
+          "gender": "en",
+          "forms": [
+            "ananassen",
+            "ananasser"
+          ],
+          "sentences": [
+            {
+              "da": "En ananas er dyr.",
+              "en": "A pineapple is expensive.",
+              "gap": "En ananas"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-kirsebaer",
+          "kind": "word",
+          "da": "et kirsebær",
+          "en": "cherry",
+          "gender": "et",
+          "forms": [
+            "kirsebærret",
+            "kirsebær"
+          ],
+          "sentences": [
+            {
+              "da": "Børnene spiser kirsebær.",
+              "en": "The children eat cherries.",
+              "gap": "kirsebær"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-jordbaer",
+          "kind": "word",
+          "da": "et jordbær",
+          "en": "strawberry",
+          "gender": "et",
+          "forms": [
+            "jordbærret",
+            "jordbær"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber jordbær i supermarkedet.",
+              "en": "I buy strawberries at the supermarket.",
+              "gap": "jordbær"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-appelsin",
+          "kind": "word",
+          "da": "en appelsin",
+          "en": "orange",
+          "gender": "en",
+          "forms": [
+            "appelsinen",
+            "appelsiner",
+            "appelsinerne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun spiser en appelsin.",
+              "en": "She eats an orange.",
+              "gap": "en appelsin"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-banan",
+          "kind": "word",
+          "da": "en banan",
+          "en": "banana",
+          "gender": "en",
+          "forms": [
+            "bananen",
+            "bananer",
+            "bananerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg spiser en banan.",
+              "en": "I eat a banana.",
+              "gap": "en banan"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-citron",
+          "kind": "word",
+          "da": "en citron",
+          "en": "lemon",
+          "gender": "en",
+          "forms": [
+            "citronen",
+            "citroner",
+            "citronerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg skal have en citron.",
+              "en": "I need a lemon.",
+              "gap": "en citron"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l04",
+      "title": "Vegetables and herbs",
+      "pages": [
+        52
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p52-agurk",
+          "kind": "word",
+          "da": "en agurk",
+          "en": "cucumber",
+          "gender": "en",
+          "forms": [
+            "agurken",
+            "agurker",
+            "agurkerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en agurk.",
+              "en": "I buy a cucumber.",
+              "gap": "en agurk"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-tomat",
+          "kind": "word",
+          "da": "en tomat",
+          "en": "tomato",
+          "gender": "en",
+          "forms": [
+            "tomaten",
+            "tomater",
+            "tomaterne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg vil have en tomat.",
+              "en": "I want a tomato.",
+              "gap": "en tomat"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-avocado",
+          "kind": "word",
+          "da": "en avocado",
+          "en": "avocado",
+          "gender": "en",
+          "forms": [
+            "avocadoen",
+            "avocadoer"
+          ],
+          "sentences": [
+            {
+              "da": "Hun spiser en avocado.",
+              "en": "She eats an avocado.",
+              "gap": "en avocado"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-salat",
+          "kind": "word",
+          "da": "salat",
+          "en": "lettuce, salad",
+          "alt": {
+            "da": [
+              "en salat"
+            ],
+            "en": [
+              "lettuce",
+              "salad"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi spiser salat til frokost.",
+              "en": "We eat salad for lunch.",
+              "gap": "salat"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-porre",
+          "kind": "word",
+          "da": "en porre",
+          "en": "leek",
+          "gender": "en",
+          "forms": [
+            "porren",
+            "porrer",
+            "porrerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en porre.",
+              "en": "I buy a leek.",
+              "gap": "en porre"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-gulerod",
+          "kind": "word",
+          "da": "en gulerod",
+          "en": "carrot",
+          "gender": "en",
+          "forms": [
+            "guleroden",
+            "gulerødder",
+            "gulerødderne"
+          ],
+          "sentences": [
+            {
+              "da": "Han spiser en gulerod.",
+              "en": "He eats a carrot.",
+              "gap": "en gulerod"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-aubergine",
+          "kind": "word",
+          "da": "en aubergine",
+          "en": "aubergine, eggplant",
+          "gender": "en",
+          "forms": [
+            "auberginen",
+            "auberginer",
+            "auberginerne"
+          ],
+          "alt": {
+            "en": [
+              "eggplant",
+              "aubergine"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en aubergine.",
+              "en": "I have an aubergine.",
+              "gap": "en aubergine"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-peberfrugt",
+          "kind": "word",
+          "da": "en peberfrugt",
+          "en": "bell pepper",
+          "gender": "en",
+          "forms": [
+            "peberfrugten",
+            "peberfrugter",
+            "peberfrugterne"
+          ],
+          "alt": {
+            "en": [
+              "pepper",
+              "sweet pepper"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun køber en peberfrugt.",
+              "en": "She buys a bell pepper.",
+              "gap": "en peberfrugt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-persille",
+          "kind": "word",
+          "da": "persille",
+          "en": "parsley",
+          "alt": {
+            "da": [
+              "en persille"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber persille.",
+              "en": "I buy parsley.",
+              "gap": "persille"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-hvidloeg",
+          "kind": "word",
+          "da": "hvidløg",
+          "en": "garlic",
+          "forms": [
+            "hvidløget",
+            "hvidløg",
+            "hvidløgene"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg bruger hvidløg.",
+              "en": "I use garlic.",
+              "gap": "hvidløg"
+            }
+          ],
+          "alt": {
+            "da": [
+              "et hvidløg"
+            ]
+          }
+        },
+        {
+          "id": "u11-p52-loeg",
+          "kind": "word",
+          "da": "et løg",
+          "en": "onion",
+          "gender": "et",
+          "forms": [
+            "løget",
+            "løg",
+            "løgene"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg skal bruge et løg.",
+              "en": "I need an onion.",
+              "gap": "et løg"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-chili",
+          "kind": "word",
+          "da": "chili",
+          "en": "chili",
+          "sentences": [
+            {
+              "da": "Jeg bruger en chili.",
+              "en": "I use a chili.",
+              "gap": "en chili"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en chili"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "u11-l05",
+      "title": "Meat, fish and drinks",
+      "pages": [
+        52
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p52-lammekoed",
+          "kind": "word",
+          "da": "lammekød",
+          "en": "lamb (meat)",
+          "sentences": [
+            {
+              "da": "Vi spiser lammekød i aften.",
+              "en": "We are having lamb tonight.",
+              "gap": "lammekød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-svinekoed",
+          "kind": "word",
+          "da": "svinekød",
+          "en": "pork",
+          "sentences": [
+            {
+              "da": "Han spiser ikke svinekød.",
+              "en": "He does not eat pork.",
+              "gap": "svinekød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-oksekoed",
+          "kind": "word",
+          "da": "oksekød",
+          "en": "beef",
+          "sentences": [
+            {
+              "da": "Jeg køber oksekød i dag.",
+              "en": "I am buying beef today.",
+              "gap": "oksekød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-poelse",
+          "kind": "word",
+          "da": "en pølse",
+          "en": "sausage",
+          "gender": "en",
+          "forms": [
+            "pølsen",
+            "pølser",
+            "pølserne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg vil have en pølse.",
+              "en": "I want a sausage.",
+              "gap": "en pølse"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-kylling",
+          "kind": "word",
+          "da": "kylling",
+          "en": "chicken",
+          "forms": [
+            "kyllingen",
+            "kyllinger",
+            "kyllingerne"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser kylling i aften.",
+              "en": "We eat chicken tonight.",
+              "gap": "kylling"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en kylling"
+            ]
+          }
+        },
+        {
+          "id": "u11-p52-sardin",
+          "kind": "word",
+          "da": "en sardin",
+          "en": "sardine",
+          "gender": "en",
+          "forms": [
+            "sardinen",
+            "sardiner",
+            "sardinerne"
+          ],
+          "sentences": [
+            {
+              "da": "Han spiser en sardin.",
+              "en": "He eats a sardine.",
+              "gap": "en sardin"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-sild",
+          "kind": "word",
+          "da": "sild",
+          "en": "herring",
+          "alt": {
+            "da": [
+              "en sild"
+            ]
+          },
+          "forms": [
+            "silden",
+            "sild",
+            "sildene"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser sild til frokost.",
+              "en": "We eat herring for lunch.",
+              "gap": "sild"
+            }
+          ],
+          "note": "marinerede sild = pickled herring"
+        },
+        {
+          "id": "u11-p52-laks",
+          "kind": "word",
+          "da": "laks",
+          "en": "salmon",
+          "alt": {
+            "da": [
+              "en laks"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg spiser laks til aftensmad.",
+              "en": "I eat salmon for dinner.",
+              "gap": "laks"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-sodavand",
+          "kind": "word",
+          "da": "sodavand",
+          "en": "soda, fizzy drink",
+          "forms": [
+            "sodavanden",
+            "sodavand"
+          ],
+          "alt": {
+            "en": [
+              "soft drink",
+              "fizzy drink"
+            ],
+            "da": [
+              "en sodavand"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Børnene vil have en sodavand.",
+              "en": "The children want a soda.",
+              "gap": "en sodavand"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-oel",
+          "kind": "word",
+          "da": "øl",
+          "en": "beer",
+          "forms": [
+            "øllen",
+            "øl",
+            "øllene"
+          ],
+          "sentences": [
+            {
+              "da": "Han drikker en øl.",
+              "en": "He drinks a beer.",
+              "gap": "en øl"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en øl",
+              "et øl"
+            ]
+          }
+        },
+        {
+          "id": "u11-p52-juice",
+          "kind": "word",
+          "da": "juice",
+          "en": "juice",
+          "sentences": [
+            {
+              "da": "Jeg drikker juice om morgenen.",
+              "en": "I drink juice in the morning.",
+              "gap": "juice"
+            }
+          ]
+        },
+        {
+          "id": "u11-p52-vin",
+          "kind": "word",
+          "da": "vin",
+          "en": "wine",
+          "sentences": [
+            {
+              "da": "Vi drikker vin til maden.",
+              "en": "We drink wine with the meal.",
+              "gap": "vin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l06",
+      "title": "Dairy, bread and sweets",
+      "pages": [
+        53
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p53-mejeri",
+          "kind": "word",
+          "da": "et mejeri",
+          "en": "dairy",
+          "gender": "et",
+          "forms": [
+            "mejeriet",
+            "mejerier"
+          ],
+          "sentences": [
+            {
+              "da": "Mælken kommer fra et mejeri.",
+              "en": "The milk comes from a dairy.",
+              "gap": "et mejeri"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-slik",
+          "kind": "word",
+          "da": "slik",
+          "en": "sweets, candy",
+          "sentences": [
+            {
+              "da": "Børn elsker slik.",
+              "en": "Children love sweets.",
+              "gap": "slik"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-maelk",
+          "kind": "word",
+          "da": "mælk",
+          "en": "milk",
+          "sentences": [
+            {
+              "da": "Jeg drikker mælk.",
+              "en": "I drink milk.",
+              "gap": "mælk"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-yoghurt",
+          "kind": "word",
+          "da": "yoghurt",
+          "en": "yoghurt",
+          "alt": {
+            "en": [
+              "yogurt"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg spiser yoghurt til morgenmad.",
+              "en": "I eat yoghurt for breakfast.",
+              "gap": "yoghurt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-aeg",
+          "kind": "word",
+          "da": "et æg",
+          "en": "egg",
+          "gender": "et",
+          "forms": [
+            "ægget",
+            "æg",
+            "æggene"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg spiser et æg.",
+              "en": "I eat an egg.",
+              "gap": "et æg"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-smoer",
+          "kind": "word",
+          "da": "smør",
+          "en": "butter",
+          "sentences": [
+            {
+              "da": "Vil du have smør?",
+              "en": "Do you want butter?",
+              "gap": "smør"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-floede",
+          "kind": "word",
+          "da": "fløde",
+          "en": "cream",
+          "sentences": [
+            {
+              "da": "Jeg vil have fløde i kaffen.",
+              "en": "I want cream in my coffee.",
+              "gap": "fløde"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-franskbroed",
+          "kind": "word",
+          "da": "franskbrød",
+          "en": "white bread (loaf)",
+          "forms": [
+            "franskbrødet",
+            "franskbrød"
+          ],
+          "sentences": [
+            {
+              "da": "Vi køber et franskbrød.",
+              "en": "We buy a white loaf.",
+              "gap": "et franskbrød"
+            }
+          ],
+          "alt": {
+            "da": [
+              "et franskbrød"
+            ]
+          }
+        },
+        {
+          "id": "u11-p53-rugbroed",
+          "kind": "word",
+          "da": "rugbrød",
+          "en": "rye bread",
+          "forms": [
+            "rugbrødet",
+            "rugbrød"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg spiser rugbrød til frokost.",
+              "en": "I eat rye bread for lunch.",
+              "gap": "rugbrød"
+            }
+          ],
+          "alt": {
+            "da": [
+              "et rugbrød"
+            ]
+          }
+        },
+        {
+          "id": "u11-p53-bolle",
+          "kind": "word",
+          "da": "en bolle",
+          "en": "bun, roll",
+          "gender": "en",
+          "forms": [
+            "bollen",
+            "boller",
+            "bollerne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun spiser en bolle.",
+              "en": "She eats a bun.",
+              "gap": "en bolle"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-kage",
+          "kind": "word",
+          "da": "kage",
+          "en": "cake",
+          "forms": [
+            "kagen",
+            "kager",
+            "kagerne"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser kage i dag.",
+              "en": "We eat cake today.",
+              "gap": "kage"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en kage"
+            ]
+          }
+        },
+        {
+          "id": "u11-p53-is",
+          "kind": "word",
+          "da": "is",
+          "en": "ice cream",
+          "forms": [
+            "isen",
+            "is",
+            "isene"
+          ],
+          "sentences": [
+            {
+              "da": "Børnene vil have en is.",
+              "en": "The children want an ice cream.",
+              "gap": "en is"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en is"
+            ]
+          }
+        },
+        {
+          "id": "u11-p53-bolsje",
+          "kind": "word",
+          "da": "et bolsje",
+          "en": "hard candy, sweet",
+          "gender": "et",
+          "forms": [
+            "bolsjet",
+            "bolsjer",
+            "bolsjerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg har et bolsje.",
+              "en": "I have a sweet.",
+              "gap": "et bolsje"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l07",
+      "title": "Cooking basics and the supermarket",
+      "pages": [
+        53
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p53-olie",
+          "kind": "word",
+          "da": "olie",
+          "en": "oil",
+          "sentences": [
+            {
+              "da": "Jeg bruger olie til maden.",
+              "en": "I use oil for the food.",
+              "gap": "olie"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-sukker",
+          "kind": "word",
+          "da": "sukker",
+          "en": "sugar",
+          "sentences": [
+            {
+              "da": "Vil du have sukker?",
+              "en": "Do you want sugar?",
+              "gap": "sukker"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-mel",
+          "kind": "word",
+          "da": "mel",
+          "en": "flour",
+          "sentences": [
+            {
+              "da": "Vi skal bruge mel.",
+              "en": "We need flour.",
+              "gap": "mel"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-ris",
+          "kind": "word",
+          "da": "ris",
+          "en": "rice",
+          "sentences": [
+            {
+              "da": "Jeg spiser ris til aftensmad.",
+              "en": "I eat rice for dinner.",
+              "gap": "ris"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-syltetoej",
+          "kind": "word",
+          "da": "syltetøj",
+          "en": "jam",
+          "alt": {
+            "en": [
+              "jelly"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have syltetøj.",
+              "en": "I would like some jam.",
+              "gap": "syltetøj"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-daase",
+          "kind": "word",
+          "da": "en dåse",
+          "en": "tin, can",
+          "gender": "en",
+          "forms": [
+            "dåsen",
+            "dåser",
+            "dåserne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en dåse tun.",
+              "en": "I buy a tin of tuna.",
+              "gap": "en dåse"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-indkoebsvogn",
+          "kind": "word",
+          "da": "en indkøbsvogn",
+          "en": "shopping trolley",
+          "gender": "en",
+          "forms": [
+            "indkøbsvognen",
+            "indkøbsvogne"
+          ],
+          "alt": {
+            "en": [
+              "shopping cart",
+              "trolley"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en indkøbsvogn.",
+              "en": "I have a shopping trolley.",
+              "gap": "indkøbsvogn"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-supermarked",
+          "kind": "word",
+          "da": "et supermarked",
+          "en": "supermarket",
+          "gender": "et",
+          "forms": [
+            "supermarkedet",
+            "supermarkeder"
+          ],
+          "sentences": [
+            {
+              "da": "Vi køber ind i et supermarked.",
+              "en": "We shop in a supermarket.",
+              "gap": "et supermarked"
+            }
+          ]
+        },
+        {
+          "id": "u11-p53-vare",
+          "kind": "word",
+          "da": "en vare",
+          "en": "item, product",
+          "gender": "en",
+          "forms": [
+            "varen",
+            "varer",
+            "varerne"
+          ],
+          "alt": {
+            "en": [
+              "product",
+              "item",
+              "goods"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Varerne er friske.",
+              "en": "The goods are fresh.",
+              "gap": "Varerne"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l08",
+      "title": "Do you like it?",
+      "pages": [
+        54
+      ],
+      "taughtInClass": true,
+      "tip": "To answer \"Kan du lide …?\" say \"Ja, det kan jeg godt.\" or \"Nej, det kan jeg ikke.\"\nTo agree: \"Det kan jeg også.\" (positive) or \"Det kan jeg heller ikke.\" (negative).",
+      "items": [
+        {
+          "id": "u11-p54-kan-du-lide-yoghurt",
+          "kind": "phrase",
+          "da": "Kan du lide yoghurt?",
+          "en": "Do you like yoghurt?",
+          "alt": {
+            "en": [
+              "Do you like yogurt?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Ja, det kan jeg godt.",
+              "en": "Yes, I do.",
+              "gap": "godt"
+            },
+            {
+              "da": "Nej, det kan jeg ikke.",
+              "en": "No, I don't.",
+              "gap": "ikke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-kan-du-lide-muslinger",
+          "kind": "phrase",
+          "da": "Kan du lide muslinger?",
+          "en": "Do you like mussels?",
+          "sentences": [
+            {
+              "da": "Nej, det kan jeg ikke.",
+              "en": "No, I don't like them.",
+              "gap": "ikke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-kan-du-lide-sushi",
+          "kind": "phrase",
+          "da": "Kan du lide sushi?",
+          "en": "Do you like sushi?",
+          "sentences": [
+            {
+              "da": "Det ved jeg ikke. Jeg har aldrig smagt det.",
+              "en": "I don't know. I have never tasted it.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-spiser-du-gedeost",
+          "kind": "phrase",
+          "da": "Spiser du gedeost?",
+          "en": "Do you eat goat cheese?",
+          "sentences": [
+            {
+              "da": "Ja, det smager lækkert.",
+              "en": "Yes, it tastes delicious.",
+              "gap": "smager"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-drikker-du-whisky",
+          "kind": "phrase",
+          "da": "Drikker du whisky?",
+          "en": "Do you drink whisky?",
+          "sentences": [
+            {
+              "da": "Nej, det smager forfærdeligt.",
+              "en": "No, it tastes awful.",
+              "gap": "forfærdeligt"
+            },
+            {
+              "da": "Det er for stærkt.",
+              "en": "It's too strong.",
+              "gap": "for"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-kan-jeg-ogsaa",
+          "kind": "phrase",
+          "da": "Det kan jeg også.",
+          "en": "I like it too.",
+          "alt": {
+            "en": [
+              "So do I.",
+              "Me too."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det kan jeg også.",
+              "en": "I like it too.",
+              "gap": "også"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-kan-jeg-heller-ikke",
+          "kind": "phrase",
+          "da": "Det kan jeg heller ikke.",
+          "en": "I don't like it either.",
+          "alt": {
+            "en": [
+              "I do not like it either.",
+              "Neither do I.",
+              "Me neither."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det kan jeg heller ikke.",
+              "en": "I don't like it either.",
+              "gap": "heller"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-synes-jeg-ogsaa",
+          "kind": "phrase",
+          "da": "Det synes jeg også.",
+          "en": "I think so too.",
+          "alt": {
+            "en": [
+              "I agree."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det synes jeg også.",
+              "en": "I think so too.",
+              "gap": "også"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-synes-jeg-ikke",
+          "kind": "phrase",
+          "da": "Det synes jeg ikke.",
+          "en": "I don't think so.",
+          "alt": {
+            "en": [
+              "I do not think so."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det synes jeg ikke.",
+              "en": "I don't think so.",
+              "gap": "ikke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-ansjos",
+          "kind": "word",
+          "da": "en ansjos",
+          "en": "anchovy",
+          "gender": "en",
+          "forms": [
+            "ansjosen",
+            "ansjoser",
+            "ansjoserne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun kan godt lide ansjoser.",
+              "en": "She likes anchovies.",
+              "gap": "ansjoser"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-bacon",
+          "kind": "word",
+          "da": "bacon",
+          "en": "bacon",
+          "sentences": [
+            {
+              "da": "Jeg spiser bacon til morgenmad.",
+              "en": "I eat bacon for breakfast.",
+              "gap": "bacon"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Kan du lide yoghurt?",
+          "en": "Do you like yoghurt?",
+          "tip": "\"kan du lide\" is pronounced roughly \"ka du li\""
+        }
+      ]
+    },
+    {
+      "id": "u11-l09",
+      "title": "How does it taste?",
+      "pages": [
+        54
+      ],
+      "taughtInClass": true,
+      "tip": "Describe taste with \"Det smager\" + adjective: Det smager godt / dårligt / fantastisk.\n\"Det er for\" + adjective means \"it is too …\": Det er for salt.",
+      "items": [
+        {
+          "id": "u11-p54-det-smager-fantastisk",
+          "kind": "pattern",
+          "da": "Det smager fantastisk.",
+          "en": "It tastes fantastic.",
+          "sentences": [
+            {
+              "da": "Det smager fantastisk.",
+              "en": "It tastes fantastic.",
+              "gap": "smager"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-smager-daarligt",
+          "kind": "pattern",
+          "da": "Det smager dårligt.",
+          "en": "It tastes bad.",
+          "sentences": [
+            {
+              "da": "Det smager dårligt.",
+              "en": "It tastes bad.",
+              "gap": "dårligt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-det-er-for-salt",
+          "kind": "pattern",
+          "da": "Det er for salt.",
+          "en": "It is too salty.",
+          "sentences": [
+            {
+              "da": "Det er for salt.",
+              "en": "It is too salty.",
+              "gap": "for"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-roeget",
+          "kind": "word",
+          "da": "røget",
+          "en": "smoked",
+          "sentences": [
+            {
+              "da": "Laksen er røget.",
+              "en": "The salmon is smoked.",
+              "gap": "røget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-soedt",
+          "kind": "word",
+          "da": "sødt",
+          "en": "sweet",
+          "sentences": [
+            {
+              "da": "Kagen smager sødt.",
+              "en": "The cake tastes sweet.",
+              "gap": "sødt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-salt-adj",
+          "kind": "word",
+          "da": "salt",
+          "en": "salty",
+          "sentences": [
+            {
+              "da": "Maden er for salt.",
+              "en": "The food is too salty.",
+              "gap": "salt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-surt",
+          "kind": "word",
+          "da": "surt",
+          "en": "sour",
+          "sentences": [
+            {
+              "da": "Citronen smager surt.",
+              "en": "The lemon tastes sour.",
+              "gap": "surt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-staerkt",
+          "kind": "word",
+          "da": "stærkt",
+          "en": "spicy, strong",
+          "alt": {
+            "en": [
+              "spicy",
+              "strong",
+              "hot"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Chilien smager stærkt.",
+              "en": "The chili tastes spicy.",
+              "gap": "stærkt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-bittert",
+          "kind": "word",
+          "da": "bittert",
+          "en": "bitter",
+          "sentences": [
+            {
+              "da": "Kaffen smager bittert.",
+              "en": "The coffee tastes bitter.",
+              "gap": "bittert"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-fedt",
+          "kind": "word",
+          "da": "fedt",
+          "en": "fatty, greasy",
+          "alt": {
+            "en": [
+              "fatty",
+              "greasy"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det er for fedt.",
+              "en": "It is too greasy.",
+              "gap": "fedt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-krydret",
+          "kind": "word",
+          "da": "krydret",
+          "en": "spicy, heavily seasoned",
+          "alt": {
+            "en": [
+              "spiced",
+              "heavily seasoned",
+              "spicy"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Maden er for krydret.",
+              "en": "The food is too spicy.",
+              "gap": "krydret"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-kedeligt",
+          "kind": "word",
+          "da": "kedeligt",
+          "en": "boring, bland",
+          "alt": {
+            "en": [
+              "bland",
+              "boring"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det er for kedeligt.",
+              "en": "It is too bland.",
+              "gap": "kedeligt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-laekkert",
+          "kind": "word",
+          "da": "lækkert",
+          "en": "delicious",
+          "alt": {
+            "en": [
+              "tasty",
+              "lovely"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager lækkert.",
+              "en": "It tastes delicious.",
+              "gap": "lækkert"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-fantastisk",
+          "kind": "word",
+          "da": "fantastisk",
+          "en": "fantastic",
+          "sentences": [
+            {
+              "da": "Det er fantastisk.",
+              "en": "It is fantastic.",
+              "gap": "fantastisk"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-dejligt",
+          "kind": "word",
+          "da": "dejligt",
+          "en": "lovely",
+          "alt": {
+            "en": [
+              "nice",
+              "delightful"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager dejligt.",
+              "en": "It tastes lovely.",
+              "gap": "dejligt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-rigtig-godt",
+          "kind": "word",
+          "da": "rigtig godt",
+          "en": "really good",
+          "alt": {
+            "en": [
+              "very good"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager rigtig godt.",
+              "en": "It tastes really good.",
+              "gap": "rigtig godt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-godt-ok",
+          "kind": "word",
+          "da": "godt",
+          "en": "good, okay",
+          "alt": {
+            "da": [
+              "o.k.",
+              "ok",
+              "okay"
+            ],
+            "en": [
+              "good",
+              "okay",
+              "ok"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager godt.",
+              "en": "It tastes good.",
+              "gap": "godt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-ikke-saa-godt",
+          "kind": "word",
+          "da": "ikke så godt",
+          "en": "not so good",
+          "sentences": [
+            {
+              "da": "Det smager ikke så godt.",
+              "en": "It does not taste so good.",
+              "gap": "ikke så godt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-daarligt",
+          "kind": "word",
+          "da": "dårligt",
+          "en": "bad",
+          "alt": {
+            "en": [
+              "poor",
+              "badly"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager dårligt.",
+              "en": "It tastes bad.",
+              "gap": "dårligt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p54-forfaerdeligt",
+          "kind": "word",
+          "da": "forfærdeligt",
+          "en": "awful",
+          "alt": {
+            "en": [
+              "terrible",
+              "dreadful"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det smager forfærdeligt.",
+              "en": "It tastes awful.",
+              "gap": "forfærdeligt"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Det er for stærkt.",
+          "en": "It's too strong.",
+          "tip": "\"Det er for\" is pronounced roughly \"dee fɔ\""
+        }
+      ]
+    },
+    {
+      "id": "u11-l10",
+      "title": "Eating then and now",
+      "pages": [
+        55
+      ],
+      "taughtInClass": true,
+      "tip": "To compare amounts use mere / mindre + noun + end.\nExample: Jeg spiser mere frugt nu end før. (more fruit now than before)",
+      "items": [
+        {
+          "id": "u11-p55-jeg-spiste-mere-pasta-i-italien-end-nu-i-danmark",
+          "kind": "pattern",
+          "da": "Jeg spiste mere pasta i Italien end nu i Danmark.",
+          "en": "I ate more pasta in Italy than now in Denmark.",
+          "sentences": [
+            {
+              "da": "Jeg spiste mere pasta i Italien end nu i Danmark.",
+              "en": "I ate more pasta in Italy than now in Denmark.",
+              "gap": "mere"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-jeg-spiser-mindre-hvidt-broed-nu-end-foer",
+          "kind": "pattern",
+          "da": "Jeg spiser mindre hvidt brød nu end før.",
+          "en": "I eat less white bread now than before.",
+          "sentences": [
+            {
+              "da": "Jeg spiser mindre hvidt brød nu end før.",
+              "en": "I eat less white bread now than before.",
+              "gap": "mindre"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-smage",
+          "kind": "word",
+          "da": "smage",
+          "en": "to taste",
+          "alt": {
+            "da": [
+              "at smage"
+            ],
+            "en": [
+              "taste"
+            ]
+          },
+          "forms": [
+            "smager",
+            "smagte"
+          ],
+          "sentences": [
+            {
+              "da": "Maden smager godt.",
+              "en": "The food tastes good.",
+              "gap": "smager"
+            },
+            {
+              "da": "Kaffen smagte dårligt.",
+              "en": "The coffee tasted bad.",
+              "gap": "smagte"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-boede",
+          "kind": "word",
+          "da": "boede",
+          "en": "lived",
+          "alt": {
+            "en": [
+              "used to live"
+            ]
+          },
+          "forms": [
+            "bo",
+            "bor"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg boede i Kina for to år siden.",
+              "en": "I lived in China two years ago.",
+              "gap": "boede"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-moedte",
+          "kind": "word",
+          "da": "mødte",
+          "en": "met",
+          "alt": {
+            "en": [
+              "started work",
+              "started"
+            ]
+          },
+          "forms": [
+            "møde",
+            "møder"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg mødte Anna i går.",
+              "en": "I met Anna yesterday.",
+              "gap": "mødte"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-syntes",
+          "kind": "word",
+          "da": "syntes",
+          "en": "thought",
+          "alt": {
+            "en": [
+              "found",
+              "felt"
+            ]
+          },
+          "forms": [
+            "synes",
+            "synes"
+          ],
+          "sentences": [
+            {
+              "da": "I går syntes jeg, maden smagte godt.",
+              "en": "Yesterday I thought the food tasted good.",
+              "gap": "syntes"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-for-to-aar-siden",
+          "kind": "phrase",
+          "da": "for to år siden",
+          "en": "two years ago",
+          "sentences": [
+            {
+              "da": "Jeg boede i Italien for to år siden.",
+              "en": "I lived in Italy two years ago.",
+              "gap": "siden"
+            }
+          ]
+        },
+        {
+          "id": "u11-p55-to-gange-om-dagen",
+          "kind": "phrase",
+          "da": "to gange om dagen",
+          "en": "twice a day",
+          "alt": {
+            "en": [
+              "two times a day"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg drikker kaffe to gange om dagen.",
+              "en": "I drink coffee twice a day.",
+              "gap": "gange"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l11",
+      "title": "Shops",
+      "pages": [
+        56
+      ],
+      "taughtInClass": false,
+      "tip": "Use \"hos\" for shops named after the person (hos bageren, hos slagteren), \"i\" for kiosk, supermarked and blomsterforretning, and \"på\" for apoteket.\nExample: Jeg køber brød hos bageren.",
+      "items": [
+        {
+          "id": "u11-p56-groenthandler",
+          "kind": "word",
+          "da": "en grønthandler",
+          "en": "greengrocer",
+          "gender": "en",
+          "forms": [
+            "grønthandleren",
+            "grønthandlere"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber æbler hos grønthandleren.",
+              "en": "I buy apples at the greengrocer's.",
+              "gap": "grønthandleren"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-slagter",
+          "kind": "word",
+          "da": "en slagter",
+          "en": "butcher",
+          "gender": "en",
+          "forms": [
+            "slagteren",
+            "slagtere"
+          ],
+          "sentences": [
+            {
+              "da": "Vi køber kød hos slagteren.",
+              "en": "We buy meat at the butcher's.",
+              "gap": "slagteren"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-fiskehandler",
+          "kind": "word",
+          "da": "en fiskehandler",
+          "en": "fishmonger",
+          "gender": "en",
+          "forms": [
+            "fiskehandleren",
+            "fiskehandlere"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber laks hos fiskehandleren.",
+              "en": "I buy salmon at the fishmonger's.",
+              "gap": "fiskehandleren"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-kiosk",
+          "kind": "word",
+          "da": "en kiosk",
+          "en": "kiosk",
+          "gender": "en",
+          "forms": [
+            "kiosken",
+            "kiosker"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en avis i kiosken.",
+              "en": "I buy a newspaper at the kiosk.",
+              "gap": "kiosken"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-blomsterforretning",
+          "kind": "word",
+          "da": "en blomsterforretning",
+          "en": "flower shop",
+          "gender": "en",
+          "forms": [
+            "blomsterforretningen",
+            "blomsterforretninger"
+          ],
+          "sentences": [
+            {
+              "da": "Vi køber roser i blomsterforretningen.",
+              "en": "We buy roses at the flower shop.",
+              "gap": "blomsterforretningen"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-apotek",
+          "kind": "word",
+          "da": "et apotek",
+          "en": "pharmacy",
+          "gender": "et",
+          "forms": [
+            "apoteket",
+            "apoteker"
+          ],
+          "alt": {
+            "en": [
+              "chemist"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber medicin på apoteket.",
+              "en": "I buy medicine at the pharmacy.",
+              "gap": "apoteket"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-jeg-koeber-broed-hos-bageren",
+          "kind": "pattern",
+          "da": "Jeg køber brød hos bageren.",
+          "en": "I buy bread at the baker's.",
+          "sentences": [
+            {
+              "da": "Jeg køber brød hos bageren.",
+              "en": "I buy bread at the baker's.",
+              "gap": "hos"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-jeg-koeber-aviser-i-kiosken",
+          "kind": "pattern",
+          "da": "Jeg køber aviser i kiosken.",
+          "en": "I buy newspapers at the kiosk.",
+          "sentences": [
+            {
+              "da": "Jeg køber aviser i kiosken.",
+              "en": "I buy newspapers at the kiosk.",
+              "gap": "i"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-jeg-koeber-medicin-paa-apoteket",
+          "kind": "pattern",
+          "da": "Jeg køber medicin på apoteket.",
+          "en": "I buy medicine at the pharmacy.",
+          "sentences": [
+            {
+              "da": "Jeg køber medicin på apoteket.",
+              "en": "I buy medicine at the pharmacy.",
+              "gap": "på"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-hvor-kan-jeg-koebe-aebler",
+          "kind": "phrase",
+          "da": "Hvor kan jeg købe æbler?",
+          "en": "Where can I buy apples?",
+          "sentences": [
+            {
+              "da": "Hos grønthandleren.",
+              "en": "At the greengrocer's.",
+              "gap": "Hos"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-hvor-koeber-du-normalt-ind",
+          "kind": "phrase",
+          "da": "Hvor køber du normalt ind?",
+          "en": "Where do you normally shop?",
+          "alt": {
+            "en": [
+              "Where do you usually shop?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber ind i Netto, fordi der er billigt.",
+              "en": "I shop at Netto because it's cheap there.",
+              "gap": "køber"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-der-er-billigt",
+          "kind": "phrase",
+          "da": "der er billigt",
+          "en": "it's cheap there",
+          "alt": {
+            "en": [
+              "it is cheap there",
+              "it is cheap"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg kan godt lide Netto, fordi der er billigt.",
+              "en": "I like Netto because it's cheap there.",
+              "gap": "billigt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-det-er-nemt-hurtigt",
+          "kind": "phrase",
+          "da": "det er nemt",
+          "en": "it's easy (or quick)",
+          "alt": {
+            "da": [
+              "det er hurtigt",
+              "det er nemt og hurtigt"
+            ],
+            "en": [
+              "it is easy",
+              "it is quick",
+              "it's easy",
+              "it's quick"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber ind i Netto, fordi det er nemt.",
+              "en": "I shop at Netto because it's easy.",
+              "gap": "nemt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-jeg-faar-friske-gode-varer",
+          "kind": "phrase",
+          "da": "jeg får friske varer",
+          "en": "I get fresh (or good) products",
+          "alt": {
+            "da": [
+              "jeg får gode varer",
+              "jeg får friske og gode varer"
+            ],
+            "en": [
+              "I get fresh products",
+              "I get good products",
+              "I get fresh goods",
+              "I get good goods"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg får friske varer her.",
+              "en": "I get fresh goods here.",
+              "gap": "friske"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hvor kan jeg købe æbler?",
+          "en": "Where can I buy apples?"
+        }
+      ]
+    },
+    {
+      "id": "u11-l12",
+      "title": "What you buy where",
+      "pages": [
+        56
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p56-saebe",
+          "kind": "word",
+          "da": "sæbe",
+          "en": "soap",
+          "alt": {
+            "da": [
+              "en sæbe"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber sæbe.",
+              "en": "I buy soap.",
+              "gap": "sæbe"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-medicin",
+          "kind": "word",
+          "da": "medicin",
+          "en": "medicine",
+          "sentences": [
+            {
+              "da": "Jeg skal have medicin.",
+              "en": "I need medicine.",
+              "gap": "medicin"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-rose",
+          "kind": "word",
+          "da": "en rose",
+          "en": "rose",
+          "gender": "en",
+          "forms": [
+            "rosen",
+            "roser",
+            "roserne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun får en rose.",
+              "en": "She gets a rose.",
+              "gap": "en rose"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-tulipan",
+          "kind": "word",
+          "da": "en tulipan",
+          "en": "tulip",
+          "gender": "en",
+          "forms": [
+            "tulipanen",
+            "tulipaner",
+            "tulipanerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en tulipan.",
+              "en": "I buy a tulip.",
+              "gap": "en tulipan"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-toiletpapir",
+          "kind": "word",
+          "da": "toiletpapir",
+          "en": "toilet paper",
+          "sentences": [
+            {
+              "da": "Vi skal købe toiletpapir.",
+              "en": "We need to buy toilet paper.",
+              "gap": "toiletpapir"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-tandpasta",
+          "kind": "word",
+          "da": "tandpasta",
+          "en": "toothpaste",
+          "sentences": [
+            {
+              "da": "Jeg har ikke mere tandpasta.",
+              "en": "I have no more toothpaste.",
+              "gap": "tandpasta"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-cigaret",
+          "kind": "word",
+          "da": "en cigaret",
+          "en": "cigarette",
+          "gender": "en",
+          "forms": [
+            "cigaretten",
+            "cigaretter",
+            "cigaretterne"
+          ],
+          "sentences": [
+            {
+              "da": "Han køber cigaretter.",
+              "en": "He buys cigarettes.",
+              "gap": "cigaretter"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-solcreme",
+          "kind": "word",
+          "da": "solcreme",
+          "en": "sunscreen",
+          "alt": {
+            "en": [
+              "sun cream",
+              "suncream",
+              "sunblock"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber solcreme på apoteket.",
+              "en": "I buy sunscreen at the pharmacy.",
+              "gap": "solcreme"
+            }
+          ]
+        },
+        {
+          "id": "u11-p56-panodil",
+          "kind": "word",
+          "da": "Panodil",
+          "en": "Panodil (a painkiller)",
+          "alt": {
+            "en": [
+              "Panodil"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber Panodil på apoteket.",
+              "en": "I buy Panodil at the pharmacy.",
+              "gap": "Panodil"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l13",
+      "title": "Some: nogle and noget",
+      "pages": [
+        57
+      ],
+      "taughtInClass": true,
+      "tip": "Use \"nogle\" with countable things in the plural and \"noget\" with uncountable amounts.\nExample: nogle æbler (some apples), noget vand (some water).",
+      "items": [
+        {
+          "id": "u11-p57-nogle-aebler",
+          "kind": "pattern",
+          "da": "nogle æbler",
+          "en": "some apples",
+          "sentences": [
+            {
+              "da": "nogle æbler",
+              "en": "some apples",
+              "gap": "nogle"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-nogle-bananer",
+          "kind": "pattern",
+          "da": "nogle bananer",
+          "en": "some bananas",
+          "sentences": [
+            {
+              "da": "nogle bananer",
+              "en": "some bananas",
+              "gap": "nogle"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-nogle-kopper-kaffe",
+          "kind": "pattern",
+          "da": "nogle kopper kaffe",
+          "en": "some cups of coffee",
+          "sentences": [
+            {
+              "da": "nogle kopper kaffe",
+              "en": "some cups of coffee",
+              "gap": "nogle"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-nogle-liter-maelk",
+          "kind": "pattern",
+          "da": "nogle liter mælk",
+          "en": "some litres of milk",
+          "sentences": [
+            {
+              "da": "nogle liter mælk",
+              "en": "some litres of milk",
+              "gap": "nogle"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-noget-vand",
+          "kind": "pattern",
+          "da": "noget vand",
+          "en": "some water",
+          "sentences": [
+            {
+              "da": "noget vand",
+              "en": "some water",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-noget-sukker",
+          "kind": "pattern",
+          "da": "noget sukker",
+          "en": "some sugar",
+          "sentences": [
+            {
+              "da": "noget sukker",
+              "en": "some sugar",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-noget-kaffe",
+          "kind": "pattern",
+          "da": "noget kaffe",
+          "en": "some coffee",
+          "sentences": [
+            {
+              "da": "noget kaffe",
+              "en": "some coffee",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-noget-maelk",
+          "kind": "pattern",
+          "da": "noget mælk",
+          "en": "some milk",
+          "sentences": [
+            {
+              "da": "noget mælk",
+              "en": "some milk",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-hvad-har-du-i-dit-koeleskab",
+          "kind": "phrase",
+          "da": "Hvad har du i dit køleskab?",
+          "en": "What do you have in your fridge?",
+          "sentences": [
+            {
+              "da": "Jeg har nogle æg og noget smør.",
+              "en": "I have some eggs and some butter.",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-hvad-har-du-mere",
+          "kind": "phrase",
+          "da": "Hvad har du mere?",
+          "en": "What else do you have?",
+          "sentences": [
+            {
+              "da": "Jeg har også noget ost.",
+              "en": "I also have some cheese.",
+              "gap": "noget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-koeleskab",
+          "kind": "word",
+          "da": "et køleskab",
+          "en": "fridge",
+          "gender": "et",
+          "forms": [
+            "køleskabet",
+            "køleskabe"
+          ],
+          "sentences": [
+            {
+              "da": "Der er mælk i køleskabet.",
+              "en": "There is milk in the fridge.",
+              "gap": "køleskabet"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-fryser",
+          "kind": "word",
+          "da": "en fryser",
+          "en": "freezer",
+          "gender": "en",
+          "forms": [
+            "fryseren",
+            "frysere"
+          ],
+          "sentences": [
+            {
+              "da": "Der er kød i fryseren.",
+              "en": "There is meat in the freezer.",
+              "gap": "fryseren"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-olivenolie",
+          "kind": "word",
+          "da": "olivenolie",
+          "en": "olive oil",
+          "sentences": [
+            {
+              "da": "Jeg har noget olivenolie.",
+              "en": "I have some olive oil.",
+              "gap": "olivenolie"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-salt-noun",
+          "kind": "word",
+          "da": "salt",
+          "en": "salt",
+          "sentences": [
+            {
+              "da": "Jeg skal have noget salt.",
+              "en": "I need some salt.",
+              "gap": "salt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-boenne",
+          "kind": "word",
+          "da": "en bønne",
+          "en": "bean",
+          "gender": "en",
+          "forms": [
+            "bønnen",
+            "bønner",
+            "bønnerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg har nogle bønner.",
+              "en": "I have some beans.",
+              "gap": "bønner"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-piskefloede",
+          "kind": "word",
+          "da": "piskefløde",
+          "en": "whipping cream",
+          "sentences": [
+            {
+              "da": "Jeg køber piskefløde til kagen.",
+              "en": "I buy whipping cream for the cake.",
+              "gap": "piskefløde"
+            }
+          ]
+        },
+        {
+          "id": "u11-p57-vand",
+          "kind": "word",
+          "da": "vand",
+          "en": "water",
+          "sentences": [
+            {
+              "da": "Jeg drikker meget vand.",
+              "en": "I drink a lot of water.",
+              "gap": "vand"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "nogle æbler",
+          "en": "some apples",
+          "tip": "\"nogle\" is said roughly \"non\""
+        },
+        {
+          "da": "noget vand",
+          "en": "some water",
+          "tip": "\"noget\" is said roughly \"nåð\""
+        }
+      ]
+    },
+    {
+      "id": "u11-l14",
+      "title": "Containers",
+      "pages": [
+        58
+      ],
+      "taughtInClass": false,
+      "tip": "A container or measure comes before the thing in it, with no word for \"of\": en pose æbler (a bag of apples), en flaske vin (a bottle of wine).",
+      "items": [
+        {
+          "id": "u11-p58-pose",
+          "kind": "word",
+          "da": "en pose",
+          "en": "bag (shopping bag)",
+          "gender": "en",
+          "forms": [
+            "posen",
+            "poser",
+            "poserne"
+          ],
+          "alt": {
+            "en": [
+              "carrier bag",
+              "shopping bag",
+              "plastic bag",
+              "bag"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Har du en pose?",
+              "en": "Do you have a bag?",
+              "gap": "en pose"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-pakke",
+          "kind": "word",
+          "da": "en pakke",
+          "en": "packet, package",
+          "gender": "en",
+          "forms": [
+            "pakken",
+            "pakker",
+            "pakkerne"
+          ],
+          "alt": {
+            "en": [
+              "package",
+              "packet"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber en pakke kaffe.",
+              "en": "I buy a packet of coffee.",
+              "gap": "en pakke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-bakke",
+          "kind": "word",
+          "da": "en bakke",
+          "en": "tray, punnet",
+          "gender": "en",
+          "forms": [
+            "bakken",
+            "bakker",
+            "bakkerne"
+          ],
+          "alt": {
+            "en": [
+              "punnet",
+              "tray"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi køber en bakke jordbær.",
+              "en": "We buy a punnet of strawberries.",
+              "gap": "en bakke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-flaske",
+          "kind": "word",
+          "da": "en flaske",
+          "en": "bottle",
+          "gender": "en",
+          "forms": [
+            "flasken",
+            "flasker",
+            "flaskerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en flaske vand.",
+              "en": "I buy a bottle of water.",
+              "gap": "en flaske"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-glas",
+          "kind": "word",
+          "da": "et glas",
+          "en": "jar, glass",
+          "gender": "et",
+          "forms": [
+            "glasset",
+            "glas"
+          ],
+          "alt": {
+            "en": [
+              "jar",
+              "glass"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun drikker et glas vand.",
+              "en": "She drinks a glass of water.",
+              "gap": "et glas"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-tube",
+          "kind": "word",
+          "da": "en tube",
+          "en": "tube",
+          "gender": "en",
+          "forms": [
+            "tuben",
+            "tuber",
+            "tuberne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg køber en tube tandpasta.",
+              "en": "I buy a tube of toothpaste.",
+              "gap": "en tube"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-aeske",
+          "kind": "word",
+          "da": "en æske",
+          "en": "box",
+          "gender": "en",
+          "forms": [
+            "æsken",
+            "æsker",
+            "æskerne"
+          ],
+          "sentences": [
+            {
+              "da": "Vi har en æske i skabet.",
+              "en": "We have a box in the cupboard.",
+              "gap": "en æske"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-buket",
+          "kind": "word",
+          "da": "en buket",
+          "en": "bouquet",
+          "gender": "en",
+          "forms": [
+            "buketten",
+            "buketter",
+            "buketterne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun får en buket.",
+              "en": "She gets a bouquet.",
+              "gap": "en buket"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-pose-aebler",
+          "kind": "phrase",
+          "da": "en pose æbler",
+          "en": "a bag of apples",
+          "sentences": [
+            {
+              "da": "Jeg køber en pose æbler.",
+              "en": "I buy a bag of apples.",
+              "gap": "pose"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-pakke-smoer",
+          "kind": "phrase",
+          "da": "en pakke smør",
+          "en": "a packet of butter",
+          "sentences": [
+            {
+              "da": "Vi skal have en pakke smør.",
+              "en": "We need a packet of butter.",
+              "gap": "pakke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-bakke-aeg",
+          "kind": "phrase",
+          "da": "en bakke æg",
+          "en": "a tray of eggs",
+          "alt": {
+            "en": [
+              "a carton of eggs"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun køber en bakke æg.",
+              "en": "She buys a tray of eggs.",
+              "gap": "bakke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-daase-majs",
+          "kind": "phrase",
+          "da": "en dåse majs",
+          "en": "a can of sweetcorn",
+          "alt": {
+            "en": [
+              "a tin of sweetcorn",
+              "a can of corn",
+              "a tin of corn"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg skal bruge en dåse majs.",
+              "en": "I need a can of sweetcorn.",
+              "gap": "dåse"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-et-stykke-ost",
+          "kind": "phrase",
+          "da": "et stykke ost",
+          "en": "a piece of cheese",
+          "sentences": [
+            {
+              "da": "Han spiser et stykke ost.",
+              "en": "He eats a piece of cheese.",
+              "gap": "stykke"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-flaske-vin",
+          "kind": "phrase",
+          "da": "en flaske vin",
+          "en": "a bottle of wine",
+          "sentences": [
+            {
+              "da": "Vi drikker en flaske vin.",
+              "en": "We drink a bottle of wine.",
+              "gap": "flaske"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-et-glas-marmelade",
+          "kind": "phrase",
+          "da": "et glas marmelade",
+          "en": "a jar of jam",
+          "alt": {
+            "en": [
+              "a jar of marmalade",
+              "a jar of jelly"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber et glas marmelade.",
+              "en": "I buy a jar of jam.",
+              "gap": "glas"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-tube-mayonnaise",
+          "kind": "phrase",
+          "da": "en tube mayonnaise",
+          "en": "a tube of mayonnaise",
+          "sentences": [
+            {
+              "da": "Vi har en tube mayonnaise.",
+              "en": "We have a tube of mayonnaise.",
+              "gap": "tube"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-aeske-chokolade",
+          "kind": "phrase",
+          "da": "en æske chokolade",
+          "en": "a box of chocolates",
+          "alt": {
+            "en": [
+              "a box of chocolate"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun får en æske chokolade.",
+              "en": "She gets a box of chocolates.",
+              "gap": "æske"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-buket-blomster",
+          "kind": "phrase",
+          "da": "en buket blomster",
+          "en": "a bouquet of flowers",
+          "sentences": [
+            {
+              "da": "Jeg køber en buket blomster.",
+              "en": "I buy a bouquet of flowers.",
+              "gap": "buket"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "en pose æbler",
+          "en": "a bag of apples",
+          "tip": "with several nouns together, only the last noun is stressed; the -e on pose, pakke and flaske is weakened"
+        },
+        {
+          "da": "en flaske vin",
+          "en": "a bottle of wine",
+          "tip": "the stress falls on \"vin\"; \"flaske\" is unstressed"
+        },
+        {
+          "da": "en tube mayonnaise",
+          "en": "a tube of mayonnaise",
+          "tip": "the stress is on the last noun"
+        }
+      ]
+    },
+    {
+      "id": "u11-l15",
+      "title": "Measures and more food",
+      "pages": [
+        58
+      ],
+      "taughtInClass": false,
+      "items": [
+        {
+          "id": "u11-p58-gram",
+          "kind": "word",
+          "da": "et gram",
+          "en": "gram",
+          "gender": "et",
+          "forms": [
+            "grammet",
+            "gram"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg skal have hundrede gram ost.",
+              "en": "I need a hundred grams of cheese.",
+              "gap": "gram"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-liter",
+          "kind": "word",
+          "da": "en liter",
+          "en": "litre",
+          "gender": "en",
+          "forms": [
+            "literen",
+            "liter"
+          ],
+          "alt": {
+            "en": [
+              "liter"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber en liter mælk.",
+              "en": "I buy a litre of milk.",
+              "gap": "liter"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-et-halvt-kilo",
+          "kind": "phrase",
+          "da": "et halvt kilo",
+          "en": "half a kilo",
+          "alt": {
+            "en": [
+              "half a kilogram"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have et halvt kilo ost.",
+              "en": "I would like half a kilo of cheese.",
+              "gap": "halvt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-halv-liter",
+          "kind": "phrase",
+          "da": "en halv liter",
+          "en": "half a litre",
+          "alt": {
+            "en": [
+              "half a liter"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi køber en halv liter fløde.",
+              "en": "We buy half a litre of cream.",
+              "gap": "halv"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-en-kvart-liter",
+          "kind": "phrase",
+          "da": "en kvart liter",
+          "en": "a quarter of a litre",
+          "alt": {
+            "en": [
+              "a quarter litre",
+              "a quarter of a liter",
+              "a quarter liter"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg skal have en kvart liter mælk.",
+              "en": "I need a quarter litre of milk.",
+              "gap": "kvart"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-taendstik",
+          "kind": "word",
+          "da": "en tændstik",
+          "en": "match",
+          "gender": "en",
+          "forms": [
+            "tændstikken",
+            "tændstikker",
+            "tændstikkerne"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg har en tændstik.",
+              "en": "I have a match.",
+              "gap": "en tændstik"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-tun",
+          "kind": "word",
+          "da": "tun",
+          "en": "tuna",
+          "sentences": [
+            {
+              "da": "Jeg spiser tun til frokost.",
+              "en": "I eat tuna for lunch.",
+              "gap": "tun"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-roedvin",
+          "kind": "word",
+          "da": "rødvin",
+          "en": "red wine",
+          "sentences": [
+            {
+              "da": "Vi drikker rødvin til maden.",
+              "en": "We drink red wine with the meal.",
+              "gap": "rødvin"
+            }
+          ]
+        },
+        {
+          "id": "u11-p58-honning",
+          "kind": "word",
+          "da": "honning",
+          "en": "honey",
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have honning i teen.",
+              "en": "I would like honey in my tea.",
+              "gap": "honning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l16",
+      "title": "Money",
+      "pages": [
+        59
+      ],
+      "taughtInClass": true,
+      "tip": "Say \"kroner\" only for whole amounts: ni kroner. With decimals say the two numbers: 2,95 = to femoghalvfems. 1,50 is \"halvanden krone\".",
+      "items": [
+        {
+          "id": "u11-p59-oere",
+          "kind": "word",
+          "da": "en øre",
+          "en": "øre (a hundredth of a krone)",
+          "gender": "en",
+          "forms": [
+            "øre"
+          ],
+          "sentences": [
+            {
+              "da": "Det koster halvtreds øre.",
+              "en": "It costs fifty øre.",
+              "gap": "øre"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-krone",
+          "kind": "word",
+          "da": "en krone",
+          "en": "krone (Danish currency)",
+          "gender": "en",
+          "forms": [
+            "kronen",
+            "kroner",
+            "kronerne"
+          ],
+          "sentences": [
+            {
+              "da": "Det koster ti kroner.",
+              "en": "It costs ten kroner.",
+              "gap": "kroner"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-femmer",
+          "kind": "word",
+          "da": "en femmer",
+          "en": "five-krone coin",
+          "gender": "en",
+          "forms": [
+            "femmeren",
+            "femmere"
+          ],
+          "alt": {
+            "en": [
+              "5-krone coin",
+              "a 5 kroner coin"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en femmer.",
+              "en": "I have a five-krone coin.",
+              "gap": "en femmer"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-tier",
+          "kind": "word",
+          "da": "en tier",
+          "en": "ten-krone coin",
+          "gender": "en",
+          "forms": [
+            "tieren",
+            "tiere"
+          ],
+          "alt": {
+            "en": [
+              "10-krone coin"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en tier.",
+              "en": "I have a ten-krone coin.",
+              "gap": "en tier"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-tyver",
+          "kind": "word",
+          "da": "en tyver",
+          "en": "twenty-krone coin",
+          "gender": "en",
+          "forms": [
+            "tyveren",
+            "tyvere"
+          ],
+          "alt": {
+            "en": [
+              "20-krone coin"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en tyver.",
+              "en": "I have a twenty-krone coin.",
+              "gap": "en tyver"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-halvtreds-er",
+          "kind": "word",
+          "da": "en 50'er",
+          "en": "fifty-krone note",
+          "gender": "en",
+          "alt": {
+            "en": [
+              "50-krone note"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg har en 50'er.",
+              "en": "I have a fifty-krone note.",
+              "gap": "50'er"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-hund",
+          "kind": "word",
+          "da": "en hund",
+          "en": "hundred-krone note",
+          "gender": "en",
+          "forms": [
+            "hunden",
+            "hunde"
+          ],
+          "alt": {
+            "en": [
+              "100-krone note"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg skal bruge en hund.",
+              "en": "I need a hundred-krone note.",
+              "gap": "en hund"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-tusse",
+          "kind": "word",
+          "da": "en tusse",
+          "en": "thousand-krone note",
+          "gender": "en",
+          "forms": [
+            "tussen",
+            "tusser"
+          ],
+          "alt": {
+            "en": [
+              "1000-krone note"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han har en tusse.",
+              "en": "He has a thousand-krone note.",
+              "gap": "en tusse"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-halvanden-krone",
+          "kind": "phrase",
+          "da": "halvanden krone",
+          "en": "one and a half kroner",
+          "alt": {
+            "en": [
+              "1.50 kroner"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det koster halvanden krone.",
+              "en": "It costs one and a half kroner.",
+              "gap": "halvanden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11-l17",
+      "title": "Asking about prices",
+      "pages": [
+        59
+      ],
+      "taughtInClass": true,
+      "tip": "Answer a price question with \"den\" for en-words, \"det\" for et-words and \"de\" for plurals.\nExample: Hvad koster et æble? Det koster tre kroner.",
+      "items": [
+        {
+          "id": "u11-p59-hvad-koster-en-agurk",
+          "kind": "phrase",
+          "da": "Hvad koster en agurk?",
+          "en": "What does a cucumber cost?",
+          "sentences": [
+            {
+              "da": "Den koster tolv kroner.",
+              "en": "It costs twelve kroner.",
+              "gap": "Den"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-hvad-koster-et-aeble",
+          "kind": "phrase",
+          "da": "Hvad koster et æble?",
+          "en": "What does an apple cost?",
+          "sentences": [
+            {
+              "da": "Det koster tre kroner.",
+              "en": "It costs three kroner.",
+              "gap": "Det"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-hvad-koster-2-liter-maelk",
+          "kind": "phrase",
+          "da": "Hvad koster 2 liter mælk?",
+          "en": "What does 2 litres of milk cost?",
+          "alt": {
+            "en": [
+              "What do 2 litres of milk cost?",
+              "What does 2 liters of milk cost?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "De koster tyve kroner.",
+              "en": "They cost twenty kroner.",
+              "gap": "De"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-hvad-koster-en-buket-roser",
+          "kind": "phrase",
+          "da": "Hvad koster en buket roser?",
+          "en": "How much is a bouquet of roses?",
+          "alt": {
+            "en": [
+              "What does a bouquet of roses cost?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Den koster 59,95.",
+              "en": "It costs 59.95.",
+              "gap": "koster"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-den-koster-tolv-kroner",
+          "kind": "pattern",
+          "da": "Den koster tolv kroner.",
+          "en": "It costs twelve kroner (en-word).",
+          "sentences": [
+            {
+              "da": "Den koster tolv kroner.",
+              "en": "It costs twelve kroner (en-word).",
+              "gap": "Den"
+            }
+          ],
+          "alt": {
+            "en": [
+              "It costs twelve kroner."
+            ]
+          }
+        },
+        {
+          "id": "u11-p59-det-koster-tre-kroner",
+          "kind": "pattern",
+          "da": "Det koster tre kroner.",
+          "en": "It costs three kroner (et-word).",
+          "sentences": [
+            {
+              "da": "Det koster tre kroner.",
+              "en": "It costs three kroner (et-word).",
+              "gap": "Det"
+            }
+          ],
+          "alt": {
+            "en": [
+              "It costs three kroner."
+            ]
+          }
+        },
+        {
+          "id": "u11-p59-de-koster-tyve-kroner",
+          "kind": "pattern",
+          "da": "De koster tyve kroner.",
+          "en": "They cost twenty kroner (plural).",
+          "sentences": [
+            {
+              "da": "De koster tyve kroner.",
+              "en": "They cost twenty kroner (plural).",
+              "gap": "De"
+            }
+          ],
+          "alt": {
+            "en": [
+              "They cost twenty kroner."
+            ]
+          }
+        },
+        {
+          "id": "u11-p59-det-var-billigt",
+          "kind": "phrase",
+          "da": "Det var billigt.",
+          "en": "That was cheap.",
+          "sentences": [
+            {
+              "da": "Det var billigt.",
+              "en": "That was cheap.",
+              "gap": "billigt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-det-var-dyrt",
+          "kind": "phrase",
+          "da": "Det var dyrt.",
+          "en": "That was expensive.",
+          "sentences": [
+            {
+              "da": "Det var dyrt.",
+              "en": "That was expensive.",
+              "gap": "dyrt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-snaps",
+          "kind": "word",
+          "da": "snaps",
+          "en": "schnapps",
+          "sentences": [
+            {
+              "da": "Han drikker snaps til maden.",
+              "en": "He drinks schnapps with the meal.",
+              "gap": "snaps"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-kaviar",
+          "kind": "word",
+          "da": "kaviar",
+          "en": "caviar",
+          "sentences": [
+            {
+              "da": "Kaviar er dyrt.",
+              "en": "Caviar is expensive.",
+              "gap": "Kaviar"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-pasta",
+          "kind": "word",
+          "da": "pasta",
+          "en": "pasta",
+          "sentences": [
+            {
+              "da": "Jeg spiser pasta i aften.",
+              "en": "I eat pasta tonight.",
+              "gap": "pasta"
+            }
+          ]
+        },
+        {
+          "id": "u11-p59-oliven",
+          "kind": "word",
+          "da": "en oliven",
+          "en": "olive",
+          "gender": "en",
+          "alt": {
+            "en": [
+              "olives"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi køber oliven.",
+              "en": "We buy olives.",
+              "gap": "oliven"
+            }
+          ],
+          "forms": [
+            "olivenen",
+            "oliven",
+            "olivenerne"
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hvad koster en buket roser?",
+          "en": "How much is a bouquet of roses?"
+        },
+        {
+          "da": "Det var billigt.",
+          "en": "That was cheap."
+        }
+      ]
+    },
+    {
+      "id": "u11-l18",
+      "title": "In the shop",
+      "pages": [
+        60
+      ],
+      "taughtInClass": true,
+      "items": [
+        {
+          "id": "u11-p60-hvad-skulle-det-vaere",
+          "kind": "phrase",
+          "da": "Hvad skulle det være?",
+          "en": "What would you like?",
+          "alt": {
+            "en": [
+              "What can I get you?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg skal have noget hakket oksekød.",
+              "en": "I need some minced beef.",
+              "gap": "skal"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvor-meget-skal-du-bruge",
+          "kind": "phrase",
+          "da": "Hvor meget skal du bruge?",
+          "en": "How much do you need?",
+          "sentences": [
+            {
+              "da": "Et halvt kilo.",
+              "en": "Half a kilo.",
+              "gap": "halvt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvad-er-kiloprisen",
+          "kind": "phrase",
+          "da": "Hvad er kiloprisen?",
+          "en": "What is the price per kilo?",
+          "sentences": [
+            {
+              "da": "Kiloprisen er 75,50.",
+              "en": "The price per kilo is 75.50.",
+              "gap": "Kiloprisen"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-var-der-ellers-andet",
+          "kind": "phrase",
+          "da": "Var der ellers andet?",
+          "en": "Was there anything else?",
+          "sentences": [
+            {
+              "da": "Ja, jeg skal også have nogle grillpølser.",
+              "en": "Yes, I also need some grill sausages.",
+              "gap": "også"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvor-mange-skal-du-bruge",
+          "kind": "phrase",
+          "da": "Hvor mange skal du bruge?",
+          "en": "How many do you need?",
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have ti stykker.",
+              "en": "I'd like ten pieces.",
+              "gap": "stykker"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvor-meget-bliver-det",
+          "kind": "phrase",
+          "da": "Hvor meget bliver det?",
+          "en": "How much does that come to?",
+          "alt": {
+            "en": [
+              "How much is that?",
+              "How much will that be?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det bliver 82 kroner.",
+              "en": "That comes to 82 kroner.",
+              "gap": "bliver"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvis-tur-er-det",
+          "kind": "phrase",
+          "da": "Hvis tur er det?",
+          "en": "Whose turn is it?",
+          "sentences": [
+            {
+              "da": "Det er mig.",
+              "en": "It's me.",
+              "gap": "mig"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hvad-kan-jeg-hjaelpe-med",
+          "kind": "phrase",
+          "da": "Hvad kan jeg hjælpe med?",
+          "en": "What can I help with?",
+          "alt": {
+            "en": [
+              "How can I help?",
+              "What can I help you with?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have en pose tomater.",
+              "en": "I'd like a bag of tomatoes.",
+              "gap": "pose"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-ellers-andet",
+          "kind": "phrase",
+          "da": "Ellers andet?",
+          "en": "Anything else?",
+          "alt": {
+            "en": [
+              "Anything else",
+              "Something else?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Nej tak.",
+              "en": "No thanks.",
+              "gap": "tak"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-var-der-mere",
+          "kind": "phrase",
+          "da": "Var der mere?",
+          "en": "Anything more?",
+          "sentences": [
+            {
+              "da": "Nej tak, det var det hele.",
+              "en": "No thanks, that's everything.",
+              "gap": "hele"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-har-i-noget-letmaelk",
+          "kind": "phrase",
+          "da": "Har I noget letmælk?",
+          "en": "Do you have any semi-skimmed milk?",
+          "alt": {
+            "en": [
+              "Do you have any low-fat milk?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Nej desværre, det er udsolgt.",
+              "en": "No, sorry, it's sold out.",
+              "gap": "udsolgt"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-det-bliver-52-50",
+          "kind": "phrase",
+          "da": "Det bliver 52,50.",
+          "en": "That comes to 52.50.",
+          "alt": {
+            "en": [
+              "That will be 52.50.",
+              "That's 52.50."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det bliver 52,50.",
+              "en": "That comes to 52.50.",
+              "gap": "bliver"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-saa-tager-jeg-en-liter-soedmaelk",
+          "kind": "phrase",
+          "da": "Så tager jeg en liter sødmælk.",
+          "en": "Then I'll take a litre of whole milk.",
+          "alt": {
+            "en": [
+              "Then I'll take a liter of whole milk."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Så tager jeg en liter sødmælk.",
+              "en": "Then I'll take a litre of whole milk.",
+              "gap": "tager"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-goddag",
+          "kind": "phrase",
+          "da": "Goddag.",
+          "en": "Hello, good day.",
+          "alt": {
+            "en": [
+              "Hello.",
+              "Good day."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Goddag, hvad skulle det være?",
+              "en": "Hello, what would you like?",
+              "gap": "Goddag"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-tak-farvel-og-tak",
+          "kind": "phrase",
+          "da": "Tak. Farvel og tak.",
+          "en": "Thanks. Goodbye and thanks.",
+          "sentences": [
+            {
+              "da": "Tak. Farvel og tak.",
+              "en": "Thanks. Goodbye and thanks.",
+              "gap": "Farvel"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-nej-tak-oeh-jo-forresten",
+          "kind": "phrase",
+          "da": "Nej tak. Øh, jo forresten.",
+          "en": "No thanks. Er, yes actually.",
+          "sentences": [
+            {
+              "da": "Nej tak. Øh, jo forresten, en liter mælk.",
+              "en": "No thanks. Er, yes actually, a litre of milk.",
+              "gap": "forresten"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hvad skulle det være?",
+          "en": "What would you like?",
+          "tip": "\"hvad skulle det\" is weakly pronounced; stress \"være\""
+        },
+        {
+          "da": "Hvor meget bliver det?",
+          "en": "How much does that come to?",
+          "tip": "\"hvor meget\" is said roughly \"vɔ mað\" (\"hvor mange\" is roughly \"vɔ maŋ\")"
+        },
+        {
+          "da": "Tak. Farvel og tak.",
+          "en": "Thanks. Goodbye and thanks."
+        }
+      ]
+    },
+    {
+      "id": "u11-l19",
+      "title": "Asking for things and amounts",
+      "pages": [
+        60
+      ],
+      "taughtInClass": true,
+      "tip": "Ask for things with \"Jeg skal have …\" or \"Jeg vil gerne have …\".\n\"noget\" (uncountable) goes with \"hvor meget\"; \"nogle\" (countable) goes with \"hvor mange\".",
+      "items": [
+        {
+          "id": "u11-p60-jeg-skal-have-noget-hakket-oksekoed",
+          "kind": "pattern",
+          "da": "Jeg skal have noget hakket oksekød.",
+          "en": "I need some minced beef.",
+          "sentences": [
+            {
+              "da": "Jeg skal have noget hakket oksekød.",
+              "en": "I need some minced beef.",
+              "gap": "skal"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-jeg-vil-gerne-have-nogle-loeg",
+          "kind": "pattern",
+          "da": "Jeg vil gerne have nogle løg.",
+          "en": "I'd like some onions.",
+          "sentences": [
+            {
+              "da": "Jeg vil gerne have nogle løg.",
+              "en": "I'd like some onions.",
+              "gap": "vil gerne"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-noget-hvor-meget",
+          "kind": "pattern",
+          "da": "Jeg skal have noget mælk. Hvor meget?",
+          "en": "I need some milk. How much?",
+          "sentences": [
+            {
+              "da": "Jeg skal have noget mælk. Hvor meget?",
+              "en": "I need some milk. How much?",
+              "gap": "meget"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-nogle-hvor-mange",
+          "kind": "pattern",
+          "da": "Jeg skal have nogle æbler. Hvor mange?",
+          "en": "I need some apples. How many?",
+          "sentences": [
+            {
+              "da": "Jeg skal have nogle æbler. Hvor mange?",
+              "en": "I need some apples. How many?",
+              "gap": "mange"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-hakket-oksekoed",
+          "kind": "word",
+          "da": "hakket oksekød",
+          "en": "minced beef",
+          "alt": {
+            "en": [
+              "ground beef",
+              "mince"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg skal have noget hakket oksekød.",
+              "en": "I need some minced beef.",
+              "gap": "hakket oksekød"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-grillpoelse",
+          "kind": "word",
+          "da": "en grillpølse",
+          "en": "grill sausage",
+          "gender": "en",
+          "forms": [
+            "grillpølsen",
+            "grillpølser",
+            "grillpølserne"
+          ],
+          "sentences": [
+            {
+              "da": "Vi har nogle grillpølser.",
+              "en": "We have some grill sausages.",
+              "gap": "grillpølser"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-kilopris",
+          "kind": "word",
+          "da": "en kilopris",
+          "en": "price per kilo",
+          "gender": "en",
+          "forms": [
+            "kiloprisen",
+            "kilopriser"
+          ],
+          "sentences": [
+            {
+              "da": "Kiloprisen er 75 kroner.",
+              "en": "The price per kilo is 75 kroner.",
+              "gap": "Kiloprisen"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-letmaelk",
+          "kind": "word",
+          "da": "letmælk",
+          "en": "semi-skimmed milk",
+          "alt": {
+            "en": [
+              "low-fat milk"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg køber letmælk.",
+              "en": "I buy semi-skimmed milk.",
+              "gap": "letmælk"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-soedmaelk",
+          "kind": "word",
+          "da": "sødmælk",
+          "en": "whole milk",
+          "alt": {
+            "en": [
+              "full-fat milk"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Børnene drikker sødmælk.",
+              "en": "The children drink whole milk.",
+              "gap": "sødmælk"
+            }
+          ]
+        },
+        {
+          "id": "u11-p60-udsolgt",
+          "kind": "word",
+          "da": "udsolgt",
+          "en": "sold out",
+          "sentences": [
+            {
+              "da": "Kaffen er udsolgt.",
+              "en": "The coffee is sold out.",
+              "gap": "udsolgt"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Jeg vil gerne have nogle løg.",
+          "en": "I'd like some onions.",
+          "tip": "\"Jeg vil gerne have nogle\" is said weakly; the stress is on \"løg\""
+        }
+      ]
+    }
+  ]
+}

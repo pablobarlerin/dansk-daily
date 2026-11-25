@@ -1,0 +1,401 @@
+{
+  "id": "u03",
+  "order": 3,
+  "title": "Præsentation 2",
+  "subtitle": "Talking about your life in Denmark: family, work and getting around",
+  "pages": [19, 20, 21, 22, 23, 24, 25, 26],
+  "lessons": [
+    {
+      "id": "u03-l01",
+      "title": "Maria: ikke, kun and også",
+      "pages": [19],
+      "taughtInClass": true,
+      "tip": "The little words ikke (not), kun (only) and også (also) go right after the verb in a statement: Hun forstår ikke dansk.\nIn a yes/no question the verb comes first, then the subject, then the little word: Er han også brasilianer?",
+      "items": [
+        { "id": "u03-p19-sarah-kommer-ogsaa-fra-brasilien", "kind": "pattern", "da": "Sarah kommer også fra Brasilien.", "en": "Sarah also comes from Brazil.", "alt": { "en": ["Sarah is also from Brazil."] },
+          "sentences": [ { "da": "Sarah kommer også fra Brasilien.", "en": "Sarah also comes from Brazil.", "gap": "også" } ] },
+        { "id": "u03-p19-er-han-ogsaa-brasilianer", "kind": "pattern", "da": "Er han også brasilianer?", "en": "Is he also Brazilian?",
+          "sentences": [ { "da": "Er han også brasilianer?", "en": "Is he also Brazilian?", "gap": "også" } ] },
+        { "id": "u03-p19-ikke", "kind": "word", "da": "ikke", "en": "not",
+          "sentences": [ { "da": "Hun bor ikke i Odense.", "en": "She does not live in Odense.", "gap": "ikke" }, { "da": "Han taler ikke engelsk.", "en": "He does not speak English.", "gap": "ikke" }, { "da": "Han er ikke dansker.", "en": "He is not Danish.", "gap": "ikke" } ] },
+        { "id": "u03-p19-kun", "kind": "word", "da": "kun", "en": "only",
+          "sentences": [ { "da": "Sarah taler kun portugisisk.", "en": "Sarah only speaks Portuguese.", "gap": "kun" }, { "da": "Han taler kun engelsk.", "en": "He only speaks English.", "gap": "kun" }, { "da": "Jeg har kun været her i en måned.", "en": "I have only been here for a month.", "gap": "kun" } ] },
+        { "id": "u03-p19-har-vaeret-i-danmark", "kind": "phrase", "da": "Hun har været i Danmark i to år og syv måneder.", "en": "She has been in Denmark for two years and seven months.",
+          "sentences": [ { "da": "Hun har været her i syv måneder.", "en": "She has been here for seven months.", "gap": "været" } ] },
+        { "id": "u03-p19-bor-sammen-med-en-veninde", "kind": "phrase", "da": "Hun bor sammen med en veninde.", "en": "She lives together with a female friend.", "alt": { "en": ["She lives with a female friend."] },
+          "sentences": [ { "da": "Hun bor sammen med en veninde.", "en": "She lives together with a female friend.", "gap": "sammen" } ] },
+        { "id": "u03-p19-ikke-nogen-boern", "kind": "phrase", "da": "Hun har ikke nogen børn.", "en": "She doesn't have any children.", "alt": { "en": ["She has no children."] },
+          "sentences": [ { "da": "Hun har ikke nogen børn.", "en": "She doesn't have any children.", "gap": "nogen" } ] },
+        { "id": "u03-p19-bor-ikke-alene", "kind": "phrase", "da": "Hun bor ikke alene.", "en": "She doesn't live alone.",
+          "sentences": [ { "da": "Hun bor ikke alene.", "en": "She doesn't live alone.", "gap": "ikke" } ] },
+        { "id": "u03-p19-forstaar-ikke-dansk", "kind": "phrase", "da": "Hun forstår ikke dansk.", "en": "She does not understand Danish.", "alt": { "en": ["She doesn't understand Danish."] },
+          "sentences": [ { "da": "Hun forstår ikke dansk.", "en": "She does not understand Danish.", "gap": "forstår" } ] },
+        { "id": "u03-p19-savner-brasilien", "kind": "phrase", "da": "Hun savner Brasilien.", "en": "She misses Brazil.",
+          "sentences": [ { "da": "Hun savner Brasilien.", "en": "She misses Brazil.", "gap": "savner" } ] },
+        { "id": "u03-p19-hun-er-ikke-gift", "kind": "phrase", "da": "Hun er ikke gift.", "en": "She is not married.", "alt": { "en": ["She isn't married."] },
+          "sentences": [ { "da": "Hun er ikke gift.", "en": "She is not married.", "gap": "ikke" } ] }
+      ],
+      "repeatLines": [
+        { "da": "Hun taler godt dansk nu.", "en": "She speaks Danish well now." },
+        { "da": "Sarah taler kun portugisisk.", "en": "Sarah only speaks Portuguese.", "tip": "ikke is said [eg], kun [kån], også [ɔs]." }
+      ]
+    },
+    {
+      "id": "u03-l02",
+      "title": "Time in Denmark, partners and children",
+      "pages": [20],
+      "taughtInClass": true,
+      "tip": "Use i for how long something lasts: i et år, i tre uger, i to måneder.\nHalf years: et halvt år (6 months), halvandet år (1½ years), to et halvt år (2½ years).",
+      "items": [
+        { "id": "u03-p20-hvor-laenge-har-du-vaeret-i-danmark", "kind": "phrase", "da": "Hvor længe har du været i Danmark?", "en": "How long have you been in Denmark?",
+          "sentences": [ { "da": "Jeg har været her i et år og tre måneder.", "en": "I have been here for one year and three months.", "gap": "været" } ] },
+        { "id": "u03-p20-er-du-gift", "kind": "phrase", "da": "Er du gift?", "en": "Are you married?",
+          "sentences": [ { "da": "Ja, det er jeg.", "en": "Yes, I am.", "gap": "er" } ] },
+        { "id": "u03-p20-er-din-mand-dansker", "kind": "phrase", "da": "Er din mand dansker?", "en": "Is your husband Danish?",
+          "sentences": [ { "da": "Nej, det er han ikke. Han er vietnameser.", "en": "No, he isn't. He is Vietnamese.", "gap": "vietnameser" } ] },
+        { "id": "u03-p20-taler-din-mand-dansk", "kind": "phrase", "da": "Taler din mand dansk?", "en": "Does your husband speak Danish?",
+          "sentences": [ { "da": "Ja, det gør han.", "en": "Yes, he does.", "gap": "gør" } ] },
+        { "id": "u03-p20-har-du-boern", "kind": "phrase", "da": "Har du børn?", "en": "Do you have children?",
+          "sentences": [ { "da": "Ja, det har jeg.", "en": "Yes, I do.", "gap": "har" } ] },
+        { "id": "u03-p20-hvor-mange-boern-har-du", "kind": "phrase", "da": "Hvor mange børn har du?", "en": "How many children do you have?",
+          "sentences": [ { "da": "Jeg har to børn, en pige og en dreng.", "en": "I have two children, a girl and a boy.", "gap": "har" } ] },
+        { "id": "u03-p20-har-du-en-kaereste", "kind": "phrase", "da": "Har du en kæreste, en ven eller en veninde?", "en": "Do you have a partner, a friend or a female friend?",
+          "sentences": [ { "da": "Nej, men jeg har en veninde.", "en": "No, but I have a female friend.", "gap": "veninde" } ] },
+        { "id": "u03-p20-i-et-aar", "kind": "pattern", "da": "i et år", "en": "for a year",
+          "sentences": [ { "da": "Han har været her i et år.", "en": "He has been here for a year.", "gap": "i" } ] },
+        { "id": "u03-p20-i-tre-uger", "kind": "pattern", "da": "i tre uger", "en": "for three weeks",
+          "sentences": [ { "da": "Hun er her i tre uger.", "en": "She is here for three weeks.", "gap": "uger" } ] },
+        { "id": "u03-p20-et-halvt-aar", "kind": "pattern", "da": "et halvt år", "en": "half a year", "alt": { "en": ["six months"] },
+          "sentences": [ { "da": "Seks måneder er et halvt år.", "en": "Six months is half a year.", "gap": "halvt" } ] },
+        { "id": "u03-p20-halvandet-aar", "kind": "pattern", "da": "halvandet år", "en": "one and a half years", "alt": { "en": ["a year and a half"] },
+          "sentences": [ { "da": "Han har været her i halvandet år.", "en": "He has been here for one and a half years.", "gap": "halvandet" } ] },
+        { "id": "u03-p20-to-et-halvt-aar", "kind": "pattern", "da": "to et halvt år", "en": "two and a half years",
+          "sentences": [ { "da": "Hun har været her i to et halvt år.", "en": "She has been here for two and a half years.", "gap": "halvt" } ] },
+        { "id": "u03-p20-pige", "kind": "word", "da": "en pige", "en": "girl", "gender": "en",
+          "sentences": [ { "da": "Hun har en pige på tre år.", "en": "She has a girl of three.", "gap": "pige" } ] },
+        { "id": "u03-p20-dreng", "kind": "word", "da": "en dreng", "en": "boy", "gender": "en",
+          "sentences": [ { "da": "Han har en dreng på to år.", "en": "He has a boy of two.", "gap": "dreng" } ] },
+        { "id": "u03-p20-vietnameser", "kind": "word", "da": "en vietnameser", "en": "Vietnamese person", "alt": { "en": ["Vietnamese"] }, "gender": "en",
+          "sentences": [ { "da": "Hun er vietnameser.", "en": "She is Vietnamese.", "gap": "vietnameser" } ] }
+      ],
+      "repeatLines": [{ "da": "Hvor længe har du været i Danmark?", "en": "How long have you been in Denmark?" }, { "da": "Ja, det er jeg.", "en": "Yes, I am." }]
+    },
+    {
+      "id": "u03-l03",
+      "title": "Short answers: det er jeg, det har jeg, det gør jeg",
+      "pages": [21],
+      "taughtInClass": true,
+      "tip": "Answer a yes/no question by repeating its verb. With er and har: Er du gift? Ja, det er jeg. Har du børn? Nej, det har jeg ikke.\nWith every other verb use gør: Taler du dansk? Ja, det gør jeg.",
+      "items": [
+        { "id": "u03-p21-ja-det-er-jeg", "kind": "pattern", "da": "Ja, det er jeg.", "en": "Yes, I am.",
+          "sentences": [ { "da": "Ja, det er jeg.", "en": "Yes, I am.", "gap": "er" } ] },
+        { "id": "u03-p21-nej-det-har-jeg-ikke", "kind": "pattern", "da": "Nej, det har jeg ikke.", "en": "No, I don't (have any).", "alt": { "en": ["No, I haven't.", "No, I don't have any."] },
+          "sentences": [ { "da": "Nej, det har jeg ikke.", "en": "No, I don't (have any).", "gap": "har" } ] },
+        { "id": "u03-p21-ja-det-goer-jeg", "kind": "pattern", "da": "Ja, det gør jeg.", "en": "Yes, I do.",
+          "sentences": [ { "da": "Ja, det gør jeg.", "en": "Yes, I do.", "gap": "gør" } ] },
+        { "id": "u03-p21-nej-det-goer-jeg-ikke", "kind": "pattern", "da": "Nej, det gør jeg ikke.", "en": "No, I don't (do that).", "alt": { "en": ["No, I don't."] },
+          "sentences": [ { "da": "Nej, det gør jeg ikke.", "en": "No, I don't (do that).", "gap": "gør" } ] },
+        { "id": "u03-p21-har-du-en-kaereste", "kind": "phrase", "da": "Har du en kæreste?", "en": "Do you have a partner?", "alt": { "en": ["Do you have a boyfriend?", "Do you have a girlfriend?"] },
+          "sentences": [ { "da": "Nej, det har jeg ikke.", "en": "No, I don't.", "gap": "har" } ] },
+        { "id": "u03-p21-hedder-du-claus", "kind": "phrase", "da": "Hedder du Claus?", "en": "Is your name Claus?",
+          "sentences": [ { "da": "Ja, det gør jeg.", "en": "Yes, it is.", "gap": "gør" } ] },
+        { "id": "u03-p21-har-du-familie-i-danmark", "kind": "phrase", "da": "Har du familie i Danmark?", "en": "Do you have family in Denmark?",
+          "sentences": [ { "da": "Ja, det har jeg.", "en": "Yes, I do.", "gap": "har" } ] },
+        { "id": "u03-p21-er-du-i-skole", "kind": "phrase", "da": "Er du i skole?", "en": "Are you at school?", "alt": { "en": ["Are you in school?"] },
+          "sentences": [ { "da": "Ja, det er jeg.", "en": "Yes, I am.", "gap": "er" } ] },
+        { "id": "u03-p21-kommer-du-fra-italien", "kind": "phrase", "da": "Kommer du fra Italien?", "en": "Do you come from Italy?", "alt": { "en": ["Are you from Italy?"] },
+          "sentences": [ { "da": "Nej, det gør jeg ikke.", "en": "No, I don't.", "gap": "gør" } ] },
+        { "id": "u03-p21-arbejde-job", "kind": "word", "da": "arbejde", "en": "job, work", "alt": { "da": ["et arbejde"], "en": ["job", "work", "a job"] },
+          "sentences": [ { "da": "Har du et arbejde?", "en": "Do you have a job?", "gap": "arbejde" }, { "da": "Han har et arbejde i Odense.", "en": "He has a job in Odense.", "gap": "arbejde" }, { "da": "Hun elsker sit arbejde.", "en": "She loves her job.", "gap": "arbejde" } ], "forms": ["arbejdet"] },
+        { "id": "u03-p21-skole", "kind": "word", "da": "en skole", "en": "school", "gender": "en",
+          "sentences": [ { "da": "Hun er i skole.", "en": "She is at school.", "gap": "skole" }, { "da": "Jeg går i skole.", "en": "I go to school.", "gap": "skole" } ] }
+      ]
+    },
+    {
+      "id": "u03-l04",
+      "title": "Priya: likes, dislikes and work",
+      "pages": [22],
+      "taughtInClass": true,
+      "tip": "To say what you feel about something: Jeg kan godt lide … (I like), Jeg elsker … (I love), Jeg kan ikke lide … (I don't like), Jeg hader … (I hate).\nExample: Jeg kan godt lide Danmark.",
+      "items": [
+        { "id": "u03-p22-jeg-kan-godt-lide", "kind": "phrase", "da": "Jeg kan godt lide København.", "en": "I like Copenhagen.",
+          "sentences": [ { "da": "Jeg kan godt lide København.", "en": "I like Copenhagen.", "gap": "lide" } ] },
+        { "id": "u03-p22-jeg-elsker", "kind": "phrase", "da": "Jeg elsker Danmark.", "en": "I love Denmark.",
+          "sentences": [ { "da": "Jeg elsker Danmark.", "en": "I love Denmark.", "gap": "elsker" } ] },
+        { "id": "u03-p22-jeg-kan-ikke-lide", "kind": "phrase", "da": "Jeg kan ikke lide regnvejr.", "en": "I don't like rainy weather.",
+          "sentences": [ { "da": "Jeg kan ikke lide regnvejr.", "en": "I don't like rainy weather.", "gap": "ikke" } ] },
+        { "id": "u03-p22-jeg-hader", "kind": "phrase", "da": "Jeg hader regnvejr.", "en": "I hate rainy weather.",
+          "sentences": [ { "da": "Jeg hader regnvejr.", "en": "I hate rainy weather.", "gap": "hader" } ] },
+        { "id": "u03-p22-elsker-sit-arbejde", "kind": "phrase", "da": "Hun elsker sit arbejde.", "en": "She loves her job.", "alt": { "en": ["She loves her work."] },
+          "sentences": [ { "da": "Hun elsker sit arbejde.", "en": "She loves her job.", "gap": "elsker" } ] },
+        { "id": "u03-p22-cykler-til-arbejde", "kind": "phrase", "da": "Hun cykler til arbejde hver dag.", "en": "She cycles to work every day.", "alt": { "en": ["She bikes to work every day."] },
+          "sentences": [ { "da": "Hun cykler til arbejde hver dag.", "en": "She cycles to work every day.", "gap": "cykler" } ] },
+        { "id": "u03-p22-sygeplejerske", "kind": "word", "da": "en sygeplejerske", "en": "nurse", "gender": "en",
+          "sentences": [ { "da": "Hun er sygeplejerske.", "en": "She is a nurse.", "gap": "sygeplejerske" } ] },
+        { "id": "u03-p22-sygehus", "kind": "word", "da": "et sygehus", "en": "hospital", "gender": "et",
+          "sentences": [ { "da": "Hun arbejder på et sygehus.", "en": "She works at a hospital.", "gap": "sygehus" } ] },
+        { "id": "u03-p22-sprogskole", "kind": "word", "da": "en sprogskole", "en": "language school", "gender": "en",
+          "sentences": [ { "da": "Hun går på sprogskole.", "en": "She goes to language school.", "gap": "sprogskole" } ] },
+        { "id": "u03-p22-vejr", "kind": "word", "da": "vejr", "en": "weather", "forms": ["vejret"],
+          "sentences": [ { "da": "Jeg kan ikke lide vejret.", "en": "I don't like the weather.", "gap": "vejret" } ] },
+        { "id": "u03-p22-regnvejr", "kind": "word", "da": "regnvejr", "en": "rainy weather", "alt": { "en": ["rain"] },
+          "sentences": [ { "da": "Jeg hader regnvejr.", "en": "I hate rainy weather.", "gap": "regnvejr" } ] },
+        { "id": "u03-p22-arbejde-verb", "kind": "word", "da": "arbejde", "en": "to work", "alt": { "da": ["at arbejde"], "en": ["work"] }, "forms": ["arbejder"],
+          "sentences": [ { "da": "Hun arbejder på et sygehus.", "en": "She works at a hospital.", "gap": "arbejder" }, { "da": "Han arbejder i København.", "en": "He works in Copenhagen.", "gap": "arbejder" } ] },
+        { "id": "u03-p22-elske", "kind": "word", "da": "elske", "en": "to love", "alt": { "da": ["at elske"], "en": ["love"] }, "forms": ["elsker"],
+          "sentences": [ { "da": "Jeg elsker min familie.", "en": "I love my family.", "gap": "elsker" } ] },
+        { "id": "u03-p22-hade", "kind": "word", "da": "hade", "en": "to hate", "alt": { "da": ["at hade"], "en": ["hate"] }, "forms": ["hader"],
+          "sentences": [ { "da": "Han hader regnvejr.", "en": "He hates rainy weather.", "gap": "hader" } ] },
+        { "id": "u03-p22-moede", "kind": "word", "da": "møde", "en": "to start work", "alt": { "da": ["at møde"], "en": ["start work", "to start"] }, "forms": ["møder", "mødte"],
+          "sentences": [ { "da": "Hun møder klokken syv.", "en": "She starts work at seven.", "gap": "møder" } ] },
+        { "id": "u03-p22-faa-fri", "kind": "word", "da": "få fri", "en": "to finish work", "alt": { "da": ["at få fri"], "en": ["get off work", "finish work", "to get off"] }, "forms": ["får fri"],
+          "sentences": [ { "da": "Hun får fri klokken fire.", "en": "She finishes work at four.", "gap": "får fri" } ] },
+        { "id": "u03-p22-cykle", "kind": "word", "da": "cykle", "en": "to cycle", "alt": { "da": ["at cykle"], "en": ["cycle", "to bike"] }, "forms": ["cykler"],
+          "sentences": [ { "da": "Han cykler hver dag.", "en": "He cycles every day.", "gap": "cykler" }, { "da": "Jeg cykler på arbejde.", "en": "I cycle to work.", "gap": "cykler" } ] },
+        { "id": "u03-p22-laere", "kind": "word", "da": "lære", "en": "to learn", "alt": { "da": ["at lære"], "en": ["learn"] },
+          "sentences": [ { "da": "Jeg vil lære mere dansk.", "en": "I want to learn more Danish.", "gap": "lære" }, { "da": "Jeg lærer dansk.", "en": "I am learning Danish.", "gap": "lærer" } ], "forms": ["lærer"] }
+      ],
+      "repeatLines": [
+        { "da": "Hun arbejder på et sygehus.", "en": "She works at a hospital.", "tip": "Pay attention to the vowel y, as in syv, tyve, sygehus and cykler." },
+        { "da": "Hun cykler til arbejde hver dag.", "en": "She cycles to work every day.", "tip": "Pay attention to the vowel y." }
+      ]
+    },
+    {
+      "id": "u03-l05",
+      "title": "Questions about Priya",
+      "pages": [22],
+      "taughtInClass": true,
+      "items": [
+        { "id": "u03-p22-hvor-gammel-er-priya", "kind": "phrase", "da": "Hvor gammel er Priya?", "en": "How old is Priya?",
+          "sentences": [ { "da": "Hun er syvogtyve år.", "en": "She is 27 years old.", "gap": "år" } ] },
+        { "id": "u03-p22-hvor-laenge-har-hun-vaeret", "kind": "phrase", "da": "Hvor længe har hun været i Danmark?", "en": "How long has she been in Denmark?",
+          "sentences": [ { "da": "Hun har været her i to år.", "en": "She has been here for two years.", "gap": "været" } ] },
+        { "id": "u03-p22-hvem-er-hun-gift-med", "kind": "phrase", "da": "Hvem er hun gift med?", "en": "Who is she married to?",
+          "sentences": [ { "da": "Hun er gift med en dansker.", "en": "She is married to a Dane.", "gap": "dansker" } ] },
+        { "id": "u03-p22-hvor-bor-hun", "kind": "phrase", "da": "Hvor bor hun?", "en": "Where does she live?",
+          "sentences": [ { "da": "Hun bor i Jylland.", "en": "She lives in Jutland.", "gap": "Jylland" } ] },
+        { "id": "u03-p22-hvad-laver-priya", "kind": "phrase", "da": "Hvad laver Priya?", "en": "What does Priya do?", "alt": { "en": ["What does Priya do for a living?"] },
+          "sentences": [ { "da": "Hun er sygeplejerske.", "en": "She is a nurse.", "gap": "sygeplejerske" } ] },
+        { "id": "u03-p22-hvad-tid-moeder-hun", "kind": "phrase", "da": "Hvad tid møder hun?", "en": "What time does she start?", "alt": { "en": ["What time does she start work?"] },
+          "sentences": [ { "da": "Hun møder klokken syv.", "en": "She starts at seven.", "gap": "klokken" } ] },
+        { "id": "u03-p22-hvornaar-faar-hun-fri", "kind": "phrase", "da": "Hvornår får hun fri?", "en": "When does she finish work?", "alt": { "en": ["When does she get off work?"] },
+          "sentences": [ { "da": "Hun får fri klokken fire.", "en": "She finishes at four.", "gap": "fri" } ] },
+        { "id": "u03-p22-hvordan-kommer-hun-paa-arbejde", "kind": "phrase", "da": "Hvordan kommer hun på arbejde?", "en": "How does she get to work?",
+          "sentences": [ { "da": "Hun cykler.", "en": "She cycles.", "gap": "cykler" } ] },
+        { "id": "u03-p22-hvor-lang-tid-tager-det", "kind": "phrase", "da": "Hvor lang tid tager det?", "en": "How long does it take?",
+          "sentences": [ { "da": "Det tager tyve minutter.", "en": "It takes twenty minutes.", "gap": "tager" } ] },
+        { "id": "u03-p22-hvorfor-gaar-hun-paa-sprogskole", "kind": "phrase", "da": "Hvorfor går hun på sprogskole?", "en": "Why does she go to language school?",
+          "sentences": [ { "da": "Fordi hun vil lære mere dansk.", "en": "Because she wants to learn more Danish.", "gap": "Fordi" } ] },
+        { "id": "u03-p22-hvad-synes-hun-om-danmark", "kind": "phrase", "da": "Hvad synes hun om Danmark?", "en": "What does she think of Denmark?",
+          "sentences": [ { "da": "Hun kan godt lide Danmark.", "en": "She likes Denmark.", "gap": "lide" } ] },
+        { "id": "u03-p22-hvad-synes-hun-om-vejret", "kind": "phrase", "da": "Hvad synes hun om vejret i Danmark?", "en": "What does she think of the weather in Denmark?",
+          "sentences": [ { "da": "Hun kan ikke lide vejret.", "en": "She doesn't like the weather.", "gap": "vejret" } ] }
+      ]
+    },
+    {
+      "id": "u03-l06",
+      "title": "School and work: your daily routine",
+      "pages": [23],
+      "taughtInClass": true,
+      "items": [
+        { "id": "u03-p23-hvad-laver-du", "kind": "phrase", "da": "Hvad laver du?", "en": "What do you do?", "alt": { "en": ["What do you do for a living?"] },
+          "sentences": [ { "da": "Jeg går på sprogkursus.", "en": "I go to a language course.", "gap": "sprogkursus" }, { "da": "Jeg arbejder i Føtex.", "en": "I work at Føtex.", "gap": "arbejder" } ] },
+        { "id": "u03-p23-hvorfor-det", "kind": "phrase", "da": "Hvorfor det?", "en": "Why is that?", "alt": { "en": ["Why?"] },
+          "sentences": [ { "da": "Fordi jeg vil lære dansk.", "en": "Because I want to learn Danish.", "gap": "vil" } ] },
+        { "id": "u03-p23-hvor-ligger-skolen", "kind": "phrase", "da": "Hvor ligger skolen?", "en": "Where is the school?", "alt": { "en": ["Where is the school located?"] },
+          "sentences": [ { "da": "Den ligger i Valdemarsgade.", "en": "It is in Valdemarsgade.", "gap": "ligger" } ] },
+        { "id": "u03-p23-har-du-arbejde", "kind": "phrase", "da": "Har du arbejde?", "en": "Do you have a job?",
+          "sentences": [ { "da": "Ja, det har jeg.", "en": "Yes, I do.", "gap": "har" } ] },
+        { "id": "u03-p23-hvad-tid-moeder-du", "kind": "phrase", "da": "Hvad tid møder du?", "en": "What time do you start?", "alt": { "en": ["What time do you start work?"] },
+          "sentences": [ { "da": "Jeg møder klokken otte.", "en": "I start at eight.", "gap": "møder" } ] },
+        { "id": "u03-p23-hvornaar-faar-du-fri", "kind": "phrase", "da": "Hvornår får du fri?", "en": "When do you finish?", "alt": { "en": ["When do you finish work?", "When do you get off work?"] },
+          "sentences": [ { "da": "Jeg får fri klokken fire.", "en": "I finish at four.", "gap": "fri" } ] },
+        { "id": "u03-p23-sprogkursus", "kind": "word", "da": "et sprogkursus", "en": "language course", "gender": "et",
+          "sentences": [ { "da": "Jeg går på sprogkursus.", "en": "I go to a language course.", "gap": "sprogkursus" } ] }
+      ],
+      "repeatLines": [{ "da": "Jeg møder klokken otte.", "en": "I start at eight." }]
+    },
+    {
+      "id": "u03-l07",
+      "title": "Getting to school or work",
+      "pages": [23],
+      "taughtInClass": true,
+      "items": [
+        { "id": "u03-p23-hvordan-kommer-du-i-skole", "kind": "phrase", "da": "Hvordan kommer du i skole?", "en": "How do you get to school?",
+          "sentences": [ { "da": "Jeg tager bussen.", "en": "I take the bus.", "gap": "tager" } ] },
+        { "id": "u03-p23-hvilken-bus-tager-du", "kind": "phrase", "da": "Hvilken bus tager du?", "en": "Which bus do you take?",
+          "sentences": [ { "da": "Jeg tager nummer 16 eller nummer 5.", "en": "I take number 16 or number 5.", "gap": "eller" } ] },
+        { "id": "u03-p23-hvor-lang-tid-tager-det", "kind": "phrase", "da": "Hvor lang tid tager det dig?", "en": "How long does it take you?", "alt": { "da": ["Hvor lang tid tager det?"] },
+          "sentences": [ { "da": "Det tager ti minutter.", "en": "It takes ten minutes.", "gap": "tager" } ] },
+        { "id": "u03-p23-jeg-gaar", "kind": "phrase", "da": "Jeg går.", "en": "I walk.", "alt": { "en": ["I go on foot."] },
+          "sentences": [ { "da": "Jeg går til skole.", "en": "I walk to school.", "gap": "går" } ] },
+        { "id": "u03-p23-jeg-cykler", "kind": "phrase", "da": "Jeg cykler.", "en": "I cycle.", "alt": { "en": ["I bike."] },
+          "sentences": [ { "da": "Jeg cykler på arbejde.", "en": "I cycle to work.", "gap": "cykler" } ] },
+        { "id": "u03-p23-jeg-tager-bussen", "kind": "phrase", "da": "Jeg tager bussen.", "en": "I take the bus.",
+          "sentences": [ { "da": "Jeg tager bussen til skole.", "en": "I take the bus to school.", "gap": "bussen" } ] },
+        { "id": "u03-p23-jeg-tager-toget", "kind": "phrase", "da": "Jeg tager toget.", "en": "I take the train.",
+          "sentences": [ { "da": "Hun tager toget på arbejde.", "en": "She takes the train to work.", "gap": "toget" } ] },
+        { "id": "u03-p23-jeg-koerer-i-bil", "kind": "phrase", "da": "Jeg kører i bil.", "en": "I drive.", "alt": { "en": ["I go by car."] },
+          "sentences": [ { "da": "Han kører i bil.", "en": "He goes by car.", "gap": "kører" } ] },
+        { "id": "u03-p23-jeg-tager-en-taxa", "kind": "phrase", "da": "Jeg tager en taxa.", "en": "I take a taxi.", "alt": { "en": ["I take a cab."] },
+          "sentences": [ { "da": "Jeg tager en taxa hjem.", "en": "I take a taxi home.", "gap": "taxa" } ] },
+        { "id": "u03-p23-bus", "kind": "word", "da": "en bus", "en": "bus", "gender": "en", "forms": ["bussen"],
+          "sentences": [ { "da": "Bussen tager ti minutter.", "en": "The bus takes ten minutes.", "gap": "Bussen" }, { "da": "Han tager bussen til arbejde.", "en": "He takes the bus to work.", "gap": "bussen" } ] },
+        { "id": "u03-p23-tog", "kind": "word", "da": "et tog", "en": "train", "gender": "et", "forms": ["toget"],
+          "sentences": [ { "da": "Toget tager tyve minutter.", "en": "The train takes twenty minutes.", "gap": "Toget" } ] },
+        { "id": "u03-p23-bil", "kind": "word", "da": "en bil", "en": "car", "gender": "en",
+          "sentences": [ { "da": "Han har en bil.", "en": "He has a car.", "gap": "bil" }, { "da": "Hun tager bilen.", "en": "She takes the car.", "gap": "bilen" } ], "forms": ["bilen"] },
+        { "id": "u03-p23-taxa", "kind": "word", "da": "en taxa", "en": "taxi", "alt": { "en": ["cab"] }, "gender": "en",
+          "sentences": [ { "da": "Jeg tager en taxa.", "en": "I take a taxi.", "gap": "taxa" }, { "da": "Hun tager en taxa hjem.", "en": "She takes a taxi home.", "gap": "taxa" } ] }
+      ],
+      "repeatLines": [
+        {
+          "da": "Jeg tager bussen.",
+          "en": "I take the bus.",
+          "tip": "A t at the start of a word is aspirated, with a small s sound after it (ts): tak, to, ti, De tager toget til Thisted. Det tager ti timer."
+        },
+        { "da": "Det tager ti minutter.", "en": "It takes ten minutes.", "tip": "t in st- and -tt- is pronounced like [d]: staver, otte, atten, minutter." }
+      ]
+    },
+    {
+      "id": "u03-l08",
+      "title": "Recap: asking questions",
+      "pages": [24],
+      "taughtInClass": true,
+      "items": [],
+      "recapOf": ["u01-p09-hvor-gammel-er-du", "u01-p05-hvad-hedder-du", "u01-p09-hvor-bor-du", "u01-p05-hvor-kommer-du-fra", "u03-p20-hvor-laenge-har-du-vaeret-i-danmark", "u03-p20-hvor-mange-boern-har-du", "u03-p22-hvad-tid-moeder-hun", "u03-p22-hvordan-kommer-hun-paa-arbejde", "u03-p22-hvor-lang-tid-tager-det", "u03-p22-hvorfor-gaar-hun-paa-sprogskole", "u03-p23-hvilken-bus-tager-du"],
+      "context": ["The page lists the question words: hvad, hvem, hvor, hvordan, hvilken, hvornår, hvorfor, hvor mange, hvor længe, hvor gammel, hvis, hvor lang tid.", "You make a question from each answer: Han er 28 år (age), Han hedder Robert (name), Han har været her i 2 år (how long).", "Further answers: Det er Nadima (who), Han tager bussen (how), Han tager nummer 14 (which bus), Det tager 20 minutter (how long it takes).", "Further answers: Han møder klokken 9 (what time), Han har tre børn (how many children), Det er Lones (whose), Fordi han vil lære dansk (why), Han bor i Århus (where)."],
+      "recapQuestions": [
+        { "prompt_en": "Ask: How old is he? (Answer: He is 28.)", "da": "Hvor gammel er han?", "accepted": ["Hvor gammel er han?", "Hvor gammel er han"] },
+        { "prompt_en": "Ask: What is he called? (Answer: He is called Robert.)", "da": "Hvad hedder han?", "accepted": ["Hvad hedder han?", "Hvad hedder han"] },
+        {
+          "prompt_en": "Ask: How long has he been here? (Answer: He has been here for 2 years.)",
+          "da": "Hvor længe har han været her?",
+          "accepted": ["Hvor længe har han været her?", "Hvor længe har han været her", "Hvor længe har han været i Danmark?", "Hvor længe har han været i Danmark"]
+        },
+        {
+          "prompt_en": "Ask: Which bus does he take? (Answer: He takes number 14.)",
+          "da": "Hvilken bus tager han?",
+          "accepted": ["Hvilken bus tager han?", "Hvilken bus tager han"]
+        },
+        {
+          "prompt_en": "Ask: How long does it take? (Answer: It takes 20 minutes.)",
+          "da": "Hvor lang tid tager det?",
+          "accepted": ["Hvor lang tid tager det?", "Hvor lang tid tager det"]
+        },
+        {
+          "prompt_en": "Ask: What time does he start work? (Answer: He starts at 9.)",
+          "da": "Hvad tid møder han?",
+          "accepted": ["Hvad tid møder han?", "Hvad tid møder han", "Hvornår møder han?", "Hvornår møder han"]
+        },
+        {
+          "prompt_en": "Ask: How many children does he have? (Answer: He has three children.)",
+          "da": "Hvor mange børn har han?",
+          "accepted": ["Hvor mange børn har han?", "Hvor mange børn har han"]
+        },
+        {
+          "prompt_en": "Ask: Why? (Answer: Because he wants to learn Danish.)",
+          "da": "Hvorfor?",
+          "accepted": ["Hvorfor?", "Hvorfor", "Hvorfor det?", "Hvorfor det", "Hvorfor vil han lære dansk?", "Hvorfor går han på sprogskole?"]
+        }
+      ]
+    },
+    {
+      "id": "u03-l09",
+      "title": "Recap: Carol and Tom",
+      "pages": [25],
+      "taughtInClass": true,
+      "items": [],
+      "recapOf": ["u01-p05-hvor-kommer-du-fra", "u01-p09-hvor-bor-du", "u01-p09-hvad-sal-bor-du-paa", "u03-p20-hvor-mange-boern-har-du", "u03-p23-hvad-laver-du", "u03-p23-jeg-tager-bussen", "u03-p19-forstaar-ikke-dansk"],
+      "context": ["Tom comes from Canada.", "Carol and Tom understand Danish.", "They have two children: a boy of four and a girl of three, Robert and Lisa.", "The family lives on Nyvej in Odense, at number 75, ground floor, on the right.", "Carol goes to language school; she wants to learn more Danish.", "Carol works in a computer firm.", "Tom works at a restaurant.", "Tom takes the bus to work."],
+      "recapQuestions": [
+        {
+          "prompt_en": "Where does Tom come from?",
+          "da": "Han kommer fra Canada.",
+          "accepted": ["Han kommer fra Canada.", "Tom kommer fra Canada.", "Fra Canada.", "Canada."]
+        },
+        {
+          "prompt_en": "How many children do Carol and Tom have?",
+          "da": "De har to børn.",
+          "accepted": ["De har to børn.", "To børn.", "To.", "De har 2 børn.", "2 børn."]
+        },
+        {
+          "prompt_en": "What are the children called?",
+          "da": "De hedder Robert og Lisa.",
+          "accepted": ["De hedder Robert og Lisa.", "Robert og Lisa.", "Drengen hedder Robert og pigen hedder Lisa.", "Drengen hedder Robert, og pigen hedder Lisa."]
+        },
+        {
+          "prompt_en": "Which town does the family live in?",
+          "da": "De bor i Odense.",
+          "accepted": ["De bor i Odense.", "I Odense.", "Odense.", "Familien bor i Odense."]
+        },
+        {
+          "prompt_en": "Which floor does the family live on?",
+          "da": "De bor i stuen til højre.",
+          "accepted": ["De bor i stuen til højre.", "De bor i stuen.", "I stuen til højre.", "I stuen.", "Stuen til højre.", "Stuen."]
+        },
+        {
+          "prompt_en": "Where does Tom work?",
+          "da": "Han arbejder på en restaurant.",
+          "accepted": ["Han arbejder på en restaurant.", "Tom arbejder på en restaurant.", "På en restaurant.", "Han arbejder i en restaurant.", "Restaurant."]
+        },
+        {
+          "prompt_en": "How does Tom get to work?",
+          "da": "Han tager bussen.",
+          "accepted": ["Han tager bussen.", "Tom tager bussen.", "Bussen.", "Med bussen."]
+        }
+      ]
+    },
+    {
+      "id": "u03-l10",
+      "title": "Recap: Paul from the USA",
+      "pages": [26],
+      "taughtInClass": true,
+      "items": [],
+      "recapOf": ["u01-p05-hvor-kommer-du-fra", "u01-p09-hvor-gammel-er-du", "u01-p05-hvad-sprog-taler-du", "u01-p11-er-han-gift", "u01-p09-hvor-bor-du", "u01-p09-hvad-sal-bor-du-paa", "u03-p20-hvor-laenge-har-du-vaeret-i-danmark", "u03-p20-hvor-mange-boern-har-du", "u03-p23-hvad-laver-du", "u03-p23-hvilken-bus-tager-du", "u03-p23-hvor-lang-tid-tager-det"],
+      "context": ["Paul Spencer is from New York, USA.", "He has lived in Denmark for 4 years.", "He speaks English and Danish.", "He is 28 and married.", "His wife is Nicole, from Canada; she speaks French and English.", "They have a child, a boy called Oliver, 2 months old.", "Paul lives with his family at Vesterbrogade 124, 1st floor, right.", "He works as a cook in a restaurant on Østergade, 16:00 to 24:00.", "He takes bus no. 6 and the trip takes 20 minutes."],
+      "recapQuestions": [
+        {
+          "prompt_en": "Where does Paul come from?",
+          "da": "Han kommer fra USA.",
+          "accepted": ["Han kommer fra USA.", "Han kommer fra USA", "Paul kommer fra USA.", "Fra USA.", "USA.", "Han kommer fra New York.", "Fra New York."]
+        },
+        {
+          "prompt_en": "How long has Paul been in Denmark?",
+          "da": "Han har været i Danmark i fire år.",
+          "accepted": ["Han har været i Danmark i fire år.", "Han har været i Danmark i 4 år.", "Han har været her i fire år.", "Han har været her i 4 år.", "I fire år.", "I 4 år.", "Fire år.", "4 år."]
+        },
+        {
+          "prompt_en": "What languages does Paul speak?",
+          "da": "Han taler engelsk og dansk.",
+          "accepted": ["Han taler engelsk og dansk.", "Engelsk og dansk.", "Han taler dansk og engelsk.", "Paul taler engelsk og dansk."]
+        },
+        {
+          "prompt_en": "How old is Paul, and is he married?",
+          "da": "Han er otteogtyve år, og han er gift.",
+          "accepted": ["Han er otteogtyve år, og han er gift.", "Han er otteogtyve år og gift.", "Han er 28 år, og han er gift.", "Han er 28 år og gift.", "Han er otteogtyve, og han er gift.", "Han er 28, og han er gift.", "Otteogtyve år, og ja.", "28 år, og ja."]
+        },
+        {
+          "prompt_en": "Where is Paul's wife from?",
+          "da": "Hun kommer fra Canada.",
+          "accepted": ["Hun kommer fra Canada.", "Nicole kommer fra Canada.", "Fra Canada.", "Canada."]
+        },
+        {
+          "prompt_en": "What languages does Paul's wife speak?",
+          "da": "Hun taler fransk og engelsk.",
+          "accepted": ["Hun taler fransk og engelsk.", "Fransk og engelsk.", "Hun taler engelsk og fransk.", "Nicole taler fransk og engelsk."]
+        },
+        {
+          "prompt_en": "Which floor does Paul live on?",
+          "da": "Han bor på første sal til højre.",
+          "accepted": ["Han bor på første sal til højre.", "Han bor på første sal.", "På første sal til højre.", "På første sal.", "Første sal til højre.", "Første sal.", "Han bor på 1. sal til højre.", "På 1. sal."]
+        },
+        {
+          "prompt_en": "How does Paul get to work, and how long does it take?",
+          "da": "Han tager bus nummer 6, og det tager tyve minutter.",
+          "accepted": ["Han tager bus nummer 6, og det tager tyve minutter.", "Han tager bus nummer 6, og det tager 20 minutter.", "Han tager bussen, og det tager tyve minutter.", "Han tager bussen, og det tager 20 minutter.", "Han tager nummer 6, og det tager tyve minutter.", "Han tager nummer 6, og det tager 20 minutter.", "Han tager bus 6, og det tager 20 minutter.", "Han tager bus nummer seks, og det tager tyve minutter.", "Han tager bus nummer seks, og det tager 20 minutter.", "Han tager nummer seks, og det tager tyve minutter.", "Han tager bus seks, og det tager tyve minutter.", "Han tager bus 6, og det tager tyve minutter.", "Bus nummer seks, tyve minutter.", "Bus nummer 6, 20 minutter."]
+        }
+      ]
+    }
+  ]
+}

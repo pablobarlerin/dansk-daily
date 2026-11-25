@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.work/
+.superpowers/
+*.pdf
+*.mp3
+!public/audio/*.mp3
+.env*
+test-results/
+playwright-report/
+
+# private notes, kept on this PC only (not in the public repo)
+content-pipeline/
+docs/
+PRODUCT.md
+.impeccable/

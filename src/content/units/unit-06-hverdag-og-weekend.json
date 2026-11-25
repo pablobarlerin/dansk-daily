@@ -1,0 +1,4088 @@
+{
+  "id": "u06",
+  "order": 6,
+  "title": "Hverdag og weekend",
+  "subtitle": "Daily routines, chores and the weekend",
+  "pages": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "lessons": [
+    {
+      "id": "u06-l01",
+      "title": "Waking up and getting ready",
+      "pages": [
+        31
+      ],
+      "taughtInClass": true,
+      "tip": "The present tense is the infinitive + -r, the same for every person: ringe becomes ringer, vågne becomes vågner, barbere becomes barberer. Short stems like stå and tage give står and tager.\nExample: Hun står op. (She gets up.)",
+      "items": [
+        {
+          "id": "u06-p31-ringe",
+          "kind": "word",
+          "da": "ringe",
+          "en": "to ring (bell, alarm)",
+          "alt": {
+            "da": [
+              "at ringe"
+            ],
+            "en": [
+              "ring",
+              "to ring"
+            ]
+          },
+          "forms": [
+            "ringer"
+          ],
+          "sentences": [
+            {
+              "da": "Vækkeuret ringer.",
+              "en": "The alarm clock rings.",
+              "gap": "ringer"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-vaagne",
+          "kind": "word",
+          "da": "vågne",
+          "en": "to wake up",
+          "alt": {
+            "da": [
+              "at vågne"
+            ],
+            "en": [
+              "wake up",
+              "to wake"
+            ]
+          },
+          "forms": [
+            "vågner"
+          ],
+          "sentences": [
+            {
+              "da": "Hun vågner klokken seks.",
+              "en": "She wakes up at six.",
+              "gap": "vågner"
+            },
+            {
+              "da": "Jeg vågner klokken syv.",
+              "en": "I wake up at seven.",
+              "gap": "vågner"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-staa-op",
+          "kind": "word",
+          "da": "stå op",
+          "en": "to get up",
+          "alt": {
+            "da": [
+              "at stå op"
+            ],
+            "en": [
+              "get up"
+            ]
+          },
+          "forms": [
+            "står op"
+          ],
+          "sentences": [
+            {
+              "da": "Han står op klokken syv.",
+              "en": "He gets up at seven.",
+              "gap": "står op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-tage-brusebad",
+          "kind": "word",
+          "da": "tage brusebad",
+          "en": "to take a shower",
+          "alt": {
+            "da": [
+              "at tage brusebad",
+              "tage et brusebad",
+              "at tage et brusebad"
+            ],
+            "en": [
+              "take a shower",
+              "to have a shower",
+              "have a shower"
+            ]
+          },
+          "forms": [
+            "tager brusebad"
+          ],
+          "sentences": [
+            {
+              "da": "Hun tager brusebad om morgenen.",
+              "en": "She takes a shower in the morning.",
+              "gap": "tager brusebad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-boerste-taender",
+          "kind": "word",
+          "da": "børste tænder",
+          "en": "to brush (one's) teeth",
+          "alt": {
+            "da": [
+              "at børste tænder"
+            ],
+            "en": [
+              "brush (one's) teeth"
+            ]
+          },
+          "forms": [
+            "børster tænder"
+          ],
+          "sentences": [
+            {
+              "da": "Han børster tænder.",
+              "en": "He brushes his teeth.",
+              "gap": "børster tænder"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-rede-sig",
+          "kind": "word",
+          "da": "rede sig",
+          "en": "to comb one's hair",
+          "alt": {
+            "da": [
+              "at rede sig"
+            ],
+            "en": [
+              "comb one's hair",
+              "to brush one's hair"
+            ]
+          },
+          "forms": [
+            "reder sig"
+          ],
+          "sentences": [
+            {
+              "da": "Hun reder sig.",
+              "en": "She combs her hair.",
+              "gap": "reder sig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-barbere-sig",
+          "kind": "word",
+          "da": "barbere sig",
+          "en": "to shave",
+          "alt": {
+            "da": [
+              "at barbere sig"
+            ],
+            "en": [
+              "shave"
+            ]
+          },
+          "forms": [
+            "barberer sig"
+          ],
+          "sentences": [
+            {
+              "da": "Han barberer sig.",
+              "en": "He shaves.",
+              "gap": "barberer sig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-tage-toej-paa",
+          "kind": "word",
+          "da": "tage tøj på",
+          "en": "to get dressed",
+          "alt": {
+            "da": [
+              "at tage tøj på"
+            ],
+            "en": [
+              "get dressed",
+              "to put clothes on",
+              "put clothes on"
+            ]
+          },
+          "forms": [
+            "tager tøj på"
+          ],
+          "sentences": [
+            {
+              "da": "Hun tager tøj på.",
+              "en": "She gets dressed.",
+              "gap": "tager tøj på"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-et-vaekkeur",
+          "kind": "word",
+          "da": "et vækkeur",
+          "en": "alarm clock",
+          "gender": "et",
+          "forms": [
+            "vækkeuret"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg har et vækkeur.",
+              "en": "I have an alarm clock.",
+              "gap": "vækkeur"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-vaekkeuret-ringer",
+          "kind": "pattern",
+          "da": "Vækkeuret ringer.",
+          "en": "The alarm clock rings.",
+          "sentences": [
+            {
+              "da": "Vækkeuret ringer.",
+              "en": "The alarm clock rings.",
+              "gap": "ringer"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-hun-staar-op",
+          "kind": "pattern",
+          "da": "Hun står op.",
+          "en": "She gets up.",
+          "sentences": [
+            {
+              "da": "Hun står op.",
+              "en": "She gets up.",
+              "gap": "står op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-hun-tager-brusebad",
+          "kind": "pattern",
+          "da": "Hun tager brusebad.",
+          "en": "She takes a shower.",
+          "sentences": [
+            {
+              "da": "Hun tager brusebad.",
+              "en": "She takes a shower.",
+              "gap": "tager"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Vækkeuret ringer.",
+          "en": "The alarm clock rings.",
+          "tip": "Listen to how the present-tense ending -er is pronounced."
+        },
+        {
+          "da": "Hun børster tænder.",
+          "en": "She brushes her teeth.",
+          "tip": "Listen to how the present-tense ending -er is pronounced."
+        }
+      ]
+    },
+    {
+      "id": "u06-l02",
+      "title": "Breakfast and leaving home",
+      "pages": [
+        31
+      ],
+      "taughtInClass": true,
+      "items": [
+        {
+          "id": "u06-p31-vaekke-boernene",
+          "kind": "word",
+          "da": "vække børnene",
+          "en": "to wake the children",
+          "alt": {
+            "da": [
+              "at vække børnene"
+            ],
+            "en": [
+              "wake the children"
+            ]
+          },
+          "forms": [
+            "vækker børnene"
+          ],
+          "sentences": [
+            {
+              "da": "Mor vækker børnene klokken seks.",
+              "en": "Mum wakes the children at six.",
+              "gap": "vækker børnene"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-lave-morgenmad",
+          "kind": "word",
+          "da": "lave morgenmad",
+          "en": "to make breakfast",
+          "alt": {
+            "da": [
+              "at lave morgenmad"
+            ],
+            "en": [
+              "make breakfast"
+            ]
+          },
+          "forms": [
+            "laver morgenmad"
+          ],
+          "sentences": [
+            {
+              "da": "Far laver morgenmad.",
+              "en": "Dad makes breakfast.",
+              "gap": "laver morgenmad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-spise-morgenmad",
+          "kind": "word",
+          "da": "spise morgenmad",
+          "en": "to eat breakfast",
+          "alt": {
+            "da": [
+              "at spise morgenmad"
+            ],
+            "en": [
+              "eat breakfast"
+            ]
+          },
+          "forms": [
+            "spiser morgenmad"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser morgenmad sammen.",
+              "en": "We eat breakfast together.",
+              "gap": "spiser morgenmad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-drikke-kaffe",
+          "kind": "word",
+          "da": "drikke kaffe",
+          "en": "to drink coffee",
+          "alt": {
+            "da": [
+              "at drikke kaffe"
+            ],
+            "en": [
+              "drink coffee"
+            ]
+          },
+          "forms": [
+            "drikker kaffe"
+          ],
+          "sentences": [
+            {
+              "da": "Hun drikker kaffe.",
+              "en": "She drinks coffee.",
+              "gap": "drikker kaffe"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-aflevere-boernene",
+          "kind": "word",
+          "da": "aflevere børnene",
+          "en": "to drop off the children",
+          "alt": {
+            "da": [
+              "at aflevere børnene"
+            ],
+            "en": [
+              "drop off the children",
+              "to drop the children off"
+            ]
+          },
+          "forms": [
+            "afleverer børnene"
+          ],
+          "sentences": [
+            {
+              "da": "Han afleverer børnene i børnehaven.",
+              "en": "He drops the children off at kindergarten.",
+              "gap": "afleverer børnene"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-tage-af-sted",
+          "kind": "word",
+          "da": "tage af sted",
+          "en": "to set off",
+          "alt": {
+            "da": [
+              "at tage af sted"
+            ],
+            "en": [
+              "set off",
+              "to leave",
+              "leave"
+            ]
+          },
+          "forms": [
+            "tager af sted"
+          ],
+          "sentences": [
+            {
+              "da": "De tager af sted klokken otte.",
+              "en": "They set off at eight.",
+              "gap": "tager af sted"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-tage-paa-arbejde",
+          "kind": "word",
+          "da": "tage på arbejde",
+          "en": "to go to work",
+          "alt": {
+            "da": [
+              "at tage på arbejde"
+            ],
+            "en": [
+              "go to work"
+            ]
+          },
+          "forms": [
+            "tager på arbejde"
+          ],
+          "sentences": [
+            {
+              "da": "Han tager på arbejde.",
+              "en": "He goes to work.",
+              "gap": "tager på arbejde"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-en-boernehave",
+          "kind": "word",
+          "da": "en børnehave",
+          "en": "kindergarten",
+          "gender": "en",
+          "forms": [
+            "børnehaven"
+          ],
+          "sentences": [
+            {
+              "da": "Børnene er i børnehaven.",
+              "en": "The children are at kindergarten.",
+              "gap": "børnehaven"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-en-vuggestue",
+          "kind": "word",
+          "da": "en vuggestue",
+          "en": "nursery",
+          "alt": {
+            "en": [
+              "crèche",
+              "day nursery"
+            ]
+          },
+          "gender": "en",
+          "forms": [
+            "vuggestuen"
+          ],
+          "sentences": [
+            {
+              "da": "Det lille barn er i vuggestuen.",
+              "en": "The little child is at the nursery.",
+              "gap": "vuggestuen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-morgenmad",
+          "kind": "word",
+          "da": "morgenmad",
+          "en": "breakfast",
+          "sentences": [
+            {
+              "da": "Jeg spiser morgenmad klokken syv.",
+              "en": "I eat breakfast at seven.",
+              "gap": "morgenmad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p31-kaffe",
+          "kind": "word",
+          "da": "kaffe",
+          "en": "coffee",
+          "sentences": [
+            {
+              "da": "Jeg drikker kaffe om morgenen.",
+              "en": "I drink coffee in the morning.",
+              "gap": "kaffe"
+            }
+          ],
+          "forms": [
+            "kaffen"
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Han tager af sted hjemmefra.",
+          "en": "He leaves home.",
+          "tip": "Listen to how the present-tense ending -er is pronounced."
+        }
+      ]
+    },
+    {
+      "id": "u06-l03",
+      "title": "Reflexive pronouns and \"in the morning\"",
+      "pages": [
+        32
+      ],
+      "taughtInClass": true,
+      "tip": "With reflexive verbs the pronoun matches the subject: jeg ... mig, du ... dig, han/hun/de ... sig, vi ... os, I ... jer.\nTo say when something usually happens, use om + part of day or weekday + -en: om morgenen, om mandagen. Weekend is different: i weekenden.",
+      "items": [
+        {
+          "id": "u06-p32-jeg-vasker-mig",
+          "kind": "pattern",
+          "da": "Jeg vasker mig.",
+          "en": "I wash (myself).",
+          "alt": {
+            "en": [
+              "I wash myself."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg vasker mig.",
+              "en": "I wash (myself).",
+              "gap": "mig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-du-vasker-dig",
+          "kind": "pattern",
+          "da": "Du vasker dig.",
+          "en": "You wash (yourself).",
+          "alt": {
+            "en": [
+              "You wash yourself."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Du vasker dig.",
+              "en": "You wash (yourself).",
+              "gap": "dig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-han-vasker-sig",
+          "kind": "pattern",
+          "da": "Han vasker sig.",
+          "en": "He washes (himself).",
+          "alt": {
+            "en": [
+              "He washes himself."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han vasker sig.",
+              "en": "He washes (himself).",
+              "gap": "sig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-hun-vasker-sig",
+          "kind": "pattern",
+          "da": "Hun vasker sig.",
+          "en": "She washes (herself).",
+          "alt": {
+            "en": [
+              "She washes herself."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun vasker sig.",
+              "en": "She washes (herself).",
+              "gap": "sig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-vi-vasker-os",
+          "kind": "pattern",
+          "da": "Vi vasker os.",
+          "en": "We wash (ourselves).",
+          "alt": {
+            "en": [
+              "We wash ourselves."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi vasker os.",
+              "en": "We wash (ourselves).",
+              "gap": "os"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-i-vasker-jer",
+          "kind": "pattern",
+          "da": "I vasker jer.",
+          "en": "You (plural) wash (yourselves).",
+          "alt": {
+            "en": [
+              "You wash yourselves."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "I vasker jer.",
+              "en": "You (plural) wash (yourselves).",
+              "gap": "jer"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-de-vasker-sig",
+          "kind": "pattern",
+          "da": "De vasker sig.",
+          "en": "They wash (themselves).",
+          "alt": {
+            "en": [
+              "They wash themselves."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "De vasker sig.",
+              "en": "They wash (themselves).",
+              "gap": "sig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-morgenen",
+          "kind": "phrase",
+          "da": "om morgenen",
+          "en": "in the morning",
+          "alt": {
+            "en": [
+              "in the mornings"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om morgenen drikker jeg kaffe.",
+              "en": "In the morning I drink coffee.",
+              "gap": "morgenen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-formiddagen",
+          "kind": "phrase",
+          "da": "om formiddagen",
+          "en": "in the late morning",
+          "alt": {
+            "en": [
+              "before noon",
+              "in the morning",
+              "in the morning (before noon)"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om formiddagen arbejder jeg.",
+              "en": "In the late morning I work.",
+              "gap": "formiddagen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-eftermiddagen",
+          "kind": "phrase",
+          "da": "om eftermiddagen",
+          "en": "in the afternoon",
+          "alt": {
+            "en": [
+              "in the afternoons"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om eftermiddagen er jeg træt.",
+              "en": "In the afternoon I am tired.",
+              "gap": "eftermiddagen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-aftenen",
+          "kind": "phrase",
+          "da": "om aftenen",
+          "en": "in the evening",
+          "alt": {
+            "en": [
+              "in the evenings"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om aftenen ser vi fjernsyn.",
+              "en": "In the evening we watch TV.",
+              "gap": "aftenen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-natten",
+          "kind": "phrase",
+          "da": "om natten",
+          "en": "at night",
+          "alt": {
+            "en": [
+              "in the night"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om natten sover børnene.",
+              "en": "At night the children sleep.",
+              "gap": "natten"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-mandagen",
+          "kind": "phrase",
+          "da": "om mandagen",
+          "en": "on Mondays",
+          "sentences": [
+            {
+              "da": "Om mandagen har vi dansk.",
+              "en": "On Mondays we have Danish.",
+              "gap": "mandagen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-om-tirsdagen",
+          "kind": "phrase",
+          "da": "om tirsdagen",
+          "en": "on Tuesdays",
+          "sentences": [
+            {
+              "da": "Om tirsdagen går jeg en tur.",
+              "en": "On Tuesdays I go for a walk.",
+              "gap": "tirsdagen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p32-i-weekenden",
+          "kind": "phrase",
+          "da": "i weekenden",
+          "en": "at the weekend",
+          "alt": {
+            "en": [
+              "on the weekend",
+              "at weekends",
+              "in the weekend",
+              "last weekend"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "I weekenden står jeg op klokken ni.",
+              "en": "At the weekend I get up at nine.",
+              "gap": "weekenden"
+            }
+          ],
+          "note": "Weekend uses i, not om: i weekenden."
+        },
+        {
+          "id": "u06-p32-hvad-laver-du-om-morgenen",
+          "kind": "phrase",
+          "da": "Hvad laver du om morgenen?",
+          "en": "What do you do in the morning?",
+          "alt": {
+            "en": [
+              "What do you do in the mornings?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Om morgenen spiser jeg morgenmad.",
+              "en": "In the morning I eat breakfast.",
+              "gap": "spiser"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Jeg vasker mig.",
+          "en": "I wash (myself).",
+          "tip": "In mig, dig and sig the g is silent: they sound roughly like \"my\", \"dy\" and \"sy\"."
+        }
+      ]
+    },
+    {
+      "id": "u06-l04",
+      "title": "Thomas's morning: how often and how he feels",
+      "pages": [
+        33
+      ],
+      "taughtInClass": true,
+      "tip": "Frequency adverbs (central adverbs) such as altid, tit and aldrig go right after the verb.\nExample: Thomas drikker aldrig kaffe. (Thomas never drinks coffee.)",
+      "items": [
+        {
+          "id": "u06-p33-altid",
+          "kind": "word",
+          "da": "altid",
+          "en": "always",
+          "sentences": [
+            {
+              "da": "Han drikker altid kaffe.",
+              "en": "He always drinks coffee.",
+              "gap": "altid"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-normalt",
+          "kind": "word",
+          "da": "normalt",
+          "en": "normally",
+          "alt": {
+            "en": [
+              "usually"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg står normalt op klokken syv.",
+              "en": "I normally get up at seven.",
+              "gap": "normalt"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-tit",
+          "kind": "word",
+          "da": "tit",
+          "en": "often",
+          "sentences": [
+            {
+              "da": "Hun er tit træt.",
+              "en": "She is often tired.",
+              "gap": "tit"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-nogle-gange",
+          "kind": "phrase",
+          "da": "nogle gange",
+          "en": "sometimes",
+          "sentences": [
+            {
+              "da": "Jeg tager nogle gange bussen.",
+              "en": "I sometimes take the bus.",
+              "gap": "nogle gange"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-ikke-saa-tit",
+          "kind": "phrase",
+          "da": "ikke så tit",
+          "en": "not that often",
+          "sentences": [
+            {
+              "da": "Han drikker ikke så tit te.",
+              "en": "He doesn't drink tea that often.",
+              "gap": "ikke så tit"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-aldrig",
+          "kind": "word",
+          "da": "aldrig",
+          "en": "never",
+          "sentences": [
+            {
+              "da": "Han drikker aldrig kaffe.",
+              "en": "He never drinks coffee.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-et-a-menneske",
+          "kind": "word",
+          "da": "et A-menneske",
+          "en": "morning person",
+          "alt": {
+            "en": [
+              "early bird"
+            ]
+          },
+          "gender": "et",
+          "sentences": [
+            {
+              "da": "Jeg er et A-menneske.",
+              "en": "I am a morning person.",
+              "gap": "A-menneske"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-et-b-menneske",
+          "kind": "word",
+          "da": "et B-menneske",
+          "en": "evening person",
+          "alt": {
+            "en": [
+              "night owl"
+            ]
+          },
+          "gender": "et",
+          "sentences": [
+            {
+              "da": "Han er et B-menneske.",
+              "en": "He is an evening person.",
+              "gap": "B-menneske"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-frisk-om-morgenen",
+          "kind": "phrase",
+          "da": "frisk om morgenen",
+          "en": "fresh in the morning",
+          "alt": {
+            "en": [
+              "alert in the morning"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun er altid frisk om morgenen.",
+              "en": "She is always fresh in the morning.",
+              "gap": "frisk om morgenen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-traet-om-aftenen",
+          "kind": "phrase",
+          "da": "træt om aftenen",
+          "en": "tired in the evening",
+          "sentences": [
+            {
+              "da": "Jeg er tit træt om aftenen.",
+              "en": "I am often tired in the evening.",
+              "gap": "træt om aftenen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-frisk",
+          "kind": "word",
+          "da": "frisk",
+          "en": "fresh",
+          "alt": {
+            "en": [
+              "alert"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg er frisk om morgenen.",
+              "en": "I am fresh in the morning.",
+              "gap": "frisk"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-traet",
+          "kind": "word",
+          "da": "træt",
+          "en": "tired",
+          "sentences": [
+            {
+              "da": "Jeg er træt.",
+              "en": "I am tired.",
+              "gap": "træt"
+            },
+            {
+              "da": "Jeg er meget træt.",
+              "en": "I am very tired.",
+              "gap": "træt"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-sulten",
+          "kind": "word",
+          "da": "sulten",
+          "en": "hungry",
+          "sentences": [
+            {
+              "da": "Jeg er sulten.",
+              "en": "I am hungry.",
+              "gap": "sulten"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-for",
+          "kind": "word",
+          "da": "for",
+          "en": "because",
+          "alt": {
+            "en": [
+              "as"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han sover, for han er træt.",
+              "en": "He is sleeping because he is tired.",
+              "gap": "for"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-ikke-saa-meget",
+          "kind": "phrase",
+          "da": "ikke så meget",
+          "en": "not that much",
+          "sentences": [
+            {
+              "da": "Han spiser ikke så meget.",
+              "en": "He doesn't eat that much.",
+              "gap": "ikke så meget"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-det-er-mandag-morgen",
+          "kind": "phrase",
+          "da": "Det er mandag morgen.",
+          "en": "It's Monday morning.",
+          "alt": {
+            "en": [
+              "It is Monday morning."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Det er mandag morgen.",
+              "en": "It's Monday morning.",
+              "gap": "mandag"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-skal-paa-arbejde",
+          "kind": "phrase",
+          "da": "skal på arbejde",
+          "en": "has to go to work",
+          "alt": {
+            "en": [
+              "have to go to work",
+              "is going to work"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han skal på arbejde i dag.",
+              "en": "He has to go to work today.",
+              "gap": "skal på arbejde"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-hvad-dag-er-det",
+          "kind": "phrase",
+          "da": "Hvad dag er det?",
+          "en": "What day is it?",
+          "sentences": [
+            {
+              "da": "Det er mandag.",
+              "en": "It is Monday.",
+              "gap": "mandag"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-hvordan-har-thomas-det-om-morgenen",
+          "kind": "phrase",
+          "da": "Hvordan har Thomas det om morgenen?",
+          "en": "How is Thomas in the morning?",
+          "sentences": [
+            {
+              "da": "Han er træt om morgenen.",
+              "en": "He is tired in the morning.",
+              "gap": "træt"
+            }
+          ],
+          "alt": {
+            "en": [
+              "How does Thomas feel in the morning?"
+            ]
+          }
+        },
+        {
+          "id": "u06-p33-hvorfor-er-han-traet",
+          "kind": "phrase",
+          "da": "Hvorfor er han træt?",
+          "en": "Why is he tired?",
+          "sentences": [
+            {
+              "da": "Han er B-menneske.",
+              "en": "He is an evening person.",
+              "gap": "B-menneske"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-hvorfor-staar-han-op",
+          "kind": "phrase",
+          "da": "Hvorfor står han op?",
+          "en": "Why does he get up?",
+          "sentences": [
+            {
+              "da": "Han skal på arbejde.",
+              "en": "He has to go to work.",
+              "gap": "skal"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Han er B-menneske.",
+          "en": "He's an evening person.",
+          "tip": "Listen and repeat, paying attention to rhythm and sentence melody."
+        },
+        {
+          "da": "Thomas drikker aldrig kaffe.",
+          "en": "Thomas never drinks coffee.",
+          "tip": "Pay attention to rhythm and sentence melody."
+        }
+      ]
+    },
+    {
+      "id": "u06-l05",
+      "title": "Thomas's morning: breakfast and the news",
+      "pages": [
+        33
+      ],
+      "taughtInClass": true,
+      "items": [
+        {
+          "id": "u06-p33-hoere",
+          "kind": "word",
+          "da": "høre",
+          "en": "to listen to",
+          "alt": {
+            "da": [
+              "at høre"
+            ],
+            "en": [
+              "listen to",
+              "to hear",
+              "hear"
+            ]
+          },
+          "forms": [
+            "hører"
+          ],
+          "sentences": [
+            {
+              "da": "Han hører radio.",
+              "en": "He listens to the radio.",
+              "gap": "hører"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-spise",
+          "kind": "word",
+          "da": "spise",
+          "en": "to eat",
+          "alt": {
+            "da": [
+              "at spise"
+            ],
+            "en": [
+              "eat"
+            ]
+          },
+          "forms": [
+            "spiser"
+          ],
+          "sentences": [
+            {
+              "da": "Hun spiser brød.",
+              "en": "She eats bread.",
+              "gap": "spiser"
+            },
+            {
+              "da": "Jeg spiser ost om morgenen.",
+              "en": "I eat cheese in the morning.",
+              "gap": "spiser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-drikke",
+          "kind": "word",
+          "da": "drikke",
+          "en": "to drink",
+          "alt": {
+            "da": [
+              "at drikke"
+            ],
+            "en": [
+              "drink"
+            ]
+          },
+          "forms": [
+            "drikker"
+          ],
+          "sentences": [
+            {
+              "da": "Han drikker te.",
+              "en": "He drinks tea.",
+              "gap": "drikker"
+            },
+            {
+              "da": "Hun drikker kaffe om morgenen.",
+              "en": "She drinks coffee in the morning.",
+              "gap": "drikker"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-tage-jakke-paa",
+          "kind": "word",
+          "da": "tage jakke på",
+          "en": "to put on a jacket",
+          "alt": {
+            "da": [
+              "at tage jakke på"
+            ],
+            "en": [
+              "put on a jacket",
+              "to put a jacket on",
+              "put a jacket on"
+            ]
+          },
+          "forms": [
+            "tager jakke på"
+          ],
+          "sentences": [
+            {
+              "da": "Han tager jakke på.",
+              "en": "He puts on a jacket.",
+              "gap": "tager jakke på"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-kunne-lide",
+          "kind": "word",
+          "da": "kunne lide",
+          "en": "to like",
+          "alt": {
+            "da": [
+              "at kunne lide"
+            ],
+            "en": [
+              "like"
+            ]
+          },
+          "forms": [
+            "kan lide"
+          ],
+          "sentences": [
+            {
+              "da": "Han kan lide te.",
+              "en": "He likes tea.",
+              "gap": "kan lide"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-han-kan-ikke-lide-kaffe-men-han-kan-godt-lide-te",
+          "kind": "phrase",
+          "da": "Han kan ikke lide kaffe, men han kan godt lide te.",
+          "en": "He doesn't like coffee, but he does like tea.",
+          "sentences": [
+            {
+              "da": "Hun kan godt lide te, men ikke kaffe.",
+              "en": "She likes tea, but not coffee.",
+              "gap": "godt"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-gaa-ud-i-koekkenet",
+          "kind": "phrase",
+          "da": "gå ud i køkkenet",
+          "en": "to go out into the kitchen",
+          "sentences": [
+            {
+              "da": "Hun går ud i køkkenet.",
+              "en": "She goes out into the kitchen.",
+              "gap": "går ud i køkkenet"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-gaa-hen-til-bussen",
+          "kind": "phrase",
+          "da": "gå hen til bussen",
+          "en": "to walk over to the bus",
+          "sentences": [
+            {
+              "da": "Han går hen til bussen.",
+              "en": "He walks over to the bus.",
+              "gap": "går hen til bussen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-et-brusebad",
+          "kind": "word",
+          "da": "et brusebad",
+          "en": "shower",
+          "gender": "et",
+          "forms": [
+            "brusebadet"
+          ],
+          "sentences": [
+            {
+              "da": "Jeg tager et brusebad.",
+              "en": "I take a shower.",
+              "gap": "brusebad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-toej",
+          "kind": "word",
+          "da": "tøj",
+          "en": "clothes",
+          "sentences": [
+            {
+              "da": "Hun tager tøj på.",
+              "en": "She gets dressed.",
+              "gap": "tøj"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-et-koekken",
+          "kind": "word",
+          "da": "et køkken",
+          "en": "kitchen",
+          "gender": "et",
+          "forms": [
+            "køkkenet"
+          ],
+          "sentences": [
+            {
+              "da": "Far er i køkkenet.",
+              "en": "Dad is in the kitchen.",
+              "gap": "køkkenet"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-et-stykke",
+          "kind": "word",
+          "da": "et stykke",
+          "en": "piece",
+          "gender": "et",
+          "forms": [
+            "stykket"
+          ],
+          "sentences": [
+            {
+              "da": "Han spiser et stykke brød.",
+              "en": "He eats a piece of bread.",
+              "gap": "stykke"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-broed",
+          "kind": "word",
+          "da": "brød",
+          "en": "bread",
+          "sentences": [
+            {
+              "da": "Hun spiser brød med ost.",
+              "en": "She eats bread with cheese.",
+              "gap": "brød"
+            },
+            {
+              "da": "Jeg køber et brød.",
+              "en": "I buy a loaf of bread.",
+              "gap": "et brød"
+            }
+          ],
+          "alt": {
+            "da": [
+              "et brød"
+            ]
+          },
+          "forms": [
+            "brødet",
+            "brød"
+          ]
+        },
+        {
+          "id": "u06-p33-ost",
+          "kind": "word",
+          "da": "ost",
+          "en": "cheese",
+          "sentences": [
+            {
+              "da": "Jeg kan godt lide ost.",
+              "en": "I like cheese.",
+              "gap": "ost"
+            },
+            {
+              "da": "Jeg spiser ost til morgenmad.",
+              "en": "I eat cheese for breakfast.",
+              "gap": "ost"
+            }
+          ],
+          "alt": {
+            "da": [
+              "en ost"
+            ]
+          },
+          "forms": [
+            "osten",
+            "oste",
+            "ostene"
+          ]
+        },
+        {
+          "id": "u06-p33-te",
+          "kind": "word",
+          "da": "te",
+          "en": "tea",
+          "sentences": [
+            {
+              "da": "Jeg drikker te.",
+              "en": "I drink tea.",
+              "gap": "te"
+            },
+            {
+              "da": "Jeg drikker te om aftenen.",
+              "en": "I drink tea in the evening.",
+              "gap": "te"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-en-radio",
+          "kind": "word",
+          "da": "en radio",
+          "en": "radio",
+          "gender": "en",
+          "forms": [
+            "radioen"
+          ],
+          "sentences": [
+            {
+              "da": "Han hører nyheder i radioen.",
+              "en": "He listens to the news on the radio.",
+              "gap": "radioen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-nyheder",
+          "kind": "word",
+          "da": "nyheder",
+          "en": "the news",
+          "alt": {
+            "en": [
+              "news"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han hører nyheder.",
+              "en": "He listens to the news.",
+              "gap": "nyheder"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-en-avis",
+          "kind": "word",
+          "da": "en avis",
+          "en": "newspaper",
+          "gender": "en",
+          "forms": [
+            "avisen",
+            "aviser",
+            "aviserne"
+          ],
+          "sentences": [
+            {
+              "da": "Hun læser avisen.",
+              "en": "She reads the paper.",
+              "gap": "avisen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p33-hvad-spiser-han-til-morgenmad",
+          "kind": "phrase",
+          "da": "Hvad spiser han til morgenmad?",
+          "en": "What does he eat for breakfast?",
+          "sentences": [
+            {
+              "da": "Han spiser et stykke brød med ost.",
+              "en": "He eats a piece of bread with cheese.",
+              "gap": "spiser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l06",
+      "title": "Where \"always\" and \"never\" go",
+      "pages": [
+        34
+      ],
+      "taughtInClass": false,
+      "tip": "Central adverbs (altid, normalt, tit, nogle gange, aldrig, ikke, kun) come after the verb: S - V - CA. In a yes/no question the verb comes first: V - S - CA.\nA reflexive pronoun comes before the adverb (Jeg barberer mig altid); a particle like op comes after it (Jeg står altid op).",
+      "items": [
+        {
+          "id": "u06-p34-jeg-vaagner-altid-klokken-seks",
+          "kind": "pattern",
+          "da": "Jeg vågner altid klokken seks.",
+          "en": "I always wake up at six.",
+          "sentences": [
+            {
+              "da": "Jeg vågner altid klokken seks.",
+              "en": "I always wake up at six.",
+              "gap": "altid"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-han-spiser-kun-et-stykke-broed",
+          "kind": "pattern",
+          "da": "Han spiser kun et stykke brød.",
+          "en": "He only eats a piece of bread.",
+          "sentences": [
+            {
+              "da": "Han spiser kun et stykke brød.",
+              "en": "He only eats a piece of bread.",
+              "gap": "kun"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-jeg-barberer-mig-altid-om-morgenen",
+          "kind": "pattern",
+          "da": "Jeg barberer mig altid om morgenen.",
+          "en": "I always shave in the morning.",
+          "sentences": [
+            {
+              "da": "Jeg barberer mig altid om morgenen.",
+              "en": "I always shave in the morning.",
+              "gap": "mig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-barberer-du-dig-tit-om-morgenen",
+          "kind": "pattern",
+          "da": "Barberer du dig tit om morgenen?",
+          "en": "Do you often shave in the morning?",
+          "sentences": [
+            {
+              "da": "Barberer du dig tit om morgenen?",
+              "en": "Do you often shave in the morning?",
+              "gap": "dig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-jeg-staar-altid-op-klokken-syv",
+          "kind": "pattern",
+          "da": "Jeg står altid op klokken syv.",
+          "en": "I always get up at seven.",
+          "sentences": [
+            {
+              "da": "Jeg står altid op klokken syv.",
+              "en": "I always get up at seven.",
+              "gap": "altid"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-staar-du-tit-op-klokken-syv",
+          "kind": "pattern",
+          "da": "Står du tit op klokken syv?",
+          "en": "Do you often get up at seven?",
+          "sentences": [
+            {
+              "da": "Står du tit op klokken syv?",
+              "en": "Do you often get up at seven?",
+              "gap": "tit"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-tage-af-sted-hjemmefra",
+          "kind": "phrase",
+          "da": "tage af sted hjemmefra",
+          "en": "to leave home",
+          "sentences": [
+            {
+              "da": "Han tager af sted hjemmefra klokken otte.",
+              "en": "He leaves home at eight.",
+              "gap": "hjemmefra"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-drikker-han-kaffe-om-morgenen",
+          "kind": "phrase",
+          "da": "Drikker han kaffe om morgenen?",
+          "en": "Does he drink coffee in the morning?",
+          "sentences": [
+            {
+              "da": "Nej, han drikker aldrig kaffe.",
+              "en": "No, he never drinks coffee.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-hvad-hoerer-han-i-radioen",
+          "kind": "phrase",
+          "da": "Hvad hører han i radioen?",
+          "en": "What does he listen to on the radio?",
+          "sentences": [
+            {
+              "da": "Han hører nyheder.",
+              "en": "He listens to the news.",
+              "gap": "hører"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-hvad-tid-tager-han-af-sted-hjemmefra",
+          "kind": "phrase",
+          "da": "Hvad tid tager han af sted hjemmefra?",
+          "en": "What time does he leave home?",
+          "sentences": [
+            {
+              "da": "Han tager af sted klokken otte.",
+              "en": "He leaves at eight.",
+              "gap": "tager af sted"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-hvordan-kommer-han-paa-arbejde",
+          "kind": "phrase",
+          "da": "Hvordan kommer han på arbejde?",
+          "en": "How does he get to work?",
+          "sentences": [
+            {
+              "da": "Han tager bussen.",
+              "en": "He takes the bus.",
+              "gap": "tager"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-vaagner-du-tit-klokken-seks",
+          "kind": "phrase",
+          "da": "Vågner du tit klokken seks?",
+          "en": "Do you often wake up at six?",
+          "sentences": [
+            {
+              "da": "Ja, jeg vågner altid klokken seks.",
+              "en": "Yes, I always wake up at six.",
+              "gap": "altid"
+            },
+            {
+              "da": "Nej, jeg vågner aldrig klokken seks.",
+              "en": "No, I never wake up at six.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-er-du-tit-frisk-om-morgenen",
+          "kind": "phrase",
+          "da": "Er du tit frisk om morgenen?",
+          "en": "Are you often alert in the morning?",
+          "sentences": [
+            {
+              "da": "Ja, jeg er altid frisk om morgenen.",
+              "en": "Yes, I am always alert in the morning.",
+              "gap": "altid"
+            },
+            {
+              "da": "Nej, jeg er aldrig frisk om morgenen.",
+              "en": "No, I am never alert in the morning.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-tager-du-tit-brusebad-om-morgenen",
+          "kind": "phrase",
+          "da": "Tager du tit brusebad om morgenen?",
+          "en": "Do you often take a shower in the morning?",
+          "sentences": [
+            {
+              "da": "Ja, jeg tager normalt brusebad.",
+              "en": "Yes, I normally take a shower.",
+              "gap": "normalt"
+            },
+            {
+              "da": "Nej, jeg tager aldrig brusebad.",
+              "en": "No, I never take a shower.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-drikker-du-tit-te",
+          "kind": "phrase",
+          "da": "Drikker du tit te?",
+          "en": "Do you often drink tea?",
+          "sentences": [
+            {
+              "da": "Ja, jeg drikker tit te.",
+              "en": "Yes, I often drink tea.",
+              "gap": "tit"
+            },
+            {
+              "da": "Nej, jeg drikker aldrig te.",
+              "en": "No, I never drink tea.",
+              "gap": "aldrig"
+            }
+          ]
+        },
+        {
+          "id": "u06-p34-tager-du-tit-bussen-til-skole",
+          "kind": "phrase",
+          "da": "Tager du tit bussen til skole?",
+          "en": "Do you often take the bus to school?",
+          "sentences": [
+            {
+              "da": "Ja, jeg tager tit bussen til skole.",
+              "en": "Yes, I often take the bus to school.",
+              "gap": "tit"
+            },
+            {
+              "da": "Nej, jeg tager aldrig bussen til skole.",
+              "en": "No, I never take the bus to school.",
+              "gap": "aldrig"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Jeg vågner altid klokken seks.",
+          "en": "I always wake up at six."
+        },
+        {
+          "da": "Jeg står altid op klokken syv.",
+          "en": "I always get up at seven."
+        }
+      ]
+    },
+    {
+      "id": "u06-l07",
+      "title": "Everyday activities (1)",
+      "pages": [
+        35
+      ],
+      "taughtInClass": true,
+      "tip": "The present tense is the infinitive + -r (most verbs ending in -e just add -r), and it is the same for every person: jeg, du, han, hun, vi, I, de all use the same form. Gøre is irregular: gør.\nExample: Hun køber ind. (She does the shopping.)",
+      "items": [
+        {
+          "id": "u06-p35-koebe-ind",
+          "kind": "word",
+          "da": "købe ind",
+          "en": "to do the shopping",
+          "alt": {
+            "da": [
+              "at købe ind"
+            ],
+            "en": [
+              "do the shopping",
+              "to go shopping",
+              "to shop"
+            ]
+          },
+          "forms": [
+            "køber ind"
+          ],
+          "sentences": [
+            {
+              "da": "Hun køber ind om eftermiddagen.",
+              "en": "She does the shopping in the afternoon.",
+              "gap": "køber ind"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-tage-hjem",
+          "kind": "word",
+          "da": "tage hjem",
+          "en": "to go home",
+          "alt": {
+            "da": [
+              "at tage hjem"
+            ],
+            "en": [
+              "go home"
+            ]
+          },
+          "forms": [
+            "tager hjem"
+          ],
+          "sentences": [
+            {
+              "da": "Han tager hjem klokken fem.",
+              "en": "He goes home at five.",
+              "gap": "tager hjem"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-spise-frokost",
+          "kind": "word",
+          "da": "spise frokost",
+          "en": "to eat lunch",
+          "alt": {
+            "da": [
+              "at spise frokost"
+            ],
+            "en": [
+              "eat lunch",
+              "to have lunch"
+            ]
+          },
+          "forms": [
+            "spiser frokost"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser frokost klokken tolv.",
+              "en": "We eat lunch at twelve.",
+              "gap": "spiser frokost"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-slappe-af",
+          "kind": "word",
+          "da": "slappe af",
+          "en": "to relax",
+          "alt": {
+            "da": [
+              "at slappe af"
+            ],
+            "en": [
+              "relax"
+            ]
+          },
+          "forms": [
+            "slapper af"
+          ],
+          "sentences": [
+            {
+              "da": "Om aftenen slapper han af.",
+              "en": "In the evening he relaxes.",
+              "gap": "slapper"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-skrive",
+          "kind": "word",
+          "da": "skrive",
+          "en": "to write",
+          "alt": {
+            "da": [
+              "at skrive"
+            ],
+            "en": [
+              "write"
+            ]
+          },
+          "forms": [
+            "skriver"
+          ],
+          "sentences": [
+            {
+              "da": "Han skriver en e-mail.",
+              "en": "He writes an email.",
+              "gap": "skriver"
+            },
+            {
+              "da": "Jeg skriver med en kuglepen.",
+              "en": "I write with a pen.",
+              "gap": "skriver"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-spille",
+          "kind": "word",
+          "da": "spille",
+          "en": "to play",
+          "alt": {
+            "da": [
+              "at spille"
+            ],
+            "en": [
+              "play"
+            ]
+          },
+          "forms": [
+            "spiller"
+          ],
+          "sentences": [
+            {
+              "da": "Han spiller computerspil.",
+              "en": "He plays computer games.",
+              "gap": "spiller"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-lave-hjemmearbejde",
+          "kind": "word",
+          "da": "lave hjemmearbejde",
+          "en": "to do homework",
+          "alt": {
+            "da": [
+              "at lave hjemmearbejde"
+            ],
+            "en": [
+              "do homework"
+            ]
+          },
+          "forms": [
+            "laver hjemmearbejde"
+          ],
+          "sentences": [
+            {
+              "da": "Børnene laver hjemmearbejde.",
+              "en": "The children do their homework.",
+              "gap": "laver hjemmearbejde"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-hente",
+          "kind": "word",
+          "da": "hente",
+          "en": "to pick up",
+          "alt": {
+            "da": [
+              "at hente"
+            ],
+            "en": [
+              "pick up",
+              "to fetch",
+              "fetch",
+              "to get"
+            ]
+          },
+          "forms": [
+            "henter"
+          ],
+          "sentences": [
+            {
+              "da": "Han henter børnene.",
+              "en": "He picks up the children.",
+              "gap": "henter"
+            },
+            {
+              "da": "Hun henter gæsterne.",
+              "en": "She is picking up the guests.",
+              "gap": "henter"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-rydde-op",
+          "kind": "word",
+          "da": "rydde op",
+          "en": "to tidy up",
+          "alt": {
+            "da": [
+              "at rydde op"
+            ],
+            "en": [
+              "tidy up",
+              "to clean up",
+              "clean up"
+            ]
+          },
+          "forms": [
+            "rydder op"
+          ],
+          "sentences": [
+            {
+              "da": "Hun rydder op.",
+              "en": "She tidies up.",
+              "gap": "rydder op"
+            },
+            {
+              "da": "Vi rydder op sammen.",
+              "en": "We tidy up together.",
+              "gap": "rydder op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-goere-rent",
+          "kind": "word",
+          "da": "gøre rent",
+          "en": "to clean",
+          "alt": {
+            "da": [
+              "at gøre rent"
+            ],
+            "en": [
+              "clean"
+            ]
+          },
+          "forms": [
+            "gør rent"
+          ],
+          "sentences": [
+            {
+              "da": "Hun gør rent om formiddagen.",
+              "en": "She cleans in the late morning.",
+              "gap": "gør rent"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-vaske-toej",
+          "kind": "word",
+          "da": "vaske tøj",
+          "en": "to do the laundry",
+          "alt": {
+            "da": [
+              "at vaske tøj"
+            ],
+            "en": [
+              "do the laundry",
+              "to wash clothes"
+            ]
+          },
+          "forms": [
+            "vasker tøj"
+          ],
+          "sentences": [
+            {
+              "da": "Han vasker tøj.",
+              "en": "He does the laundry.",
+              "gap": "vasker tøj"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-tale-i-telefon",
+          "kind": "word",
+          "da": "tale i telefon",
+          "en": "to talk on the phone",
+          "alt": {
+            "da": [
+              "at tale i telefon"
+            ],
+            "en": [
+              "talk on the phone",
+              "to speak on the phone"
+            ]
+          },
+          "forms": [
+            "taler i telefon"
+          ],
+          "sentences": [
+            {
+              "da": "Hun taler i telefon.",
+              "en": "She talks on the phone.",
+              "gap": "taler i telefon"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-passe-boern",
+          "kind": "word",
+          "da": "passe børn",
+          "en": "to look after children",
+          "alt": {
+            "da": [
+              "at passe børn"
+            ],
+            "en": [
+              "look after children",
+              "to take care of children",
+              "to babysit"
+            ]
+          },
+          "forms": [
+            "passer børn"
+          ],
+          "sentences": [
+            {
+              "da": "Hun passer børn.",
+              "en": "She looks after children.",
+              "gap": "passer børn"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-frokost",
+          "kind": "word",
+          "da": "frokost",
+          "en": "lunch",
+          "sentences": [
+            {
+              "da": "Vi spiser frokost sammen.",
+              "en": "We eat lunch together.",
+              "gap": "frokost"
+            },
+            {
+              "da": "Jeg spiser frokost klokken tolv.",
+              "en": "I eat lunch at twelve.",
+              "gap": "frokost"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-et-computerspil",
+          "kind": "word",
+          "da": "et computerspil",
+          "en": "computer game",
+          "gender": "et",
+          "sentences": [
+            {
+              "da": "Han spiller et computerspil.",
+              "en": "He plays a computer game.",
+              "gap": "computerspil"
+            }
+          ],
+          "forms": [
+            "computerspillet",
+            "computerspil",
+            "computerspillene"
+          ]
+        },
+        {
+          "id": "u06-p35-et-hjemmearbejde",
+          "kind": "word",
+          "da": "hjemmearbejde",
+          "en": "homework",
+          "sentences": [
+            {
+              "da": "Jeg har hjemmearbejde i dag.",
+              "en": "I have homework today.",
+              "gap": "hjemmearbejde"
+            }
+          ],
+          "alt": {
+            "da": [
+              "et hjemmearbejde"
+            ]
+          }
+        },
+        {
+          "id": "u06-p35-hun-koeber-ind",
+          "kind": "pattern",
+          "da": "Hun køber ind.",
+          "en": "She does the shopping.",
+          "sentences": [
+            {
+              "da": "Hun køber ind.",
+              "en": "She does the shopping.",
+              "gap": "køber ind"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-han-spiser-frokost",
+          "kind": "pattern",
+          "da": "Han spiser frokost.",
+          "en": "He eats lunch.",
+          "sentences": [
+            {
+              "da": "Han spiser frokost.",
+              "en": "He eats lunch.",
+              "gap": "spiser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p35-hun-goer-rent",
+          "kind": "pattern",
+          "da": "Hun gør rent.",
+          "en": "She cleans.",
+          "sentences": [
+            {
+              "da": "Hun gør rent.",
+              "en": "She cleans.",
+              "gap": "gør rent"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hun køber ind.",
+          "en": "She does the shopping."
+        },
+        {
+          "da": "Hun gør rent.",
+          "en": "She cleans."
+        },
+        {
+          "da": "Hun passer børn.",
+          "en": "She looks after children."
+        }
+      ]
+    },
+    {
+      "id": "u06-l08",
+      "title": "Everyday activities (2)",
+      "pages": [
+        36
+      ],
+      "taughtInClass": true,
+      "items": [
+        {
+          "id": "u06-p36-lave-mad",
+          "kind": "word",
+          "da": "lave mad",
+          "en": "to cook",
+          "alt": {
+            "da": [
+              "at lave mad"
+            ],
+            "en": [
+              "cook",
+              "to make food",
+              "make food"
+            ]
+          },
+          "forms": [
+            "laver mad"
+          ],
+          "sentences": [
+            {
+              "da": "Hun laver mad.",
+              "en": "She cooks.",
+              "gap": "laver mad"
+            },
+            {
+              "da": "Jeg laver mad hver dag.",
+              "en": "I cook every day.",
+              "gap": "laver mad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-spise-aftensmad",
+          "kind": "word",
+          "da": "spise aftensmad",
+          "en": "to eat dinner",
+          "alt": {
+            "da": [
+              "at spise aftensmad"
+            ],
+            "en": [
+              "eat dinner",
+              "to have dinner"
+            ]
+          },
+          "forms": [
+            "spiser aftensmad"
+          ],
+          "sentences": [
+            {
+              "da": "Vi spiser aftensmad klokken seks.",
+              "en": "We eat dinner at six.",
+              "gap": "spiser aftensmad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-vaske-op",
+          "kind": "word",
+          "da": "vaske op",
+          "en": "to do the dishes",
+          "alt": {
+            "da": [
+              "at vaske op"
+            ],
+            "en": [
+              "do the dishes",
+              "to wash up"
+            ]
+          },
+          "forms": [
+            "vasker op"
+          ],
+          "sentences": [
+            {
+              "da": "Han vasker op.",
+              "en": "He does the dishes.",
+              "gap": "vasker op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-gaa-en-tur",
+          "kind": "word",
+          "da": "gå en tur",
+          "en": "to go for a walk",
+          "alt": {
+            "da": [
+              "at gå en tur"
+            ],
+            "en": [
+              "go for a walk"
+            ]
+          },
+          "forms": [
+            "går en tur"
+          ],
+          "sentences": [
+            {
+              "da": "Vi går en tur i weekenden.",
+              "en": "We go for a walk at the weekend.",
+              "gap": "går en tur"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-faa-gaester",
+          "kind": "word",
+          "da": "få gæster",
+          "en": "to have guests over",
+          "alt": {
+            "da": [
+              "at få gæster"
+            ],
+            "en": [
+              "have guests over",
+              "to have guests"
+            ]
+          },
+          "forms": [
+            "får gæster"
+          ],
+          "sentences": [
+            {
+              "da": "De får gæster om søndagen.",
+              "en": "They have guests on Sundays.",
+              "gap": "får gæster"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-ringe-til",
+          "kind": "word",
+          "da": "ringe til",
+          "en": "to call",
+          "alt": {
+            "da": [
+              "at ringe til"
+            ],
+            "en": [
+              "call",
+              "to phone",
+              "to ring"
+            ]
+          },
+          "forms": [
+            "ringer til"
+          ],
+          "sentences": [
+            {
+              "da": "Hun ringer til en ven.",
+              "en": "She calls a friend.",
+              "gap": "ringer til"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-sende",
+          "kind": "word",
+          "da": "sende",
+          "en": "to send",
+          "alt": {
+            "da": [
+              "at sende"
+            ],
+            "en": [
+              "send"
+            ]
+          },
+          "forms": [
+            "sender"
+          ],
+          "sentences": [
+            {
+              "da": "Hun sender en sms.",
+              "en": "She sends a text.",
+              "gap": "sender"
+            },
+            {
+              "da": "Hun sender en e-mail.",
+              "en": "She sends an email.",
+              "gap": "sender"
+            },
+            {
+              "da": "Han sender en sms.",
+              "en": "He sends a text message.",
+              "gap": "sender"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-hoere-musik",
+          "kind": "word",
+          "da": "høre musik",
+          "en": "to listen to music",
+          "alt": {
+            "da": [
+              "at høre musik"
+            ],
+            "en": [
+              "listen to music"
+            ]
+          },
+          "forms": [
+            "hører musik"
+          ],
+          "sentences": [
+            {
+              "da": "Han hører musik.",
+              "en": "He listens to music.",
+              "gap": "hører musik"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-tale-med",
+          "kind": "word",
+          "da": "tale med",
+          "en": "to talk to",
+          "alt": {
+            "da": [
+              "at tale med"
+            ],
+            "en": [
+              "talk to",
+              "to talk with",
+              "to speak to"
+            ]
+          },
+          "forms": [
+            "taler med"
+          ],
+          "sentences": [
+            {
+              "da": "Han taler med sin kone.",
+              "en": "He talks to his wife.",
+              "gap": "taler med"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-se-fjernsyn",
+          "kind": "word",
+          "da": "se fjernsyn",
+          "en": "to watch TV",
+          "alt": {
+            "da": [
+              "at se fjernsyn"
+            ],
+            "en": [
+              "watch TV",
+              "to watch television",
+              "watch television"
+            ]
+          },
+          "forms": [
+            "ser fjernsyn"
+          ],
+          "sentences": [
+            {
+              "da": "De ser fjernsyn.",
+              "en": "They watch TV.",
+              "gap": "ser fjernsyn"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-gaa-i-seng",
+          "kind": "word",
+          "da": "gå i seng",
+          "en": "to go to bed",
+          "alt": {
+            "da": [
+              "at gå i seng"
+            ],
+            "en": [
+              "go to bed"
+            ]
+          },
+          "forms": [
+            "går i seng"
+          ],
+          "sentences": [
+            {
+              "da": "Hun går i seng klokken ti.",
+              "en": "She goes to bed at ten.",
+              "gap": "går i seng"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-sove",
+          "kind": "word",
+          "da": "sove",
+          "en": "to sleep",
+          "alt": {
+            "da": [
+              "at sove"
+            ],
+            "en": [
+              "sleep"
+            ]
+          },
+          "forms": [
+            "sover"
+          ],
+          "sentences": [
+            {
+              "da": "Barnet sover.",
+              "en": "The child is sleeping.",
+              "gap": "sover"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-mad",
+          "kind": "word",
+          "da": "mad",
+          "en": "food",
+          "sentences": [
+            {
+              "da": "Vi laver mad.",
+              "en": "We cook.",
+              "gap": "mad"
+            },
+            {
+              "da": "Jeg elsker dansk mad.",
+              "en": "I love Danish food.",
+              "gap": "mad"
+            }
+          ],
+          "forms": [
+            "maden"
+          ]
+        },
+        {
+          "id": "u06-p36-aftensmad",
+          "kind": "word",
+          "da": "aftensmad",
+          "en": "dinner (evening meal)",
+          "alt": {
+            "en": [
+              "dinner",
+              "supper",
+              "evening meal"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Aftensmaden er klokken seks.",
+              "en": "Dinner is at six.",
+              "gap": "Aftensmaden"
+            },
+            {
+              "da": "Hun laver aftensmad hjemme.",
+              "en": "She cooks dinner at home.",
+              "gap": "aftensmad"
+            }
+          ],
+          "forms": [
+            "aftensmaden"
+          ]
+        },
+        {
+          "id": "u06-p36-en-tur",
+          "kind": "word",
+          "da": "en tur",
+          "en": "walk",
+          "alt": {
+            "en": [
+              "trip"
+            ]
+          },
+          "gender": "en",
+          "forms": [
+            "turen"
+          ],
+          "sentences": [
+            {
+              "da": "Vi går en tur sammen.",
+              "en": "We go for a walk together.",
+              "gap": "tur"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-en-gaest",
+          "kind": "word",
+          "da": "en gæst",
+          "en": "guest",
+          "gender": "en",
+          "forms": [
+            "gæsten",
+            "gæster",
+            "gæsterne"
+          ],
+          "sentences": [
+            {
+              "da": "Der er en gæst i køkkenet.",
+              "en": "There is a guest in the kitchen.",
+              "gap": "gæst"
+            },
+            {
+              "da": "Vi har gæster i dag.",
+              "en": "We have guests today.",
+              "gap": "gæster"
+            },
+            {
+              "da": "Vi har en gæst.",
+              "en": "We have a guest.",
+              "gap": "gæst"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-en-sms",
+          "kind": "word",
+          "da": "en sms",
+          "en": "text message",
+          "alt": {
+            "en": [
+              "text",
+              "SMS",
+              "text message"
+            ]
+          },
+          "gender": "en",
+          "forms": [
+            "smsen"
+          ],
+          "sentences": [
+            {
+              "da": "Der er en sms fra Anna.",
+              "en": "There is a text from Anna.",
+              "gap": "sms"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-musik",
+          "kind": "word",
+          "da": "musik",
+          "en": "music",
+          "sentences": [
+            {
+              "da": "Jeg kan godt lide musik.",
+              "en": "I like music.",
+              "gap": "musik"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-hvad-laver-hun",
+          "kind": "phrase",
+          "da": "Hvad laver hun?",
+          "en": "What is she doing?",
+          "alt": {
+            "en": [
+              "What does she do?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun vasker op.",
+              "en": "She is doing the dishes.",
+              "gap": "vasker op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p36-hvad-laver-han",
+          "kind": "phrase",
+          "da": "Hvad laver han?",
+          "en": "What is he doing?",
+          "alt": {
+            "en": [
+              "What does he do?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han hører musik.",
+              "en": "He is listening to music.",
+              "gap": "hører"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Hun går i seng.",
+          "en": "She goes to bed."
+        },
+        {
+          "da": "De ser fjernsyn.",
+          "en": "They watch TV."
+        }
+      ]
+    },
+    {
+      "id": "u06-l09",
+      "title": "Starting a sentence with the time",
+      "pages": [
+        37
+      ],
+      "taughtInClass": true,
+      "tip": "Many time and place expressions (and most central adverbs) can start a sentence. The verb still comes second, so the subject moves after it: S - V becomes A - V - S. Først, så and bagefter work the same way.\nExample: Om morgenen er Thomas tit træt. (In the morning Thomas is often tired.)",
+      "items": [
+        {
+          "id": "u06-p37-thomas-er-tit-traet-om-morgenen",
+          "kind": "pattern",
+          "da": "Thomas er tit træt om morgenen.",
+          "en": "Thomas is often tired in the morning.",
+          "sentences": [
+            {
+              "da": "Thomas er tit træt om morgenen.",
+              "en": "Thomas is often tired in the morning.",
+              "gap": "er"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-om-morgenen-er-thomas-tit-traet",
+          "kind": "pattern",
+          "da": "Om morgenen er Thomas tit træt.",
+          "en": "In the morning Thomas is often tired.",
+          "sentences": [
+            {
+              "da": "Om morgenen er Thomas tit træt.",
+              "en": "In the morning Thomas is often tired.",
+              "gap": "er"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-klokken-tolv-spiser-hun-frokost",
+          "kind": "pattern",
+          "da": "Klokken tolv spiser hun frokost.",
+          "en": "At twelve she eats lunch.",
+          "sentences": [
+            {
+              "da": "Klokken tolv spiser hun frokost.",
+              "en": "At twelve she eats lunch.",
+              "gap": "spiser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-om-eftermiddagen-laver-hun-hjemmearbejde",
+          "kind": "pattern",
+          "da": "Om eftermiddagen laver hun hjemmearbejde.",
+          "en": "In the afternoon she does homework.",
+          "sentences": [
+            {
+              "da": "Om eftermiddagen laver hun hjemmearbejde.",
+              "en": "In the afternoon she does homework.",
+              "gap": "laver"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-om-aftenen-slapper-hun-af",
+          "kind": "pattern",
+          "da": "Om aftenen slapper hun af.",
+          "en": "In the evening she relaxes.",
+          "sentences": [
+            {
+              "da": "Om aftenen slapper hun af.",
+              "en": "In the evening she relaxes.",
+              "gap": "slapper"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-om-formiddagen-goer-hun-rent",
+          "kind": "pattern",
+          "da": "Om formiddagen gør hun rent.",
+          "en": "In the late morning she cleans.",
+          "sentences": [
+            {
+              "da": "Om formiddagen gør hun rent.",
+              "en": "In the late morning she cleans.",
+              "gap": "gør"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-klokken-tolv",
+          "kind": "phrase",
+          "da": "klokken tolv",
+          "en": "at twelve o'clock",
+          "alt": {
+            "en": [
+              "at 12",
+              "at twelve"
+            ],
+            "da": [
+              "klokken 12",
+              "kl. 12",
+              "kl. tolv"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Klokken tolv spiser vi frokost.",
+              "en": "At twelve we eat lunch.",
+              "gap": "Klokken"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-foerst",
+          "kind": "word",
+          "da": "først",
+          "en": "first",
+          "sentences": [
+            {
+              "da": "Først tager jeg brusebad.",
+              "en": "First I take a shower.",
+              "gap": "Først"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-saa",
+          "kind": "word",
+          "da": "så",
+          "en": "then",
+          "sentences": [
+            {
+              "da": "Så spiser jeg morgenmad.",
+              "en": "Then I eat breakfast.",
+              "gap": "Så"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-bagefter",
+          "kind": "word",
+          "da": "bagefter",
+          "en": "afterwards",
+          "alt": {
+            "en": [
+              "after that"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Bagefter drikker jeg kaffe.",
+              "en": "Afterwards I drink coffee.",
+              "gap": "Bagefter"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Om morgenen er Thomas tit træt.",
+          "en": "In the morning Thomas is often tired."
+        },
+        {
+          "da": "Om eftermiddagen laver hun hjemmearbejde.",
+          "en": "In the afternoon she does homework."
+        }
+      ]
+    },
+    {
+      "id": "u06-l10",
+      "title": "After lunch, after work: what do you do?",
+      "pages": [
+        37
+      ],
+      "taughtInClass": true,
+      "items": [
+        {
+          "id": "u06-p37-efter-arbejde",
+          "kind": "phrase",
+          "da": "efter arbejde",
+          "en": "after work",
+          "sentences": [
+            {
+              "da": "Efter arbejde køber hun ind.",
+              "en": "After work she does the shopping.",
+              "gap": "efter arbejde"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-efter-skole",
+          "kind": "phrase",
+          "da": "efter skole",
+          "en": "after school",
+          "sentences": [
+            {
+              "da": "Efter skole laver han hjemmearbejde.",
+              "en": "After school he does homework.",
+              "gap": "efter skole"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-efter-frokost",
+          "kind": "phrase",
+          "da": "efter frokost",
+          "en": "after lunch",
+          "sentences": [
+            {
+              "da": "Efter frokost går vi en tur.",
+              "en": "After lunch we go for a walk.",
+              "gap": "efter frokost"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-efter-middag",
+          "kind": "phrase",
+          "da": "efter middag",
+          "en": "after dinner",
+          "sentences": [
+            {
+              "da": "Efter middag ser vi fjernsyn.",
+              "en": "After dinner we watch TV.",
+              "gap": "efter middag"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-tid-staar-du-op",
+          "kind": "phrase",
+          "da": "Hvad tid står du op?",
+          "en": "What time do you get up?",
+          "sentences": [
+            {
+              "da": "Jeg står op klokken syv.",
+              "en": "I get up at seven.",
+              "gap": "står op"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-goer-du-saa",
+          "kind": "phrase",
+          "da": "Hvad gør du så?",
+          "en": "What do you do then?",
+          "alt": {
+            "en": [
+              "What do you do next?"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Så tager jeg et brusebad.",
+              "en": "Then I take a shower.",
+              "gap": "tager"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-goer-du-bagefter",
+          "kind": "phrase",
+          "da": "Hvad gør du bagefter?",
+          "en": "What do you do afterwards?",
+          "sentences": [
+            {
+              "da": "Bagefter spiser jeg morgenmad.",
+              "en": "Afterwards I eat breakfast.",
+              "gap": "spiser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-laver-du-efter-frokost",
+          "kind": "phrase",
+          "da": "Hvad laver du efter frokost?",
+          "en": "What do you do after lunch?",
+          "sentences": [
+            {
+              "da": "Efter frokost går jeg en tur.",
+              "en": "After lunch I go for a walk.",
+              "gap": "går"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-laver-du-efter-skole",
+          "kind": "phrase",
+          "da": "Hvad laver du efter skole?",
+          "en": "What do you do after school?",
+          "sentences": [
+            {
+              "da": "Efter skole laver jeg hjemmearbejde.",
+              "en": "After school I do homework.",
+              "gap": "laver"
+            },
+            {
+              "da": "Efter arbejde køber jeg ind.",
+              "en": "After work I do the shopping.",
+              "gap": "køber"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-laver-du-om-eftermiddagen",
+          "kind": "phrase",
+          "da": "Hvad laver du om eftermiddagen?",
+          "en": "What do you do in the afternoon?",
+          "sentences": [
+            {
+              "da": "Om eftermiddagen læser jeg en bog.",
+              "en": "In the afternoon I read a book.",
+              "gap": "læser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p37-hvad-laver-du-om-aftenen",
+          "kind": "phrase",
+          "da": "Hvad laver du om aftenen?",
+          "en": "What do you do in the evening?",
+          "sentences": [
+            {
+              "da": "Om aftenen ser jeg fjernsyn.",
+              "en": "In the evening I watch TV.",
+              "gap": "ser"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l11",
+      "title": "The Dam family: a busy home",
+      "pages": [
+        38
+      ],
+      "taughtInClass": true,
+      "tip": "When one subject has several verbs, join them with og and do not repeat the subject: S - V - og - V. With inversion: A - V - S - og - V.\nExample: Hun køber ind og laver mad. (She does the shopping and cooks.)",
+      "items": [
+        {
+          "id": "u06-p38-hun-koeber-ind-og-laver-mad",
+          "kind": "pattern",
+          "da": "Hun køber ind og laver mad.",
+          "en": "She does the shopping and cooks.",
+          "sentences": [
+            {
+              "da": "Hun køber ind og laver mad.",
+              "en": "She does the shopping and cooks.",
+              "gap": "og"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-om-aftenen-slapper-hun-af-og-ser-fjernsyn",
+          "kind": "pattern",
+          "da": "Om aftenen slapper hun af og ser fjernsyn.",
+          "en": "In the evening she relaxes and watches TV.",
+          "sentences": [
+            {
+              "da": "Om aftenen slapper hun af og ser fjernsyn.",
+              "en": "In the evening she relaxes and watches TV.",
+              "gap": "og"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-en-boernefamilie",
+          "kind": "word",
+          "da": "en børnefamilie",
+          "en": "family with children",
+          "gender": "en",
+          "forms": [
+            "børnefamilien"
+          ],
+          "sentences": [
+            {
+              "da": "De er en børnefamilie.",
+              "en": "They are a family with children.",
+              "gap": "børnefamilie"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-et-hjem",
+          "kind": "word",
+          "da": "et hjem",
+          "en": "home (a place to live)",
+          "gender": "et",
+          "forms": [
+            "hjemmet"
+          ],
+          "sentences": [
+            {
+              "da": "Vores hjem er i København.",
+              "en": "Our home is in Copenhagen.",
+              "gap": "hjem"
+            }
+          ],
+          "alt": {
+            "en": [
+              "home"
+            ]
+          }
+        },
+        {
+          "id": "u06-p38-en-sofa",
+          "kind": "word",
+          "da": "en sofa",
+          "en": "sofa",
+          "gender": "en",
+          "forms": [
+            "sofaen"
+          ],
+          "sentences": [
+            {
+              "da": "Han sover i sofaen.",
+              "en": "He sleeps on the sofa.",
+              "gap": "sofaen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-en-biograf",
+          "kind": "word",
+          "da": "en biograf",
+          "en": "cinema",
+          "gender": "en",
+          "forms": [
+            "biografen"
+          ],
+          "sentences": [
+            {
+              "da": "Vi går i biografen.",
+              "en": "We go to the cinema.",
+              "gap": "biografen"
+            }
+          ],
+          "alt": {
+            "en": [
+              "movie theater",
+              "movie theatre"
+            ]
+          }
+        },
+        {
+          "id": "u06-p38-et-gulv",
+          "kind": "word",
+          "da": "et gulv",
+          "en": "floor (of a room)",
+          "gender": "et",
+          "forms": [
+            "gulvet"
+          ],
+          "sentences": [
+            {
+              "da": "Der er en kop på gulvet.",
+              "en": "There is a cup on the floor.",
+              "gap": "gulvet"
+            }
+          ],
+          "alt": {
+            "en": [
+              "floor"
+            ]
+          }
+        },
+        {
+          "id": "u06-p38-travl",
+          "kind": "word",
+          "da": "travl",
+          "en": "busy",
+          "sentences": [
+            {
+              "da": "De har en travl hverdag.",
+              "en": "They have a busy everyday life.",
+              "gap": "travl"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-glad",
+          "kind": "word",
+          "da": "glad",
+          "en": "happy",
+          "sentences": [
+            {
+              "da": "Hun er glad i dag.",
+              "en": "She is happy today.",
+              "gap": "glad"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-tilfreds",
+          "kind": "word",
+          "da": "tilfreds",
+          "en": "satisfied",
+          "alt": {
+            "en": [
+              "content"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Jeg er tilfreds.",
+              "en": "I am satisfied.",
+              "gap": "tilfreds"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-sur",
+          "kind": "word",
+          "da": "sur",
+          "en": "cross",
+          "alt": {
+            "en": [
+              "grumpy",
+              "angry"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han er sur.",
+              "en": "He is cross.",
+              "gap": "sur"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-igen",
+          "kind": "word",
+          "da": "igen",
+          "en": "again",
+          "sentences": [
+            {
+              "da": "Vi ses igen i morgen.",
+              "en": "See you again tomorrow.",
+              "gap": "igen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-have-travlt",
+          "kind": "phrase",
+          "da": "have travlt",
+          "en": "to be busy",
+          "alt": {
+            "en": [
+              "be busy",
+              "to be in a hurry"
+            ],
+            "da": [
+              "at have travlt"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Hun har travlt om morgenen.",
+              "en": "She is busy in the morning.",
+              "gap": "har travlt"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-begge-to",
+          "kind": "phrase",
+          "da": "begge to",
+          "en": "both",
+          "alt": {
+            "en": [
+              "both of them"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "De arbejder begge to.",
+              "en": "They both work.",
+              "gap": "begge to"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-ikke-helt-tilfreds",
+          "kind": "phrase",
+          "da": "ikke helt tilfreds",
+          "en": "not completely satisfied",
+          "alt": {
+            "en": [
+              "not entirely satisfied"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Eva er ikke helt tilfreds.",
+              "en": "Eva is not completely satisfied.",
+              "gap": "ikke helt tilfreds"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Jens og Eva deler arbejdet.",
+          "en": "Jens and Eva share the work.",
+          "tip": "Listen and repeat, paying attention to rhythm and sentence melody."
+        }
+      ]
+    },
+    {
+      "id": "u06-l12",
+      "title": "The Dam family: chores and feelings",
+      "pages": [
+        38,
+        39
+      ],
+      "taughtInClass": true,
+      "tip": "Kan (ikke) lide at + verb means (don't) like doing something.\nExample: Han kan ikke lide at vaske tøj. (He doesn't like doing the laundry.)",
+      "items": [
+        {
+          "id": "u06-p38-dele",
+          "kind": "word",
+          "da": "dele",
+          "en": "to share",
+          "alt": {
+            "da": [
+              "at dele"
+            ],
+            "en": [
+              "share"
+            ]
+          },
+          "forms": [
+            "deler"
+          ],
+          "sentences": [
+            {
+              "da": "Jens og Eva deler arbejdet.",
+              "en": "Jens and Eva share the work.",
+              "gap": "deler"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-hjaelpe",
+          "kind": "word",
+          "da": "hjælpe",
+          "en": "to help",
+          "alt": {
+            "da": [
+              "at hjælpe"
+            ],
+            "en": [
+              "help"
+            ]
+          },
+          "forms": [
+            "hjælper"
+          ],
+          "sentences": [
+            {
+              "da": "Han hjælper sin kone.",
+              "en": "He helps his wife.",
+              "gap": "hjælper"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-stoevsuge",
+          "kind": "word",
+          "da": "støvsuge",
+          "en": "to vacuum",
+          "alt": {
+            "da": [
+              "at støvsuge"
+            ],
+            "en": [
+              "vacuum"
+            ]
+          },
+          "forms": [
+            "støvsuger"
+          ],
+          "sentences": [
+            {
+              "da": "Hun støvsuger om lørdagen.",
+              "en": "She vacuums on Saturdays.",
+              "gap": "støvsuger"
+            },
+            {
+              "da": "Han støvsuger i dag.",
+              "en": "He vacuums today.",
+              "gap": "støvsuger"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-vaske-gulv",
+          "kind": "word",
+          "da": "vaske gulv",
+          "en": "to wash the floor",
+          "alt": {
+            "da": [
+              "at vaske gulv"
+            ],
+            "en": [
+              "wash the floor",
+              "to mop the floor"
+            ]
+          },
+          "forms": [
+            "vasker gulv"
+          ],
+          "sentences": [
+            {
+              "da": "Han vasker gulv.",
+              "en": "He washes the floor.",
+              "gap": "vasker gulv"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-vaske-bil",
+          "kind": "word",
+          "da": "vaske bil",
+          "en": "to wash the car",
+          "alt": {
+            "da": [
+              "at vaske bil"
+            ],
+            "en": [
+              "wash the car"
+            ]
+          },
+          "forms": [
+            "vasker bil"
+          ],
+          "sentences": [
+            {
+              "da": "Jens vasker bil om søndagen.",
+              "en": "Jens washes the car on Sundays.",
+              "gap": "vasker bil"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-vaekke",
+          "kind": "word",
+          "da": "vække",
+          "en": "to wake someone up",
+          "alt": {
+            "da": [
+              "at vække"
+            ],
+            "en": [
+              "wake someone up",
+              "to wake (someone)"
+            ]
+          },
+          "forms": [
+            "vækker"
+          ],
+          "sentences": [
+            {
+              "da": "Eva vækker Jens.",
+              "en": "Eva wakes Jens up.",
+              "gap": "vækker"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-skaendes",
+          "kind": "word",
+          "da": "skændes",
+          "en": "to argue",
+          "alt": {
+            "da": [
+              "at skændes"
+            ],
+            "en": [
+              "argue",
+              "to quarrel"
+            ]
+          },
+          "forms": [
+            "skændes"
+          ],
+          "sentences": [
+            {
+              "da": "De skændes tit.",
+              "en": "They often argue.",
+              "gap": "skændes"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-blive-sur",
+          "kind": "word",
+          "da": "blive sur",
+          "en": "to get cross",
+          "alt": {
+            "da": [
+              "at blive sur"
+            ],
+            "en": [
+              "get cross",
+              "to get angry",
+              "to become cross"
+            ]
+          },
+          "forms": [
+            "bliver sur"
+          ],
+          "sentences": [
+            {
+              "da": "Hun bliver tit sur.",
+              "en": "She often gets cross.",
+              "gap": "bliver"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-synes",
+          "kind": "word",
+          "da": "synes",
+          "en": "to think",
+          "alt": {
+            "da": [
+              "at synes"
+            ],
+            "en": [
+              "think",
+              "to have an opinion",
+              "feel",
+              "to feel"
+            ]
+          },
+          "forms": [
+            "synes",
+            "syntes"
+          ],
+          "sentences": [
+            {
+              "da": "Han synes, det går fint.",
+              "en": "He thinks it is going fine.",
+              "gap": "synes"
+            },
+            {
+              "da": "Jeg synes, det er svært.",
+              "en": "I think it's difficult.",
+              "gap": "synes"
+            }
+          ]
+        },
+        {
+          "id": "u06-p39-vaske-haar",
+          "kind": "phrase",
+          "da": "vaske hår",
+          "en": "to wash one's hair",
+          "alt": {
+            "da": [
+              "at vaske hår"
+            ],
+            "en": [
+              "wash one's hair",
+              "to wash your hair"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Bente vasker hår om morgenen.",
+              "en": "Bente washes her hair in the morning.",
+              "gap": "vasker hår"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-han-kan-ikke-lide-at-vaske-toej",
+          "kind": "phrase",
+          "da": "Han kan ikke lide at vaske tøj.",
+          "en": "He doesn't like doing the laundry.",
+          "alt": {
+            "en": [
+              "He doesn't like washing clothes."
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han kan ikke lide at vaske tøj.",
+              "en": "He doesn't like doing the laundry.",
+              "gap": "kan ikke lide at"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-sidde-og-sove",
+          "kind": "phrase",
+          "da": "sidde og sove",
+          "en": "to sit dozing",
+          "alt": {
+            "en": [
+              "to sit sleeping",
+              "to sit and sleep"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Han sidder tit og sover i sofaen.",
+              "en": "He often sits dozing on the sofa.",
+              "gap": "sidder"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-gaa-ud-og-spise",
+          "kind": "phrase",
+          "da": "gå ud og spise",
+          "en": "to go out to eat",
+          "alt": {
+            "en": [
+              "to go out for a meal"
+            ]
+          },
+          "sentences": [
+            {
+              "da": "Vi går ud og spiser i weekenden.",
+              "en": "We go out to eat at the weekend.",
+              "gap": "går ud og spiser"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-have-gaester",
+          "kind": "phrase",
+          "da": "have gæster",
+          "en": "to have guests",
+          "sentences": [
+            {
+              "da": "Vi har gæster i weekenden.",
+              "en": "We have guests at the weekend.",
+              "gap": "har gæster"
+            }
+          ],
+          "alt": {
+            "da": [
+              "at have gæster"
+            ],
+            "en": [
+              "have guests"
+            ]
+          }
+        },
+        {
+          "id": "u06-p38-gaa-i-skole",
+          "kind": "phrase",
+          "da": "gå i skole",
+          "en": "to go to school",
+          "sentences": [
+            {
+              "da": "Børnene går i skole.",
+              "en": "The children go to school.",
+              "gap": "går i skole"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-paa-vej-hjem-fra-arbejde",
+          "kind": "phrase",
+          "da": "på vej hjem fra arbejde",
+          "en": "on the way home from work",
+          "sentences": [
+            {
+              "da": "Hun køber ind på vej hjem fra arbejde.",
+              "en": "She does the shopping on the way home from work.",
+              "gap": "på vej hjem fra arbejde"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-en-gang-om-ugen",
+          "kind": "phrase",
+          "da": "en gang om ugen",
+          "en": "once a week",
+          "sentences": [
+            {
+              "da": "Vi går i biografen en gang om ugen.",
+              "en": "We go to the cinema once a week.",
+              "gap": "en gang om ugen"
+            }
+          ]
+        },
+        {
+          "id": "u06-p38-om-soendagen",
+          "kind": "phrase",
+          "da": "om søndagen",
+          "en": "on Sundays",
+          "sentences": [
+            {
+              "da": "Om søndagen får de gæster.",
+              "en": "On Sundays they have guests.",
+              "gap": "søndagen"
+            }
+          ]
+        }
+      ],
+      "repeatLines": [
+        {
+          "da": "Han kan ikke lide at vaske tøj.",
+          "en": "He doesn't like doing the laundry.",
+          "tip": "Listen and repeat, paying attention to rhythm and sentence melody."
+        },
+        {
+          "da": "bagefter",
+          "en": "afterwards",
+          "tip": "Listen and mark the stressed syllable."
+        },
+        {
+          "da": "computerspil",
+          "en": "computer game",
+          "tip": "Listen and mark the stressed syllable."
+        }
+      ]
+    },
+    {
+      "id": "u06-l13",
+      "title": "Recap: the Dam family and Bente",
+      "pages": [
+        39
+      ],
+      "taughtInClass": true,
+      "items": [],
+      "tip": "Word order with central adverbs and several verbs: S - V - CA, with inversion A - V - S - CA. With one subject and several verbs: S - V - CA - og - V.\nExample: Om morgenen drikker hun altid te og spiser brød.",
+      "recapOf": [
+        "u06-p38-vaske-bil",
+        "u06-p35-koebe-ind",
+        "u06-p33-et-a-menneske",
+        "u06-p36-faa-gaester",
+        "u06-p33-normalt",
+        "u06-p31-tage-paa-arbejde",
+        "u06-p36-gaa-i-seng",
+        "u03-p19-kun",
+        "u06-p38-dele",
+        "u06-p33-altid",
+        "u06-p37-bagefter"
+      ],
+      "context": [
+        "Jens and Eva Dam are married with three children and share the housework.",
+        "Eva always does the shopping on the way home from work. Eva does the laundry and Jens washes the car.",
+        "Jens is a morning person and is often tired in the evening.",
+        "The family often has guests at the weekend. Eva is sometimes cross, and they argue.",
+        "Bente is a morning person: she is always fresh in the morning and often wakes up at five.",
+        "She normally takes a shower and washes her hair, then always reads the paper. She also listens to the radio.",
+        "She doesn't eat breakfast very often. She only drinks a cup of coffee and is never hungry in the morning.",
+        "She normally goes to work at quarter to six. After work she sometimes visits a friend.",
+        "She always eats dinner at six. In the evening she normally listens to music and drinks tea.",
+        "She always goes to bed at ten and is often tired in the evening."
+      ],
+      "recapQuestions": [
+        {
+          "prompt_en": "Who washes the car in the Dam family?",
+          "da": "Det gør Jens.",
+          "accepted": [
+            "Det gør Jens.",
+            "Det gør Jens",
+            "Jens.",
+            "Jens"
+          ]
+        },
+        {
+          "prompt_en": "Who does the shopping?",
+          "da": "Det gør Eva.",
+          "accepted": [
+            "Det gør Eva.",
+            "Det gør Eva",
+            "Eva.",
+            "Eva"
+          ]
+        },
+        {
+          "prompt_en": "Who is a morning person in the Dam family?",
+          "da": "Det er Jens.",
+          "accepted": [
+            "Det er Jens.",
+            "Det er Jens",
+            "Jens.",
+            "Jens"
+          ]
+        },
+        {
+          "prompt_en": "Who often has guests?",
+          "da": "Det har familien.",
+          "accepted": [
+            "Det har familien.",
+            "Det har familien",
+            "Familien.",
+            "Familien"
+          ]
+        },
+        {
+          "prompt_en": "What time does Bente normally go to work?",
+          "da": "Hun tager normalt på arbejde klokken kvart i seks.",
+          "accepted": [
+            "Hun tager normalt på arbejde klokken kvart i seks.",
+            "Hun tager normalt på arbejde klokken kvart i seks",
+            "Klokken kvart i seks.",
+            "Kvart i seks.",
+            "Hun tager på arbejde klokken kvart i seks.",
+            "Hun tager på arbejde kvart i seks.",
+            "Hun tager normalt på arbejde kvart i seks."
+          ]
+        },
+        {
+          "prompt_en": "What time does Bente always go to bed?",
+          "da": "Hun går altid i seng klokken ti.",
+          "accepted": [
+            "Hun går altid i seng klokken ti.",
+            "Hun går altid i seng klokken ti",
+            "Klokken ti.",
+            "Hun går i seng klokken ti.",
+            "Kl. ti.",
+            "Ti.",
+            "Klokken 22.",
+            "Hun går altid i seng kl. ti."
+          ]
+        },
+        {
+          "prompt_en": "What does Bente drink in the morning?",
+          "da": "Hun drikker kun en kop kaffe.",
+          "accepted": [
+            "Hun drikker kun en kop kaffe.",
+            "Hun drikker kun en kop kaffe",
+            "En kop kaffe.",
+            "Kaffe.",
+            "Hun drikker en kop kaffe."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06-l14",
+      "title": "Recap: Nick's week",
+      "pages": [
+        40
+      ],
+      "taughtInClass": true,
+      "items": [],
+      "recapOf": [
+        "u06-p31-vaagne",
+        "u06-p31-spise-morgenmad",
+        "u06-p31-boerste-taender",
+        "u06-p32-i-weekenden",
+        "u06-p36-lave-mad",
+        "u06-p36-vaske-op",
+        "u06-p36-gaa-en-tur",
+        "u06-p36-gaa-i-seng",
+        "u06-p37-foerst",
+        "u06-p37-bagefter"
+      ],
+      "context": [
+        "Nick lives with his girlfriend Anna in Odense. They have no children.",
+        "He wakes up at 7. First he eats breakfast, then he brushes his teeth, afterwards he has a shower and shaves.",
+        "For breakfast he has bread, cheese and coffee, no tea.",
+        "He works at Nokia from 8:00 to 16:00, 20 minutes away by car.",
+        "In the evening he eats dinner at 18:30, afterwards relaxes or plays computer games, and goes to bed at 24:00.",
+        "At home Nick cooks and Anna does the dishes. They clean and shop together.",
+        "On Saturday morning he first reads the paper, then shops, afterwards eats lunch. On Sunday they have guests, go for a walk and visit friends."
+      ],
+      "recapQuestions": [
+        {
+          "prompt_en": "Where does Nick live?",
+          "da": "Han bor i Odense.",
+          "accepted": [
+            "Han bor i Odense.",
+            "Han bor i Odense",
+            "I Odense.",
+            "Odense."
+          ]
+        },
+        {
+          "prompt_en": "Who does Nick live with?",
+          "da": "Han bor sammen med Anna.",
+          "accepted": [
+            "Han bor sammen med Anna.",
+            "Han bor sammen med Anna",
+            "Med Anna.",
+            "Anna.",
+            "Han bor sammen med sin kæreste, Anna.",
+            "Han bor sammen med sin kæreste.",
+            "Sammen med Anna.",
+            "Med sin kæreste."
+          ]
+        },
+        {
+          "prompt_en": "What time does Nick wake up?",
+          "da": "Han vågner klokken syv.",
+          "accepted": [
+            "Han vågner klokken syv.",
+            "Han vågner klokken syv",
+            "Klokken syv.",
+            "Kl. 7.",
+            "Han vågner klokken 7.",
+            "Klokken 7.",
+            "Han vågner kl. 7."
+          ]
+        },
+        {
+          "prompt_en": "What does Nick do first in the morning?",
+          "da": "Først spiser han morgenmad.",
+          "accepted": [
+            "Først spiser han morgenmad.",
+            "Først spiser han morgenmad",
+            "Han spiser morgenmad først.",
+            "Morgenmad."
+          ]
+        },
+        {
+          "prompt_en": "Who cooks at Nick's home?",
+          "da": "Det gør Nick.",
+          "accepted": [
+            "Det gør Nick.",
+            "Det gør Nick",
+            "Nick.",
+            "Nick laver mad."
+          ]
+        },
+        {
+          "prompt_en": "What does Nick do first on Saturday morning?",
+          "da": "Først læser han avis.",
+          "accepted": [
+            "Først læser han avis.",
+            "Først læser han avis",
+            "Han læser avis.",
+            "Han læser avisen.",
+            "Avis.",
+            "Han læser avis først."
+          ]
+        },
+        {
+          "prompt_en": "What does Nick do after dinner?",
+          "da": "Bagefter slapper han af eller spiller computerspil.",
+          "accepted": [
+            "Bagefter slapper han af eller spiller computerspil.",
+            "Bagefter slapper han af eller spiller computerspil",
+            "Han slapper af eller spiller computerspil.",
+            "Han slapper af.",
+            "Han spiller computerspil."
+          ]
+        },
+        {
+          "prompt_en": "What time does Nick go to bed?",
+          "da": "Han går i seng klokken tolv.",
+          "accepted": [
+            "Han går i seng klokken tolv.",
+            "Han går i seng klokken tolv",
+            "Klokken tolv.",
+            "Han går i seng klokken 24.",
+            "Klokken 24.",
+            "Kl. 24.",
+            "Ved midnat.",
+            "Han går i seng ved midnat.",
+            "Han går i seng klokken tolv om natten.",
+            "Han går i seng klokken 12.",
+            "Klokken 12.",
+            "Kl. 12.",
+            "Han går i seng kl. 12."
+          ]
+        }
+      ]
+    }
+  ]
+}

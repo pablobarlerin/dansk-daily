@@ -1,0 +1,35 @@
+{
+  "name": "dansk-daily",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:pwa": "vitest run tests/pwa.test.ts",
+    "validate": "vitest run tests/content/real-content.test.ts",
+    "audio": "tsx scripts/generate-audio.ts",
+    "audio:samples": "tsx scripts/voice-samples.ts",
+    "icons": "tsx scripts/render-icons.ts"
+  },
+  "dependencies": {
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@preact/preset-vite": "^2.10.6",
+    "@resvg/resvg-js": "^2.6.2",
+    "@testing-library/preact": "^3.2.6",
+    "@types/node": "^26.6.6",
+    "jsdom": "^31.0.1",
+    "playwright-core": "^1.65.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.6",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.1"
+  }
+}

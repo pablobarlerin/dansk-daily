@@ -1,0 +1,1885 @@
+{
+ "id": "u08",
+ "order": 8,
+ "title": "Planer og ønsker med skal og vil",
+ "subtitle": "Plans and wishes with skal and vil",
+ "pages": [
+  43,
+  44,
+  45,
+  46
+ ],
+ "lessons": [
+  {
+   "id": "u08-l01",
+   "title": "Skal and vil with an infinitive",
+   "pages": [
+    43
+   ],
+   "taughtInClass": true,
+   "tip": "Skal + infinitive is for appointments and plans; vil + infinitive is for wishes and decisions. After skal/vil the infinitive has no \"at\".\nWord order: Subject – skal/vil – infinitive. In questions the modal comes first: Skal du lære russisk?\nExample: Hun skal have gæster i weekenden. (More modal verbs: see unit 7, p.41.)",
+   "items": [
+    {
+     "id": "u08-p43-hun-skal-have-gaester",
+     "kind": "pattern",
+     "da": "Hun skal have gæster i weekenden.",
+     "en": "She is having guests at the weekend.",
+     "sentences": [
+      {
+       "da": "Hun skal have gæster i weekenden.",
+       "en": "She is having guests at the weekend.",
+       "gap": "skal"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-de-skal-koebe-ind",
+     "kind": "pattern",
+     "da": "De skal købe ind efter arbejde.",
+     "en": "They are going shopping after work.",
+     "sentences": [
+      {
+       "da": "De skal købe ind efter arbejde.",
+       "en": "They are going shopping after work.",
+       "gap": "købe"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-hun-vil-tage-en-taxa",
+     "kind": "pattern",
+     "da": "Hun vil tage en taxa.",
+     "en": "She wants to take a taxi.",
+     "sentences": [
+      {
+       "da": "Hun vil tage en taxa.",
+       "en": "She wants to take a taxi.",
+       "gap": "vil"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-hun-vil-koebe-en-ordbog",
+     "kind": "pattern",
+     "da": "Hun vil købe en ordbog.",
+     "en": "She wants to buy a dictionary.",
+     "sentences": [
+      {
+       "da": "Hun vil købe en ordbog.",
+       "en": "She wants to buy a dictionary.",
+       "gap": "købe"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-han-skal-besoege-en-ven",
+     "kind": "pattern",
+     "da": "Han skal besøge en ven.",
+     "en": "He is going to visit a friend.",
+     "alt": {
+      "en": [
+       "He is visiting a friend."
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Han skal besøge en ven.",
+       "en": "He is going to visit a friend.",
+       "gap": "besøge"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-skal-du-laere-russisk",
+     "kind": "pattern",
+     "da": "Skal du lære russisk?",
+     "en": "Are you going to learn Russian?",
+     "sentences": [
+      {
+       "da": "Skal du lære russisk?",
+       "en": "Are you going to learn Russian?",
+       "gap": "Skal"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-vil-du-sende-en-sms",
+     "kind": "pattern",
+     "da": "Vil du sende en sms?",
+     "en": "Do you want to send a text?",
+     "alt": {
+      "en": [
+       "Do you want to send a text message?"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Vil du sende en sms?",
+       "en": "Do you want to send a text?",
+       "gap": "Vil"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "Hun skal have gæster i weekenden.",
+     "en": "She is having guests at the weekend.",
+     "tip": "skal is pronounced [sga]"
+    },
+    {
+     "da": "Hun vil tage en taxa.",
+     "en": "She wants to take a taxi.",
+     "tip": "vil is pronounced [ve]"
+    }
+   ]
+  },
+  {
+   "id": "u08-l02",
+   "title": "Things and times for plans",
+   "pages": [
+    43
+   ],
+   "taughtInClass": true,
+   "items": [
+    {
+     "id": "u08-p43-fodboldkamp",
+     "kind": "word",
+     "da": "en fodboldkamp",
+     "en": "football match",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi ser en fodboldkamp.",
+       "en": "We are watching a football match.",
+       "gap": "fodboldkamp"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-i-morgen",
+     "kind": "phrase",
+     "da": "i morgen",
+     "en": "tomorrow",
+     "sentences": [
+      {
+       "da": "Vi skal på arbejde i morgen.",
+       "en": "We are going to work tomorrow.",
+       "gap": "i morgen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-se-tv-avis",
+     "kind": "phrase",
+     "da": "se TV-avis",
+     "en": "watch the TV news",
+     "sentences": [
+      {
+       "da": "Vi skal se TV-avis.",
+       "en": "We are going to watch the TV news.",
+       "gap": "TV-avis"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-tage-paa-diskotek",
+     "kind": "phrase",
+     "da": "tage på diskotek",
+     "en": "go to a disco",
+     "sentences": [
+      {
+       "da": "De vil tage på diskotek.",
+       "en": "They want to go to a disco.",
+       "gap": "diskotek"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l03",
+   "title": "Verbs for plans",
+   "pages": [
+    43
+   ],
+   "taughtInClass": true,
+   "items": [
+    {
+     "id": "u08-p43-invitere",
+     "kind": "word",
+     "da": "invitere",
+     "en": "to invite",
+     "alt": {
+      "da": [
+       "at invitere"
+      ],
+      "en": [
+       "invite"
+      ]
+     },
+     "forms": [
+      "inviterer"
+     ],
+     "sentences": [
+      {
+       "da": "Hun inviterer en ven.",
+       "en": "She invites a friend.",
+       "gap": "inviterer"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-moede",
+     "kind": "word",
+     "da": "møde",
+     "en": "to meet",
+     "alt": {
+      "da": [
+       "at møde"
+      ],
+      "en": [
+       "meet"
+      ]
+     },
+     "forms": [
+      "møder",
+      "mødte"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg møder Anna.",
+       "en": "I meet Anna.",
+       "gap": "møder"
+      }
+     ]
+    },
+    {
+     "id": "u08-p43-passe",
+     "kind": "word",
+     "da": "passe",
+     "en": "to look after",
+     "alt": {
+      "da": [
+       "at passe"
+      ],
+      "en": [
+       "look after"
+      ]
+     },
+     "forms": [
+      "passer"
+     ],
+     "sentences": [
+      {
+       "da": "Hun passer et barn.",
+       "en": "She looks after a child.",
+       "gap": "passer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l04",
+   "title": "What are you doing?",
+   "pages": [
+    44
+   ],
+   "taughtInClass": true,
+   "tip": "Hvad skal du …? asks about plans. When something other than the subject starts the sentence, the verb still comes second: Om formiddagen skal jeg gøre rent.\nExample: Hvad skal du i eftermiddag? – Jeg skal til tandlægen. (Hvad med dig? is in unit 1.)",
+   "items": [
+    {
+     "id": "u08-p44-hvad-skal-du-i-eftermiddag",
+     "kind": "phrase",
+     "da": "Hvad skal du i eftermiddag?",
+     "en": "What are you doing this afternoon?",
+     "sentences": [
+      {
+       "da": "Jeg skal til tandlægen.",
+       "en": "I'm going to the dentist.",
+       "gap": "til"
+      },
+      {
+       "da": "Jeg skal til håndbold.",
+       "en": "I'm going to handball.",
+       "gap": "til"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-hvad-skal-du-lave-i-morgen-aften",
+     "kind": "phrase",
+     "da": "Hvad skal du lave i morgen aften?",
+     "en": "What are you doing tomorrow evening?",
+     "sentences": [
+      {
+       "da": "Jeg skal til koncert.",
+       "en": "I'm going to a concert.",
+       "gap": "koncert"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-hvad-skal-du-paa-loerdag",
+     "kind": "phrase",
+     "da": "Hvad skal du på lørdag?",
+     "en": "What are you doing on Saturday?",
+     "sentences": [
+      {
+       "da": "Om formiddagen skal jeg gøre rent.",
+       "en": "In the morning I'm going to clean.",
+       "gap": "skal"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-hvad-skal-du-der",
+     "kind": "phrase",
+     "da": "Hvad skal du der?",
+     "en": "What are you doing there?",
+     "sentences": [
+      {
+       "da": "Jeg skal til fødselsdag hos en veninde.",
+       "en": "I'm going to a friend's birthday.",
+       "gap": "fødselsdag"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-hvor-skal-du-hen",
+     "kind": "phrase",
+     "da": "Hvor skal du hen?",
+     "en": "Where are you going?",
+     "sentences": [
+      {
+       "da": "Jeg skal i byen.",
+       "en": "I'm going into town.",
+       "gap": "byen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-det-lyder-spaendende",
+     "kind": "phrase",
+     "da": "Det lyder spændende.",
+     "en": "That sounds exciting.",
+     "sentences": [
+      {
+       "da": "Det lyder spændende.",
+       "en": "That sounds exciting.",
+       "gap": "spændende"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-jeg-glaeder-mig",
+     "kind": "phrase",
+     "da": "Jeg glæder mig.",
+     "en": "I'm looking forward to it.",
+     "sentences": [
+      {
+       "da": "Jeg glæder mig.",
+       "en": "I'm looking forward to it.",
+       "gap": "glæder"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-om-formiddagen-skal-jeg-goere-rent",
+     "kind": "pattern",
+     "da": "Om formiddagen skal jeg gøre rent.",
+     "en": "In the morning I'm going to clean.",
+     "sentences": [
+      {
+       "da": "Om formiddagen skal jeg gøre rent.",
+       "en": "In the morning I'm going to clean.",
+       "gap": "gøre rent"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-om-eftermiddagen-skal-jeg-til-fitness",
+     "kind": "pattern",
+     "da": "Om eftermiddagen skal jeg til fitness.",
+     "en": "In the afternoon I'm going to the gym.",
+     "sentences": [
+      {
+       "da": "Om eftermiddagen skal jeg til fitness.",
+       "en": "In the afternoon I'm going to the gym.",
+       "gap": "fitness"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-om-aftenen-skal-jeg-besoege-nogle-venner",
+     "kind": "pattern",
+     "da": "Om aftenen skal jeg besøge nogle venner.",
+     "en": "In the evening I'm going to visit some friends.",
+     "sentences": [
+      {
+       "da": "Om aftenen skal jeg besøge nogle venner.",
+       "en": "In the evening I'm going to visit some friends.",
+       "gap": "besøge"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "Hvad skal du i eftermiddag?",
+     "en": "What are you doing this afternoon?"
+    },
+    {
+     "da": "Jeg skal til tandlægen.",
+     "en": "I'm going to the dentist."
+    },
+    {
+     "da": "Jeg skal til fødselsdag hos en veninde.",
+     "en": "I'm going to a friend's birthday."
+    }
+   ]
+  },
+  {
+   "id": "u08-l05",
+   "title": "Future time expressions",
+   "pages": [
+    44
+   ],
+   "taughtInClass": true,
+   "tip": "Use i with eftermiddag, aften, morgen and weekenden: i aften, i morgen, i weekenden.\nUse på with fredag, lørdag, søndag: på lørdag. With a weekday plus a time of day there is no preposition: mandag morgen.\nExample: Jeg skal til koncert lørdag aften.",
+   "items": [
+    {
+     "id": "u08-p44-i-eftermiddag",
+     "kind": "pattern",
+     "da": "i eftermiddag",
+     "en": "this afternoon",
+     "sentences": [
+      {
+       "da": "Hun skal til lægen i eftermiddag.",
+       "en": "She is going to the doctor this afternoon.",
+       "gap": "i"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-i-aften",
+     "kind": "pattern",
+     "da": "i aften",
+     "en": "tonight",
+     "alt": {
+      "en": [
+       "this evening"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Vi skal i biografen i aften.",
+       "en": "We are going to the cinema tonight.",
+       "gap": "aften"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-i-morgen-aften",
+     "kind": "pattern",
+     "da": "i morgen aften",
+     "en": "tomorrow evening",
+     "sentences": [
+      {
+       "da": "Vi skal til fest i morgen aften.",
+       "en": "We are going to a party tomorrow evening.",
+       "gap": "aften"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-paa-loerdag",
+     "kind": "pattern",
+     "da": "på lørdag",
+     "en": "on Saturday",
+     "sentences": [
+      {
+       "da": "Vi skal til fest på lørdag.",
+       "en": "We are going to a party on Saturday.",
+       "gap": "på"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-mandag-morgen",
+     "kind": "pattern",
+     "da": "mandag morgen",
+     "en": "Monday morning",
+     "sentences": [
+      {
+       "da": "Jeg skal på arbejde mandag morgen.",
+       "en": "I am going to work on Monday morning.",
+       "gap": "mandag morgen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-tirsdag-eftermiddag",
+     "kind": "pattern",
+     "da": "tirsdag eftermiddag",
+     "en": "Tuesday afternoon",
+     "sentences": [
+      {
+       "da": "Hun skal til tandlægen tirsdag eftermiddag.",
+       "en": "She is going to the dentist on Tuesday afternoon.",
+       "gap": "tirsdag eftermiddag"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-loerdag-aften",
+     "kind": "pattern",
+     "da": "lørdag aften",
+     "en": "Saturday evening",
+     "sentences": [
+      {
+       "da": "Vi skal til koncert lørdag aften.",
+       "en": "We are going to a concert on Saturday evening.",
+       "gap": "lørdag aften"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l06",
+   "title": "Going places: i, på or til",
+   "pages": [
+    44
+   ],
+   "taughtInClass": true,
+   "tip": "After Jeg skal … the place needs i, på or til. Use i with school, cinema, Føtex, swimming pool, town (i byen); på with work, library, café, restaurant (på biblioteket); til with doctor, hairdresser, baker, parties, sports, cities, and dinner or birthday at someone's place (til lægen).\nExample: Jeg skal til lægen.",
+   "items": [
+    {
+     "id": "u08-p44-jeg-skal-i-byen",
+     "kind": "pattern",
+     "da": "Jeg skal i byen.",
+     "en": "I'm going into town.",
+     "sentences": [
+      {
+       "da": "Jeg skal i byen.",
+       "en": "I'm going into town.",
+       "gap": "i"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-jeg-skal-paa-biblioteket",
+     "kind": "pattern",
+     "da": "Jeg skal på biblioteket.",
+     "en": "I'm going to the library.",
+     "sentences": [
+      {
+       "da": "Jeg skal på biblioteket.",
+       "en": "I'm going to the library.",
+       "gap": "på"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-jeg-skal-til-laegen",
+     "kind": "pattern",
+     "da": "Jeg skal til lægen.",
+     "en": "I'm going to the doctor.",
+     "sentences": [
+      {
+       "da": "Jeg skal til lægen.",
+       "en": "I'm going to the doctor.",
+       "gap": "til"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-til-fest",
+     "kind": "phrase",
+     "da": "til fest",
+     "en": "to a party",
+     "sentences": [
+      {
+       "da": "Vi skal til fest i aften.",
+       "en": "We are going to a party tonight.",
+       "gap": "fest"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-middag-hos",
+     "kind": "phrase",
+     "da": "middag hos Anna",
+     "en": "dinner at Anna's place",
+     "sentences": [
+      {
+       "da": "Jeg skal til middag hos Anna.",
+       "en": "I'm going to dinner at Anna's place.",
+       "gap": "hos"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-foedselsdag-hos",
+     "kind": "phrase",
+     "da": "fødselsdag hos Anna",
+     "en": "birthday at Anna's place",
+     "sentences": [
+      {
+       "da": "Jeg skal til fødselsdag hos Anna.",
+       "en": "I'm going to a birthday at Anna's place.",
+       "gap": "hos"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-ud-til-en-veninde",
+     "kind": "phrase",
+     "da": "ud til en veninde",
+     "en": "out to a friend's",
+     "alt": {
+      "en": [
+       "out to a female friend's"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun skal ud til en veninde.",
+       "en": "She is going out to a friend's.",
+       "gap": "ud"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-hjem",
+     "kind": "phrase",
+     "da": "hjem",
+     "en": "home (going home)",
+     "sentences": [
+      {
+       "da": "Jeg skal hjem.",
+       "en": "I'm going home.",
+       "gap": "hjem"
+      },
+      {
+       "da": "Jeg går hjem.",
+       "en": "I'm going home.",
+       "gap": "hjem"
+      }
+     ],
+     "alt": {
+      "en": [
+       "home"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "u08-l07",
+   "title": "Places and events",
+   "pages": [
+    44
+   ],
+   "taughtInClass": true,
+   "items": [
+    {
+     "id": "u08-p44-svoemmehal",
+     "kind": "word",
+     "da": "en svømmehal",
+     "en": "swimming pool",
+     "gender": "en",
+     "forms": [
+      "svømmehallen"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skal i svømmehallen.",
+       "en": "I am going to the swimming pool.",
+       "gap": "svømmehallen"
+      }
+     ],
+     "alt": {
+      "en": [
+       "swimming baths"
+      ]
+     }
+    },
+    {
+     "id": "u08-p44-bibliotek",
+     "kind": "word",
+     "da": "et bibliotek",
+     "en": "library",
+     "gender": "et",
+     "forms": [
+      "biblioteket"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skal på biblioteket.",
+       "en": "I am going to the library.",
+       "gap": "biblioteket"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-cafe",
+     "kind": "word",
+     "da": "en café",
+     "en": "café",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi skal på café.",
+       "en": "We are going to a café.",
+       "gap": "café"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-restaurant",
+     "kind": "word",
+     "da": "en restaurant",
+     "en": "restaurant",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi skal på restaurant.",
+       "en": "We are going to a restaurant.",
+       "gap": "restaurant"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-laege",
+     "kind": "word",
+     "da": "en læge",
+     "en": "doctor",
+     "gender": "en",
+     "forms": [
+      "lægen"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skal til lægen.",
+       "en": "I am going to the doctor.",
+       "gap": "lægen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-frisoer",
+     "kind": "word",
+     "da": "en frisør",
+     "en": "hairdresser",
+     "gender": "en",
+     "forms": [
+      "frisøren"
+     ],
+     "sentences": [
+      {
+       "da": "Hun skal til frisøren.",
+       "en": "She is going to the hairdresser.",
+       "gap": "frisøren"
+      }
+     ],
+     "alt": {
+      "en": [
+       "hair stylist",
+       "barber"
+      ]
+     }
+    },
+    {
+     "id": "u08-p44-bager",
+     "kind": "word",
+     "da": "en bager",
+     "en": "baker",
+     "gender": "en",
+     "forms": [
+      "bageren"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg skal til bageren.",
+       "en": "I am going to the baker.",
+       "gap": "bageren"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-tandlaege",
+     "kind": "word",
+     "da": "en tandlæge",
+     "en": "dentist",
+     "gender": "en",
+     "forms": [
+      "tandlægen"
+     ],
+     "sentences": [
+      {
+       "da": "Han skal til tandlægen.",
+       "en": "He is going to the dentist.",
+       "gap": "tandlægen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-fest",
+     "kind": "word",
+     "da": "en fest",
+     "en": "party",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi skal til fest.",
+       "en": "We are going to a party.",
+       "gap": "fest"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-fodbold",
+     "kind": "word",
+     "da": "fodbold",
+     "en": "football",
+     "sentences": [
+      {
+       "da": "Han skal til fodbold.",
+       "en": "He is going to football.",
+       "gap": "fodbold"
+      }
+     ],
+     "alt": {
+      "en": [
+       "soccer"
+      ]
+     }
+    },
+    {
+     "id": "u08-p44-haandbold",
+     "kind": "word",
+     "da": "håndbold",
+     "en": "handball",
+     "sentences": [
+      {
+       "da": "Hun skal til håndbold.",
+       "en": "She is going to handball.",
+       "gap": "håndbold"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-middag",
+     "kind": "word",
+     "da": "en middag",
+     "en": "dinner (a meal out or with guests)",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi skal til middag.",
+       "en": "We are going to dinner.",
+       "gap": "middag"
+      }
+     ],
+     "alt": {
+      "en": [
+       "dinner",
+       "dinner party"
+      ]
+     }
+    },
+    {
+     "id": "u08-p44-fitness",
+     "kind": "word",
+     "da": "fitness",
+     "en": "gym",
+     "alt": {
+      "en": [
+       "fitness training",
+       "fitness"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Jeg skal til fitness.",
+       "en": "I am going to the gym.",
+       "gap": "fitness"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-koncert",
+     "kind": "word",
+     "da": "en koncert",
+     "en": "concert",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Vi skal til koncert.",
+       "en": "We are going to a concert.",
+       "gap": "koncert"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-foedselsdag",
+     "kind": "word",
+     "da": "en fødselsdag",
+     "en": "birthday",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Hun skal til fødselsdag.",
+       "en": "She is going to a birthday party.",
+       "gap": "fødselsdag"
+      }
+     ]
+    },
+    {
+     "id": "u08-p44-foetex",
+     "kind": "word",
+     "da": "Føtex",
+     "en": "Føtex",
+     "note": "A Danish supermarket chain.",
+     "sentences": [
+      {
+       "da": "Jeg skal i Føtex.",
+       "en": "I am going to Føtex.",
+       "gap": "Føtex"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l08",
+   "title": "Where does ikke go?",
+   "pages": [
+    45
+   ],
+   "taughtInClass": true,
+   "tip": "A central adverb (ikke, altid, kun, gerne, snart, godt ...) goes right after the first verb in a statement: Subject – skal/kan – adverb – infinitive.\nIn a question it goes after the subject: Kan du ikke gentage det?\nExample: Jeg kan ikke forstå det.",
+   "items": [
+    {
+     "id": "u08-p45-jeg-kan-ikke-forstaa-det",
+     "kind": "pattern",
+     "da": "Jeg kan ikke forstå det.",
+     "en": "I can't understand it.",
+     "sentences": [
+      {
+       "da": "Jeg kan ikke forstå det.",
+       "en": "I can't understand it.",
+       "gap": "ikke"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-kan-du-ikke-gentage-det",
+     "kind": "pattern",
+     "da": "Kan du ikke gentage det?",
+     "en": "Can't you repeat it?",
+     "sentences": [
+      {
+       "da": "Kan du ikke gentage det?",
+       "en": "Can't you repeat it?",
+       "gap": "ikke"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-skal-hun-altid-arbejde",
+     "kind": "pattern",
+     "da": "Skal hun altid arbejde fra ni til seksten?",
+     "en": "Does she always have to work from 9 to 4?",
+     "sentences": [
+      {
+       "da": "Skal hun altid arbejde fra ni til seksten?",
+       "en": "Does she always have to work from 9 to 4?",
+       "gap": "altid"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-hvad-skal-lotte-i-morgen-formiddag",
+     "kind": "phrase",
+     "da": "Hvad skal Lotte i morgen formiddag?",
+     "en": "Where is Lotte going tomorrow morning?",
+     "alt": {
+      "en": [
+       "What is Lotte doing tomorrow morning?"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun skal i byen.",
+       "en": "She is going into town.",
+       "gap": "i"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-hvad-skal-lotte-lave-tirsdag-formiddag",
+     "kind": "phrase",
+     "da": "Hvad skal Lotte lave tirsdag formiddag?",
+     "en": "What is Lotte doing Tuesday morning?",
+     "sentences": [
+      {
+       "da": "Hun skal købe ind.",
+       "en": "She is going shopping.",
+       "gap": "købe"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-snart",
+     "kind": "word",
+     "da": "snart",
+     "en": "soon",
+     "sentences": [
+      {
+       "da": "Vi ses snart.",
+       "en": "See you soon.",
+       "gap": "snart"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-gerne",
+     "kind": "word",
+     "da": "gerne",
+     "en": "gladly",
+     "alt": {
+      "en": [
+       "like to"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Jeg vil gerne have en kop kaffe.",
+       "en": "I would like a cup of coffee.",
+       "gap": "gerne"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-godt",
+     "kind": "word",
+     "da": "godt",
+     "en": "well",
+     "sentences": [
+      {
+       "da": "Hun taler godt dansk.",
+       "en": "She speaks Danish well.",
+       "gap": "godt"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "Jeg kan ikke forstå det.",
+     "en": "I can't understand it."
+    },
+    {
+     "da": "Kan du ikke gentage det?",
+     "en": "Can't you repeat it?"
+    }
+   ]
+  },
+  {
+   "id": "u08-l09",
+   "title": "Lotte's week",
+   "pages": [
+    45
+   ],
+   "taughtInClass": true,
+   "items": [
+    {
+     "id": "u08-p45-begynde",
+     "kind": "word",
+     "da": "begynde",
+     "en": "to begin",
+     "alt": {
+      "da": [
+       "at begynde"
+      ],
+      "en": [
+       "begin"
+      ]
+     },
+     "forms": [
+      "begynder"
+     ],
+     "sentences": [
+      {
+       "da": "Skolen begynder klokken ni.",
+       "en": "School begins at nine.",
+       "gap": "begynder"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-starte",
+     "kind": "word",
+     "da": "starte",
+     "en": "to start",
+     "alt": {
+      "da": [
+       "at starte"
+      ],
+      "en": [
+       "start"
+      ]
+     },
+     "forms": [
+      "starter"
+     ],
+     "sentences": [
+      {
+       "da": "Hun starter på sprogskole i næste uge.",
+       "en": "She starts at language school next week.",
+       "gap": "starter"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-gentage",
+     "kind": "word",
+     "da": "gentage",
+     "en": "to repeat",
+     "alt": {
+      "da": [
+       "at gentage"
+      ],
+      "en": [
+       "repeat"
+      ]
+     },
+     "forms": [
+      "gentager"
+     ],
+     "sentences": [
+      {
+       "da": "Læreren gentager det.",
+       "en": "The teacher repeats it.",
+       "gap": "gentager"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-udtale",
+     "kind": "word",
+     "da": "udtale",
+     "en": "to pronounce",
+     "alt": {
+      "da": [
+       "at udtale"
+      ],
+      "en": [
+       "pronounce"
+      ]
+     },
+     "forms": [
+      "udtaler"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg udtaler det godt.",
+       "en": "I pronounce it well.",
+       "gap": "udtaler"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-kalender",
+     "kind": "word",
+     "da": "en kalender",
+     "en": "calendar",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Der er en kalender på væggen.",
+       "en": "There is a calendar on the wall.",
+       "gap": "kalender"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-tante",
+     "kind": "word",
+     "da": "en tante",
+     "en": "aunt",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "Min tante bor i Odense.",
+       "en": "My aunt lives in Odense.",
+       "gap": "tante"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-i-naeste-uge",
+     "kind": "phrase",
+     "da": "i næste uge",
+     "en": "next week",
+     "sentences": [
+      {
+       "da": "Jeg skal på arbejde i næste uge.",
+       "en": "I am going to work next week.",
+       "gap": "næste"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-om-dagen",
+     "kind": "phrase",
+     "da": "om dagen",
+     "en": "during the day",
+     "sentences": [
+      {
+       "da": "Jeg arbejder om dagen.",
+       "en": "I work during the day.",
+       "gap": "dagen"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-loebe-en-tur",
+     "kind": "phrase",
+     "da": "løbe en tur",
+     "en": "go for a run",
+     "alt": {
+      "da": [
+       "at løbe en tur"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun vil løbe en tur.",
+       "en": "She wants to go for a run.",
+       "gap": "løbe"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-besoege-tante",
+     "kind": "phrase",
+     "da": "besøge tante",
+     "en": "visit (an) aunt",
+     "alt": {
+      "da": [
+       "at besøge tante"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Jeg vil besøge min tante.",
+       "en": "I want to visit my aunt.",
+       "gap": "tante"
+      }
+     ]
+    },
+    {
+     "id": "u08-p45-gaa-paa-aftenhold",
+     "kind": "phrase",
+     "da": "gå på aftenhold",
+     "en": "attend an evening class",
+     "alt": {
+      "da": [
+       "at gå på aftenhold"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun skal gå på aftenhold.",
+       "en": "She is going to an evening class.",
+       "gap": "aftenhold"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l10",
+   "title": "Alex and Olga have guests",
+   "pages": [
+    46
+   ],
+   "taughtInClass": false,
+   "tip": "One modal verb can govern several infinitives joined with og. Each one is a plain infinitive without \"at\".\nExample: Hun skal købe ind og lave mad og gøre rent.",
+   "items": [
+    {
+     "id": "u08-p46-koebe-ind-og-lave-mad",
+     "kind": "pattern",
+     "da": "Hun skal købe ind og lave mad.",
+     "en": "She has to shop and cook.",
+     "sentences": [
+      {
+       "da": "Hun skal købe ind og lave mad.",
+       "en": "She has to shop and cook.",
+       "gap": "lave"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-koebe-ind-lave-mad-goere-rent",
+     "kind": "pattern",
+     "da": "Hun skal købe ind og lave mad og gøre rent.",
+     "en": "She has to shop, cook and clean.",
+     "sentences": [
+      {
+       "da": "Hun skal købe ind og lave mad og gøre rent.",
+       "en": "She has to shop, cook and clean.",
+       "gap": "gøre rent"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hvem-skal-besoege-alex-og-olga",
+     "kind": "phrase",
+     "da": "Hvem skal besøge Alex og Olga?",
+     "en": "Who is visiting Alex and Olga?",
+     "sentences": [
+      {
+       "da": "Alex' far og mor skal besøge dem.",
+       "en": "Alex's father and mother are visiting them.",
+       "gap": "skal"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hvor-laenge-vil-de-blive",
+     "kind": "phrase",
+     "da": "Hvor længe vil de blive i Danmark?",
+     "en": "How long do they want to stay in Denmark?",
+     "sentences": [
+      {
+       "da": "De vil gerne blive en måned.",
+       "en": "They'd like to stay a month.",
+       "gap": "gerne"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hvor-skal-de-bo",
+     "kind": "phrase",
+     "da": "Hvor skal de bo?",
+     "en": "Where are they going to stay?",
+     "sentences": [
+      {
+       "da": "De skal bo hos Alex og Olga.",
+       "en": "They are going to stay with Alex and Olga.",
+       "gap": "bo"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-har-de-vaeret-i-danmark-foer",
+     "kind": "phrase",
+     "da": "Har de været i Danmark før?",
+     "en": "Have they been to Denmark before?",
+     "sentences": [
+      {
+       "da": "Nej, de har aldrig været i Danmark før.",
+       "en": "No, they have never been to Denmark before.",
+       "gap": "aldrig"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hvad-vil-alex-mor-gerne",
+     "kind": "phrase",
+     "da": "Hvad vil Alex' mor gerne?",
+     "en": "What would Alex's mother like?",
+     "sentences": [
+      {
+       "da": "Hun vil gerne kigge på forretninger.",
+       "en": "She would like to look at shops.",
+       "gap": "gerne"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hvad-synes-olga-om-deres-besoeg",
+     "kind": "phrase",
+     "da": "Hvad synes Olga om deres besøg?",
+     "en": "What does Olga think of their visit?",
+     "sentences": [
+      {
+       "da": "Hun synes, det er hyggeligt, men hårdt.",
+       "en": "She thinks it's nice, but hard.",
+       "gap": "synes"
+      }
+     ]
+    }
+   ],
+   "repeatLines": [
+    {
+     "da": "De vil gerne blive en måned.",
+     "en": "They'd like to stay a month."
+    },
+    {
+     "da": "Alex og Olga skal vise dem byen.",
+     "en": "Alex and Olga are going to show them the city."
+    },
+    {
+     "da": "Hun skal købe ind og lave mad.",
+     "en": "She has to shop and cook."
+    },
+    {
+     "da": "Jeg glæder mig.",
+     "en": "I'm looking forward to it."
+    }
+   ]
+  },
+  {
+   "id": "u08-l11",
+   "title": "Visitors: phrases and nouns",
+   "pages": [
+    46
+   ],
+   "taughtInClass": false,
+   "items": [
+    {
+     "id": "u08-p46-faa-tid-til",
+     "kind": "phrase",
+     "da": "få tid til",
+     "en": "have time for",
+     "alt": {
+      "en": [
+       "get time for"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Jeg får ikke tid til det.",
+       "en": "I don't get time for it.",
+       "gap": "tid til"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-komme-paa-besoeg",
+     "kind": "phrase",
+     "da": "komme på besøg",
+     "en": "come to visit",
+     "alt": {
+      "da": [
+       "at komme på besøg"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Mine forældre vil komme på besøg.",
+       "en": "My parents want to come to visit.",
+       "gap": "komme på besøg"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-alex-og-olga-skal-vise-dem-byen",
+     "kind": "phrase",
+     "da": "Alex og Olga skal vise dem byen.",
+     "en": "Alex and Olga are going to show them the city.",
+     "sentences": [
+      {
+       "da": "Alex og Olga skal vise dem byen.",
+       "en": "Alex and Olga are going to show them the city.",
+       "gap": "vise"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-paa-kanalrundfart",
+     "kind": "phrase",
+     "da": "på kanalrundfart",
+     "en": "on a canal tour",
+     "sentences": [
+      {
+       "da": "De skal på kanalrundfart.",
+       "en": "They are going on a canal tour.",
+       "gap": "kanalrundfart"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-kigge-paa-forretninger",
+     "kind": "phrase",
+     "da": "kigge på forretninger",
+     "en": "look at shops",
+     "alt": {
+      "da": [
+       "at kigge på forretninger"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun vil kigge på forretninger.",
+       "en": "She wants to look at shops.",
+       "gap": "forretninger"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-en-masse",
+     "kind": "phrase",
+     "da": "en masse",
+     "en": "a lot",
+     "alt": {
+      "en": [
+       "a lot of"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Hun skal lave en masse mad.",
+       "en": "She has to cook a lot of food.",
+       "gap": "masse"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-det-er-hyggeligt",
+     "kind": "phrase",
+     "da": "Det er hyggeligt.",
+     "en": "It's nice.",
+     "alt": {
+      "en": [
+       "It's cosy."
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Det er hyggeligt.",
+       "en": "It's nice.",
+       "gap": "hyggeligt"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-det-er-haardt",
+     "kind": "phrase",
+     "da": "Det er hårdt.",
+     "en": "It's hard.",
+     "sentences": [
+      {
+       "da": "Det er hårdt.",
+       "en": "It's hard.",
+       "gap": "hårdt"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-det-bliver-ikke-nemt",
+     "kind": "phrase",
+     "da": "Det bliver ikke nemt.",
+     "en": "It won't be easy.",
+     "alt": {
+      "en": [
+       "It isn't going to be easy."
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Det bliver ikke nemt.",
+       "en": "It won't be easy.",
+       "gap": "bliver"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-besoeg",
+     "kind": "word",
+     "da": "et besøg",
+     "en": "visit",
+     "gender": "et",
+     "sentences": [
+      {
+       "da": "Vi skal have besøg i weekenden.",
+       "en": "We are having visitors at the weekend.",
+       "gap": "besøg"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-svigerforaeldre",
+     "kind": "word",
+     "da": "svigerforældre",
+     "en": "parents-in-law",
+     "sentences": [
+      {
+       "da": "Mine svigerforældre bor i Odense.",
+       "en": "My parents-in-law live in Odense.",
+       "gap": "svigerforældre"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-kanalrundfart",
+     "kind": "word",
+     "da": "en kanalrundfart",
+     "en": "canal tour",
+     "gender": "en",
+     "sentences": [
+      {
+       "da": "En kanalrundfart er hyggelig.",
+       "en": "A canal tour is nice.",
+       "gap": "kanalrundfart"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-forretning",
+     "kind": "word",
+     "da": "en forretning",
+     "en": "shop",
+     "gender": "en",
+     "forms": [
+      "forretninger"
+     ],
+     "sentences": [
+      {
+       "da": "Der er en forretning i byen.",
+       "en": "There is a shop in town.",
+       "gap": "forretning"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-tid",
+     "kind": "word",
+     "da": "tid",
+     "en": "time",
+     "sentences": [
+      {
+       "da": "Jeg har ikke tid.",
+       "en": "I don't have time.",
+       "gap": "tid"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-museum",
+     "kind": "word",
+     "da": "et museum",
+     "en": "museum",
+     "gender": "et",
+     "forms": [
+      "museer"
+     ],
+     "sentences": [
+      {
+       "da": "Vi skal på museum.",
+       "en": "We are going to a museum.",
+       "gap": "museum"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "u08-l12",
+   "title": "Visitors: verbs and describing words",
+   "pages": [
+    46
+   ],
+   "taughtInClass": false,
+   "items": [
+    {
+     "id": "u08-p46-glaede-sig",
+     "kind": "word",
+     "da": "glæde sig",
+     "en": "to look forward to",
+     "alt": {
+      "da": [
+       "at glæde sig"
+      ],
+      "en": [
+       "look forward to"
+      ]
+     },
+     "forms": [
+      "glæder sig"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg glæder mig til weekenden.",
+       "en": "I am looking forward to the weekend.",
+       "gap": "glæder mig"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-vise",
+     "kind": "word",
+     "da": "vise",
+     "en": "to show",
+     "alt": {
+      "da": [
+       "at vise"
+      ],
+      "en": [
+       "show"
+      ]
+     },
+     "forms": [
+      "viser"
+     ],
+     "sentences": [
+      {
+       "da": "Han viser dem byen.",
+       "en": "He shows them the city.",
+       "gap": "viser"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-kigge-paa",
+     "kind": "word",
+     "da": "kigge på",
+     "en": "to look at",
+     "alt": {
+      "da": [
+       "at kigge på"
+      ],
+      "en": [
+       "look at"
+      ]
+     },
+     "forms": [
+      "kigger på"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg kigger på en bog.",
+       "en": "I look at a book.",
+       "gap": "kigger på"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-blive",
+     "kind": "word",
+     "da": "blive",
+     "en": "to stay",
+     "alt": {
+      "da": [
+       "at blive"
+      ],
+      "en": [
+       "stay",
+       "become",
+       "to become"
+      ]
+     },
+     "forms": [
+      "bliver"
+     ],
+     "sentences": [
+      {
+       "da": "Jeg bliver hjemme.",
+       "en": "I stay at home.",
+       "gap": "bliver"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-faa",
+     "kind": "word",
+     "da": "få",
+     "en": "to get",
+     "alt": {
+      "da": [
+       "at få"
+      ],
+      "en": [
+       "get",
+       "have",
+       "to have"
+      ]
+     },
+     "forms": [
+      "får"
+     ],
+     "sentences": [
+      {
+       "da": "Han får en sms.",
+       "en": "He gets a text.",
+       "gap": "får"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-hyggelig",
+     "kind": "word",
+     "da": "hyggelig",
+     "en": "nice",
+     "forms": [
+      "hyggeligt"
+     ],
+     "alt": {
+      "en": [
+       "cosy"
+      ]
+     },
+     "sentences": [
+      {
+       "da": "Det er en hyggelig aften.",
+       "en": "It's a nice evening.",
+       "gap": "hyggelig"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-haard",
+     "kind": "word",
+     "da": "hård",
+     "en": "hard",
+     "forms": [
+      "hårdt"
+     ],
+     "sentences": [
+      {
+       "da": "Det er et hårdt arbejde.",
+       "en": "It's hard work.",
+       "gap": "hårdt"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-nem",
+     "kind": "word",
+     "da": "nem",
+     "en": "easy",
+     "forms": [
+      "nemt"
+     ],
+     "sentences": [
+      {
+       "da": "Det er ikke nemt.",
+       "en": "It isn't easy.",
+       "gap": "nemt"
+      }
+     ]
+    },
+    {
+     "id": "u08-p46-foer",
+     "kind": "word",
+     "da": "før",
+     "en": "before",
+     "sentences": [
+      {
+       "da": "Jeg drikker kaffe før arbejde.",
+       "en": "I drink coffee before work.",
+       "gap": "før"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

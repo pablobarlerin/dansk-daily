@@ -1,0 +1,459 @@
+/* Exercises, feedback sheet, report sheet and the placement screen.
+   Layout follows the approved draft; tokens only. Wrong is grey, never red. */
+
+.btn:disabled {
+  background: var(--color-sunk);
+  color: var(--color-muted);
+  border: 0;
+  box-shadow: 0 var(--edge-lg) 0 var(--color-line);
+  cursor: default;
+  transform: none;
+}
+.btn-correct {
+  background: var(--color-correct);
+  color: var(--color-on-correct);
+  box-shadow: 0 var(--edge-lg) 0 var(--color-correct-edge);
+}
+.btn-almost {
+  background: var(--color-almost);
+  color: var(--color-on-almost);
+  box-shadow: 0 var(--edge-lg) 0 var(--color-almost-edge);
+}
+.btn-wrong {
+  background: var(--color-wrong);
+  color: var(--color-on-wrong);
+  box-shadow: 0 var(--edge-lg) 0 var(--color-wrong-edge);
+}
+.btn-correct:active,
+.btn-almost:active,
+.btn-wrong:active {
+  transform: translateY(var(--edge-lg));
+  box-shadow: none;
+}
+
+/* Progress row */
+.prog {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: var(--space-2) var(--gutter) 0;
+}
+.icon-btn {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: var(--tap-min);
+  height: var(--tap-min);
+  margin-left: calc(-1 * var(--space-3));
+  border: 0;
+  border-radius: var(--radius-md);
+  background: none;
+  color: var(--color-muted);
+}
+.icon-btn .ic {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.2;
+}
+.track {
+  flex: 1;
+  height: var(--track-height);
+  border-radius: calc(var(--track-height) / 2);
+  background: var(--color-sunk);
+  overflow: hidden;
+}
+.track i {
+  display: block;
+  height: 100%;
+  border-radius: calc(var(--track-height) / 2);
+  background: var(--color-primary);
+  transition: width var(--duration-sheet) var(--ease-out);
+}
+.kicker {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-3) var(--gutter) 0;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/* Question */
+.exercise.answered {
+  /* room to scroll above the feedback sheet */
+  padding-bottom: 320px;
+}
+.q {
+  padding: var(--space-6) var(--gutter) 0;
+}
+.q h2 {
+  font-size: var(--text-title2);
+  font-weight: var(--weight-heavy);
+  letter-spacing: var(--tracking-title);
+  line-height: var(--leading-tight);
+}
+.prompt {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: 18px;
+}
+.prompt:has(.spk-lg) {
+  flex-direction: column;
+}
+.bubble {
+  padding: var(--space-3) 14px;
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-lead);
+}
+.pre-line {
+  white-space: pre-line;
+}
+.spk {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: var(--speaker-size);
+  height: var(--speaker-size);
+  border: 0;
+  border-radius: var(--radius-speaker);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-primary-edge);
+}
+.spk-lg {
+  width: var(--ring-size);
+  height: var(--ring-size);
+  border-radius: var(--radius-xl);
+}
+.spk .ic {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.2;
+}
+.spk-lg .ic {
+  width: 34px;
+  height: 34px;
+}
+.spk:active {
+  transform: translateY(var(--edge-sm));
+  box-shadow: none;
+}
+
+/* Choices (multiple choice and match) */
+.choices {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--gutter) 0;
+}
+.choice {
+  min-height: var(--button-height);
+  padding: var(--space-2) var(--space-4);
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-line);
+  font-size: var(--text-body);
+  font-weight: var(--weight-bold);
+  text-align: center;
+  transition: transform var(--duration-press) var(--ease-out);
+}
+.choice:active:not(:disabled) {
+  transform: translateY(var(--edge-sm));
+  box-shadow: none;
+}
+.choice:disabled {
+  cursor: default;
+}
+.choice.is-on {
+  border-color: var(--color-primary);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-primary-edge);
+  color: var(--color-primary-text);
+}
+.choice.is-right {
+  border-color: var(--color-correct);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-correct-edge);
+  color: var(--color-correct-text);
+}
+.choice.is-wrong {
+  border-color: var(--color-wrong-edge);
+  background: var(--color-wrong-soft);
+  color: var(--color-wrong-text);
+}
+.match {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--gutter) 0;
+}
+.match-col {
+  display: grid;
+  gap: var(--space-3);
+  align-content: start;
+}
+
+/* Word tiles */
+.answer-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--space-2);
+  min-height: 118px;
+  margin: 26px var(--gutter) 0;
+  padding: 14px 0;
+  border-top: var(--border-width) solid var(--color-line);
+  border-bottom: var(--border-width) solid var(--color-line);
+}
+.bank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 26px var(--gutter) 0;
+}
+.tile {
+  min-height: var(--tap-min);
+  padding: 10px 14px;
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-line);
+  font-size: var(--text-lead);
+}
+.tile.used {
+  color: transparent;
+  background: var(--color-sunk);
+  box-shadow: none;
+}
+
+/* Typing */
+.field {
+  display: block;
+  width: calc(100% - 2 * var(--gutter));
+  min-height: 64px;
+  margin: 22px var(--gutter) 0;
+  padding: 14px var(--space-4);
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  font-size: var(--text-title3);
+  caret-color: var(--color-primary);
+}
+.field:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+.keys {
+  display: flex;
+  gap: 10px;
+  margin: 14px var(--gutter) 0;
+}
+.key {
+  flex: 1;
+  height: var(--key-height);
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: 0 var(--edge-sm) 0 var(--color-line);
+  font-size: var(--text-title3);
+  font-weight: var(--weight-bold);
+}
+.key:active:not(:disabled) {
+  transform: translateY(var(--edge-sm));
+  box-shadow: none;
+}
+.ex-actions {
+  padding: var(--space-6) var(--gutter) 0;
+}
+.ex-skip {
+  padding-top: var(--space-4);
+}
+
+/* Feedback sheet */
+.sheet {
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-5) var(--gutter) calc(var(--space-5) + env(safe-area-inset-bottom));
+  border-radius: var(--radius-2xl) var(--radius-2xl) 0 0;
+  animation: sheet-up var(--duration-sheet) var(--ease-out);
+}
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+.sheet-correct {
+  background: var(--color-correct-soft);
+}
+.sheet-almost {
+  background: var(--color-almost-soft);
+}
+.sheet-wrong {
+  background: var(--color-wrong-soft);
+}
+.sh-h {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--text-title2);
+  font-weight: var(--weight-heavy);
+}
+.sh-h .ic {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2.2;
+}
+.sheet-correct .sh-h {
+  color: var(--color-correct-text);
+}
+.sheet-almost .sh-h {
+  color: var(--color-almost-text);
+}
+.sheet-wrong .sh-h {
+  color: var(--color-wrong-text);
+}
+.sh-body {
+  margin-top: 10px;
+  font-size: var(--text-body);
+}
+.sh-body b {
+  font-size: var(--text-lead);
+}
+.sh-pairs {
+  margin: var(--space-1) 0 0;
+  padding-left: var(--space-5);
+}
+.hint,
+.sh-note {
+  margin-top: var(--space-2);
+  font-size: var(--text-callout);
+}
+.flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--tap-min);
+  margin-top: var(--space-1);
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: var(--text-caption);
+  font-weight: var(--weight-bold);
+  color: var(--color-muted);
+}
+.flag .ic {
+  width: 16px;
+  height: 16px;
+}
+.sheet .btn {
+  margin-top: var(--space-3);
+}
+
+/* Report sheet */
+.scrim {
+  position: fixed;
+  z-index: 6;
+  inset: 0;
+  background: color-mix(in srgb, var(--color-ink) 40%, transparent);
+}
+.sheet-report {
+  z-index: 7;
+  background: var(--color-surface);
+}
+.report-group {
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  border: 0;
+}
+.report-group legend {
+  margin-bottom: var(--space-1);
+  padding: 0;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+.report-opt {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--tap-min);
+  font-size: var(--text-body);
+}
+.report-opt input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: var(--color-primary);
+}
+.report-text {
+  display: grid;
+  gap: var(--space-1);
+  margin-top: var(--space-3);
+  font-size: var(--text-caption);
+  color: var(--color-muted);
+}
+.report-text textarea {
+  padding: var(--space-3);
+  border: var(--border-width) solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-size: var(--text-body);
+  resize: none;
+}
+.two {
+  display: flex;
+  gap: var(--space-3);
+}
+.two .btn {
+  flex: 1;
+}
+
+/* Placement result */
+.placed {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+.placed-body {
+  flex: 1;
+  padding-top: var(--space-10);
+}
+.placed-title {
+  margin: 0 var(--gutter);
+  font-size: var(--text-title1);
+  font-weight: var(--weight-heavy);
+  letter-spacing: var(--tracking-title);
+}
+.placed .welcome-copy {
+  margin: var(--space-3) var(--gutter) 0;
+}
+.placed-units {
+  margin-top: var(--space-6);
+}
+
+/* Tiles: Check sits at the foot of the screen, as in the draft (this exercise has no keyboard). */
+.exercise[data-kind='tiles'] {
+  padding-bottom: calc(var(--button-height) + var(--space-10));
+}
+.exercise[data-kind='tiles'] .ex-actions:not(.ex-skip) {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--space-3) var(--gutter) calc(var(--space-6) + env(safe-area-inset-bottom));
+  background: var(--color-bg);
+}
