@@ -419,7 +419,7 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
 
   const pct = total === 0 ? 0 : Math.round((Math.min(done, total) / total) * 100)
   return (
-    <main class="screen session">
+    <main class="screen session" data-phase={label}>
       <div class="prog">
         <button type="button" class="icon-btn" aria-label="End session" onClick={onExit}>
           <svg class="ic" viewBox="0 0 24 24" aria-hidden="true">
@@ -434,10 +434,9 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
           aria-valuemax={100}
           aria-valuenow={pct}
         >
-          <i style={{ width: `${pct}%` }} />
+          {pct > 0 && <i style={{ width: `${pct}%` }} />}
         </div>
       </div>
-      <h1 class="kicker">{label}</h1>
       {body}
     </main>
   )

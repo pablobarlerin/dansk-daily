@@ -20,7 +20,8 @@ const C = 2 * Math.PI * R
 export function Summary({ reviewed, learned, accuracy, streak, seconds, onKeepGoing, onDone }: Props) {
   const minutes = Math.floor(seconds / 60)
   const met = seconds >= GOAL_SECONDS
-  const frac = Math.min(1, seconds / GOAL_SECONDS)
+  // under a minute the round cap would draw a lone dot; the ring starts at 1m, as on Home
+  const frac = minutes === 0 ? 0 : Math.min(1, seconds / GOAL_SECONDS)
   const days = `${streak} ${streak === 1 ? 'day' : 'days'} in a row.`
   return (
     <main class="screen summary" data-testid="summary">
@@ -30,7 +31,13 @@ export function Summary({ reviewed, learned, accuracy, streak, seconds, onKeepGo
           {frac > 0 && (
             <circle class="sum-fill" cx="70" cy="70" r={R} stroke-dasharray={`${frac * C} ${C}`} transform="rotate(-90 70 70)" />
           )}
-          {met && <path class="sum-check" d="M50 71l14 14 27-29" />}
+          {met ? (
+            <path class="sum-check" d="M50 71l14 14 27-29" />
+          ) : (
+            <text class="sum-text" x="70" y="80" text-anchor="middle">
+              {minutes}m
+            </text>
+          )}
         </svg>
         <h1>{met ? 'Goal complete' : 'Nice work'}</h1>
         <p>
@@ -50,7 +57,7 @@ export function Summary({ reviewed, learned, accuracy, streak, seconds, onKeepGo
           <b>{accuracy === null ? '—' : `${Math.round(accuracy * 100)}%`}</b>
           <span>accuracy</span>
         </div>
-        <div class="stat stat-streak" data-testid="stat-streak">
+        <div class={`stat stat-streak${streak === 0 ? ' zero' : ''}`} data-testid="stat-streak">
           <b>{streak}</b>
           <span>day streak</span>
         </div>

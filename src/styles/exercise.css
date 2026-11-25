@@ -65,19 +65,21 @@
 .track i {
   display: block;
   height: 100%;
+  /* the first step shows a whole pill, never a sliver of a half disc */
+  min-width: var(--track-height);
   border-radius: calc(var(--track-height) / 2);
   background: var(--color-primary);
   transition: width var(--duration-sheet) var(--ease-out);
 }
-.kicker {
-  display: flex;
-  justify-content: space-between;
-  margin: var(--space-3) var(--gutter) 0;
-  font-size: var(--text-sm);
+/* Placement's "2 / 66" at the end of the progress row */
+.prog-count {
+  flex: none;
+  min-width: 3.5em;
+  text-align: right;
+  font-size: var(--text-caption);
   font-weight: var(--weight-bold);
-  letter-spacing: var(--tracking-label);
-  text-transform: uppercase;
   color: var(--color-muted);
+  font-variant-numeric: var(--font-numeric);
 }
 
 /* Question */
@@ -88,11 +90,16 @@
 .q {
   padding: var(--space-6) var(--gutter) 0;
 }
-.q h2 {
+.q h1 {
   font-size: var(--text-title2);
   font-weight: var(--weight-heavy);
   letter-spacing: var(--tracking-title);
   line-height: var(--leading-tight);
+}
+.q-sub {
+  margin-top: var(--space-1);
+  font-size: var(--text-caption);
+  color: var(--color-muted);
 }
 .prompt {
   display: flex;
@@ -104,6 +111,9 @@
   flex-direction: column;
 }
 .bubble {
+  /* full width like the answer field under it */
+  flex: 1;
+  align-self: stretch;
   padding: var(--space-3) 14px;
   border: var(--border-width) solid var(--color-line);
   border-radius: var(--radius-lg);
@@ -267,6 +277,35 @@
 }
 .ex-actions {
   padding: var(--space-6) var(--gutter) 0;
+}
+
+/*
+ * Screens without a keyboard (new word, Repeat after me, Summary) anchor their buttons at the
+ * foot, as in the draft. Typed answers keep Check in flow, above the keyboard. #app already
+ * pads the home-indicator inset, so the foot only adds the draft's own space.
+ */
+.screen.session,
+.screen.summary {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  padding-bottom: 0;
+}
+.session > .intro,
+.session > .repeat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.intro > .ex-actions,
+.repeat > .ex-actions,
+.summary > .ex-actions {
+  margin-top: auto;
+  padding-bottom: var(--space-6);
+}
+/* exercises keep the old foot space (a typed answer's Check stays in flow) */
+.session > .exercise:not(.answered):not([data-kind='tiles']) {
+  padding-bottom: var(--space-8);
 }
 .ex-skip {
   padding-top: var(--space-4);

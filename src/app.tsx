@@ -176,7 +176,7 @@ export function App({ content: injected, storage, now = realNow }: Props = {}) {
       }
       break
     case 'units':
-      body = <Units content={content} p={api.p} onOpenUnit={unitId => setScreen({ t: 'unit', unitId, fromList: true })} />
+      body = <Units content={content} p={api.p} today={api.today} onOpenUnit={unitId => setScreen({ t: 'unit', unitId, fromList: true })} />
       break
     case 'settings':
       body = (

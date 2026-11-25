@@ -133,6 +133,12 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+.sum-text {
+  fill: var(--color-ink);
+  font-size: 28px;
+  font-weight: var(--weight-heavy);
+  font-variant-numeric: var(--font-numeric);
+}
 .sum h1 {
   margin-top: 18px;
   font-size: var(--text-title1);
@@ -167,4 +173,8 @@
 }
 .stat-streak b {
   color: var(--color-streak);
+}
+/* a zero streak isn't celebrated */
+.stat-streak.zero b {
+  color: var(--color-muted);
 }

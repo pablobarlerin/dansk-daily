@@ -188,10 +188,10 @@ export async function readShown(page: Page): Promise<Shown> {
   const ex = page.locator('[data-testid=exercise]:not(.answered)')
   const kind = (await ex.getAttribute('data-kind'))!
   const ids = (await ex.getAttribute('data-items'))!.split(' ')
-  const title = (await ex.locator('.q h2').first().textContent()) ?? ''
+  const title = (await ex.locator('.q h1').first().textContent()) ?? ''
   const prompt = ex.getByTestId('prompt')
   const bubble = (await prompt.count()) > 0 ? await prompt.textContent() : null
-  const kicker = (await page.locator('h1.kicker').textContent()) ?? ''
+  const kicker = (await page.locator('main.session').getAttribute('data-phase')) ?? ''
   return { kind, ids, title, bubble, kicker }
 }
 

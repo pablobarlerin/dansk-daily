@@ -17,7 +17,7 @@ interface Props {
 export function RepeatAfterMe({ line, canPlay, speed, onNext, onSkip }: Props) {
   return (
     <div class="repeat">
-      <h2 class="repeat-h">Repeat after me</h2>
+      <h1 class="repeat-h">Repeat after me</h1>
       <p class="repeat-sub">Listen, then say it out loud.</p>
       <div class="card-xl" data-testid="repeat-line">
         <PlayPair text={line.da} canPlay={canPlay} speed={speed} />

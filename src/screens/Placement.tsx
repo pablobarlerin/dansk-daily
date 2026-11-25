@@ -139,12 +139,12 @@ export function Placement({ content, p, today, update, onDone, onExit }: Props) 
           aria-valuenow={answered}
           aria-valuetext={`${answered} of ${total} questions`}
         >
-          <i style={{ width: `${pct}%` }} />
+          {pct > 0 && <i style={{ width: `${pct}%` }} />}
         </div>
+        <span class="prog-count" aria-hidden="true">
+          {answered} / {total}
+        </span>
       </div>
-      <h1 class="kicker">
-        Placement test <span class="kicker-count">{answered} of {total}</span>
-      </h1>
       {shown && (
         <ExerciseStep
           key={shown.step}

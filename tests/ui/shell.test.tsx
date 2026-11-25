@@ -39,7 +39,9 @@ describe('first launch', () => {
   it('the main Welcome button leads to the placement test', () => {
     renderApp(memoryStorage())
     fireEvent.click(screen.getByRole('button', { name: /find my level/i }))
-    expect(screen.getByText(/placement/i, { selector: 'h1' })).toBeTruthy()
+    expect(screen.getByRole('progressbar', { name: /placement/i })).toBeTruthy()
+    // no uppercase eyebrow: the screen's h1 is the task itself
+    expect(screen.getByRole('heading', { level: 1 }).textContent).not.toMatch(/placement/i)
   })
 })
 
@@ -81,6 +83,58 @@ describe('Home', () => {
     expect(screen.getByTestId('intro-card')).toBeTruthy()
     fireEvent.click(screen.getByRole('button', { name: /end session/i }))
     expect(screen.getByRole('button', { name: /start today's session/i })).toBeTruthy()
+  })
+
+  it("the caption under the primary button gives today's counts and the next page, dropping zero parts", () => {
+    // nothing learned yet: no reviews, so only the new words and the next lesson's page
+    renderApp(storageWith(placedProgress({ contentVersion: content.version })))
+    const fresh = screen.getByTestId('session-caption')
+    expect(fresh.textContent).toBe('7 newNext: p. 9')
+    expect(fresh.textContent).not.toMatch(/review/)
+    cleanup()
+
+    // lesson 1 done and its three words due: reviews, then the next lesson's new words
+    const due = { strength: 2, due: TODAY, lapses: 0, seen: 2, known: true }
+    const states = Object.fromEntries(['u01-p09-hej', 'u01-p09-farvel', 'u01-p09-bil'].map(id => [id, due]))
+    renderApp(storageWith(placedProgress({ contentVersion: content.version, states, lessonsDone: { 'u01-l01': true } })))
+    const spans = screen.getByTestId('session-caption').querySelectorAll('span')
+    expect(spans[0].textContent).toBe('3 reviews · 4 new')
+    expect(spans[1].textContent).toBe('Next: p. 10')
+    cleanup()
+
+    // every lesson done, nothing due: no caption at all
+    const later = { strength: 4, due: '2026-12-20', lapses: 0, seen: 4, known: true }
+    const all = content.units.flatMap(u => u.lessons)
+    renderApp(storageWith(placedProgress({
+      contentVersion: content.version,
+      states: Object.fromEntries(all.flatMap(l => l.items).map(i => [i.id, later])),
+      lessonsDone: Object.fromEntries(all.map(l => [l.id, true])),
+    })))
+    expect(screen.queryByTestId('session-caption')).toBeNull()
+  })
+
+  it("the primary button says Start today's session until something is answered today, then Continue", () => {
+    renderApp(storageWith(placedProgress({ contentVersion: content.version, days: { '2026-11-24': { activeSeconds: 900, newIntroduced: 3, reviewsDone: 5 } } })))
+    expect(screen.getByRole('button', { name: "Start today's session" })).toBeTruthy()
+    expect(screen.queryByRole('button', { name: 'Continue' })).toBeNull()
+    cleanup()
+    renderApp(storageWith(placedProgress({ contentVersion: content.version, days: { [TODAY]: { activeSeconds: 40, newIntroduced: 1, reviewsDone: 0 } } })))
+    expect(screen.getByRole('button', { name: 'Continue' })).toBeTruthy()
+    expect(screen.queryByRole('button', { name: "Start today's session" })).toBeNull()
+  })
+
+  it('a unit with words that slipped back says so; a mastered unit says mastered', () => {
+    const strong = { strength: 4, due: '2026-12-20', lapses: 0, seen: 4, known: true }
+    const slipped = { strength: 1, due: TODAY, lapses: 1, seen: 5, known: true }
+    const states = {
+      ...Object.fromEntries(['u01-p09-hej', 'u01-p09-farvel', 'u01-p09-bil', 'u01-p10-hus', 'u01-p10-ja'].map(id => [id, strong])),
+      'u02-p11-bog': slipped,
+      'u02-p11-tavle': slipped,
+    }
+    renderApp(storageWith(placedProgress({ contentVersion: content.version, states })))
+    expect(screen.getByTestId('unit-u01').textContent).toMatch(/100% · mastered/)
+    expect(within(screen.getByTestId('unit-u02')).getByTestId('slipped').textContent).toBe("2 words slipped, they'll come back today")
+    expect(within(screen.getByTestId('unit-u01')).queryByTestId('slipped')).toBeNull()
   })
 
   it('monthly backup nudge shows and records lastBackupNudge; dismiss hides it', () => {

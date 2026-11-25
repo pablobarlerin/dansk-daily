@@ -42,7 +42,7 @@ interface Props {
   speed: number
   /** "Next": the item starts at strength 0 and gets its first test later in the session. */
   onNext: () => void
-  /** "I know this ✓": the item starts at strength 3. */
+  /** "I know this": the item starts at strength 3. */
   onKnow: () => void
 }
 
@@ -51,6 +51,7 @@ export function LessonIntro({ item, tip, canPlay, speed, onNext, onKnow }: Props
   const speak = item.say ?? item.da
   return (
     <div class="intro">
+      <h1 class="sr-only">New word</h1>
       <div class="card-xl" data-testid="intro-card">
         <PlayPair text={speak} canPlay={canPlay} speed={speed} />
         <p class="word" lang="da">
@@ -71,7 +72,7 @@ export function LessonIntro({ item, tip, canPlay, speed, onNext, onKnow }: Props
       {item.note && <p class="tip pre-line">{item.note}</p>}
       <div class="ex-actions two">
         <button type="button" class="btn btn-ghost" onClick={onKnow}>
-          I know this ✓
+          I know this
         </button>
         <button type="button" class="btn btn-primary" onClick={onNext}>
           Next

@@ -44,7 +44,8 @@ const day = (log: Partial<DayLog>): DayLog => ({ activeSeconds: 0, newIntroduced
 function startSession(p: Progress, c: Content = content) {
   const s = storageWith(p)
   render(<App content={c} storage={s} now={fixedNow} />)
-  fireEvent.click(screen.getByRole('button', { name: /start today's session/i }))
+  // "Continue" once something was answered today (the test day may carry activity)
+  fireEvent.click(screen.getByRole('button', { name: /^(start today's session|continue)$/i }))
   return s
 }
 
@@ -261,7 +262,8 @@ describe('daily session', () => {
     expect(within(summary).getByTestId('stat-streak').textContent).toMatch(/^0/)
     expect(stored(s).days[TODAY].reviewsDone).toBe(1)
     fireEvent.click(button('Done'))
-    expect(button(/start today's session/i)).toBeTruthy()
+    // the day's session has started, so Home offers to continue it
+    expect(button(/^continue$/i)).toBeTruthy()
   })
 
   it('Summary shows "—" accuracy when nothing was graded', () => {

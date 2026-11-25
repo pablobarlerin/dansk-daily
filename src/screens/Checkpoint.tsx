@@ -1,6 +1,6 @@
 import { useRef, useState } from 'preact/hooks'
 import { ExerciseStep } from '../components/ExerciseStep'
-import { playable } from '../components/exercises/shared'
+import { playable, QuestionContext } from '../components/exercises/shared'
 import type { Content, Unit } from '../content/types'
 import type { Exercise } from '../lib/exercises'
 import { findItem } from '../lib/path'
@@ -95,35 +95,43 @@ export function Checkpoint({ content, unit, p, today, update, activity, onExit, 
             <path d="M6 6l12 12M18 6L6 18" />
           </svg>
         </button>
-        <div class="track" role="progressbar" aria-label="Checkpoint progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={pct}>
-          <i style={{ width: `${pct}%` }} />
+        <div
+          class="track"
+          role="progressbar"
+          aria-label={`Checkpoint · ${unit.title} progress`}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={pct}
+        >
+          {pct > 0 && <i style={{ width: `${pct}%` }} />}
         </div>
       </div>
-      <h1 class="kicker">{unit.title} · Checkpoint</h1>
-      <ExerciseStep
-        key={phase.step}
-        exercise={ex}
-        canPlay={playable(p.settings)}
-        speed={p.settings.speed}
-        note={findItem(content, ex.itemIds[0])?.item.note}
-        reportTargets={reportTargets(content, ex)}
-        onAnswer={r => {
-          activity()
-          const { first, save } = answerRun(run, ex, r.verdict, today, r.missedIds)
-          for (const id of first) firstResult.current.set(id, answeredRight(r, id))
-          update(save)
-        }}
-        onReport={(target, note, r) => {
-          const next = reportRun(run, read(), content, { target, note, today, verdict: r.verdict })
-          firstResult.current.delete(target.id)
-          update(() => next)
-        }}
-        onContinue={() => {
-          // The shown exercise only changes here, so a report under the sheet never swaps it.
-          const nextEx = run.runner.current()
-          setPhase(nextEx ? { t: 'run', run, step: ++stepKey.current, ex: nextEx } : { t: 'score' })
-        }}
-      />
+      <QuestionContext.Provider value={`Checkpoint · ${unit.title}`}>
+        <ExerciseStep
+          key={phase.step}
+          exercise={ex}
+          canPlay={playable(p.settings)}
+          speed={p.settings.speed}
+          note={findItem(content, ex.itemIds[0])?.item.note}
+          reportTargets={reportTargets(content, ex)}
+          onAnswer={r => {
+            activity()
+            const { first, save } = answerRun(run, ex, r.verdict, today, r.missedIds)
+            for (const id of first) firstResult.current.set(id, answeredRight(r, id))
+            update(save)
+          }}
+          onReport={(target, note, r) => {
+            const next = reportRun(run, read(), content, { target, note, today, verdict: r.verdict })
+            firstResult.current.delete(target.id)
+            update(() => next)
+          }}
+          onContinue={() => {
+            // The shown exercise only changes here, so a report under the sheet never swaps it.
+            const nextEx = run.runner.current()
+            setPhase(nextEx ? { t: 'run', run, step: ++stepKey.current, ex: nextEx } : { t: 'score' })
+          }}
+        />
+      </QuestionContext.Provider>
     </main>
   )
 }

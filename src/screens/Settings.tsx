@@ -210,8 +210,10 @@ export function Settings({ content, p, today, now, update, replace, audio, onRep
         </button>
         {exp.link && (
           <a class="opt link save-link" href={exp.link.href} download={exp.link.name}>
-            Save backup file
-            <span class="val">{exp.link.name}</span>
+            <span class="save-t">
+              <span class="save-label">Save backup file</span>
+              <span class="save-name">{exp.link.name}</span>
+            </span>
           </a>
         )}
         <label class="opt opt-btn link">

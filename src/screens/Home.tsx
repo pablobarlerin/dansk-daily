@@ -4,6 +4,8 @@ import type { Content, Unit } from '../content/types'
 import { GOAL_SECONDS, streak } from '../lib/activity'
 import { MASTERY_TARGET, nextLesson, unitMastery } from '../lib/path'
 import type { Progress } from '../lib/progressTypes'
+import { buildDailyQueue } from '../lib/queue'
+import { reportedIds } from '../lib/reports'
 import { shouldNudgeBackup } from '../lib/store'
 import { useBackupExport } from '../state/backup'
 
@@ -30,8 +32,9 @@ function pageRange(pages: number[]): string {
 }
 
 function GoalRing({ seconds }: { seconds: number }) {
-  const frac = Math.min(1, seconds / GOAL_SECONDS)
   const minutes = Math.floor(seconds / 60)
+  // Under a minute the round cap of a near-empty arc reads as a stray red dot: draw nothing until 1m.
+  const frac = minutes === 0 ? 0 : Math.min(1, seconds / GOAL_SECONDS)
   return (
     <svg class="ring" viewBox="0 0 72 72" aria-hidden="true">
       <circle class="ring-track" cx="36" cy="36" r={RING_R} />
@@ -52,8 +55,43 @@ function GoalRing({ seconds }: { seconds: number }) {
   )
 }
 
-function UnitCard({ unit, p, current, onOpen }: { unit: Unit; p: Progress; current: boolean; onOpen: () => void }) {
+/**
+ * Words of the unit that slipped: answered wrong at some point, back at strength 0–1 and due
+ * by today, so today's reviews bring them back.
+ */
+export function slippedCount(unit: Unit, p: Progress, today: string): number {
+  const rep = reportedIds(p)
+  let n = 0
+  for (const l of unit.lessons)
+    for (const i of l.items) {
+      if (rep.has(i.id) || !Object.hasOwn(p.states, i.id)) continue
+      const s = p.states[i.id]
+      if (s.lapses > 0 && s.strength <= 1 && s.due <= today) n++
+    }
+  return n
+}
+
+/** The line under the primary button: what today's session holds, then where the path goes next. */
+export function sessionCaption(content: Content, p: Progress, today: string): { left: string; right: string } {
+  const q = buildDailyQueue(content, p, today, {})
+  const reviews = q.reviews.length + q.recapIds.length
+  const parts: string[] = []
+  if (reviews > 0) parts.push(`${reviews} ${reviews === 1 ? 'review' : 'reviews'}`)
+  if (q.newItems.length > 0) parts.push(`${q.newItems.length} new`)
+  const next = nextLesson(content, p)
+  const pages = next ? pageRange(next.pages) : ''
+  return { left: parts.join(' · '), right: pages ? `Next: ${pages}` : '' }
+}
+
+/** A session counts as started once anything was answered or practised today. */
+export function startedToday(p: Progress, today: string): boolean {
+  const d = Object.hasOwn(p.days, today) ? p.days[today] : undefined
+  return !!d && (d.activeSeconds > 0 || d.reviewsDone > 0 || d.newIntroduced > 0)
+}
+
+function UnitCard({ unit, p, today, current, onOpen }: { unit: Unit; p: Progress; today: string; current: boolean; onOpen: () => void }) {
   const mastery = unitMastery(unit, p)
+  const slipped = slippedCount(unit, p, today)
   const pct = Math.round(mastery * 100)
   const mastered = mastery >= MASTERY_TARGET
   const target = Math.round(MASTERY_TARGET * 100)
@@ -69,12 +107,18 @@ function UnitCard({ unit, p, current, onOpen }: { unit: Unit; p: Progress; curre
           <button type="button" class="unit-open" onClick={onOpen}>
             {unit.title}
           </button>
+          {slipped > 0 && <span class="slip-dot" aria-hidden="true" />}
         </b>
         <span>
           {pct}%{mastered ? ' · mastered' : ''}
         </span>
       </div>
       {current && <div class="meta">You're here · {pageRange(unit.pages)}</div>}
+      {slipped > 0 && (
+        <div class="meta" data-testid="slipped">
+          {slipped === 1 ? "1 word slipped, it'll come back today" : `${slipped} words slipped, they'll come back today`}
+        </div>
+      )}
       <div
         class="bar"
         role="meter"
@@ -92,14 +136,24 @@ function UnitCard({ unit, p, current, onOpen }: { unit: Unit; p: Progress; curre
 }
 
 /** The unit cards, in order, with the current unit marked. Used by Home and the Units tab. */
-export function UnitList({ content, p, onOpenUnit }: { content: Content; p: Progress; onOpenUnit: (unitId: string) => void }) {
+export function UnitList({
+  content,
+  p,
+  today,
+  onOpenUnit,
+}: {
+  content: Content
+  p: Progress
+  today: string
+  onOpenUnit: (unitId: string) => void
+}) {
   const next = nextLesson(content, p)
   const currentUnitId = next ? content.units.find(u => u.lessons.includes(next))?.id : undefined
   const units = [...content.units].sort((a, b) => a.order - b.order)
   return (
     <ol class="units">
       {units.map(u => (
-        <UnitCard key={u.id} unit={u} p={p} current={u.id === currentUnitId} onOpen={() => onOpenUnit(u.id)} />
+        <UnitCard key={u.id} unit={u} p={p} today={today} current={u.id === currentUnitId} onOpen={() => onOpenUnit(u.id)} />
       ))}
     </ol>
   )
@@ -132,6 +186,7 @@ export function Home({ content, p, today, update, now, onStartSession, onOpenUni
   const goalMet = seconds >= GOAL_SECONDS
   const left = GOAL_MINUTES - minutes
   const days = streak(p.days, today)
+  const caption = sessionCaption(content, p, today)
 
   return (
     <main class="screen home">
@@ -161,8 +216,14 @@ export function Home({ content, p, today, update, now, onStartSession, onOpenUni
 
       <div class="home-cta">
         <button type="button" class="btn btn-primary" onClick={onStartSession}>
-          Start today's session
+          {startedToday(p, today) ? 'Continue' : "Start today's session"}
         </button>
+        {(caption.left || caption.right) && (
+          <p class="cta-cap" data-testid="session-caption">
+            <span>{caption.left}</span>
+            <span>{caption.right}</span>
+          </p>
+        )}
       </div>
 
       {nudge && (
@@ -188,7 +249,7 @@ export function Home({ content, p, today, update, now, onStartSession, onOpenUni
       )}
 
       <h2 class="sec">Units</h2>
-      <UnitList content={content} p={p} onOpenUnit={onOpenUnit} />
+      <UnitList content={content} p={p} today={today} onOpenUnit={onOpenUnit} />
     </main>
   )
 }

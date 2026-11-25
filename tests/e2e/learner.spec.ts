@@ -162,7 +162,7 @@ test('simulated learner: placement and 30 days of sessions', async ({ page: firs
     let reportedInReviews = 0
 
     let reportedNow = false
-    await tap(clock, page.getByRole('button', { name: "Start today's session" }))
+    await tap(clock, page.getByRole('button', { name: /^(Start today's session|Continue)$/ }))
     await expect(page.locator('main.home')).toBeHidden()
     let k = ''
     let sawKeep = false
@@ -170,8 +170,8 @@ test('simulated learner: placement and 30 days of sessions', async ({ page: firs
       expect(guard, 'session does not loop forever').toBeLessThan(4000)
       const s: { key: string; state: ScreenState } = await nextScreen(page, k)
       k = s.key
-      const kickerEl = page.locator('h1.kicker')
-      const kicker = (await kickerEl.count()) > 0 ? await kickerEl.textContent() : null
+      const kickerEl = page.locator('main.session[data-phase]')
+      const kicker = (await kickerEl.count()) > 0 ? await kickerEl.getAttribute('data-phase') : null
       if (kicker === 'Reviews') inReviews = true
       else if (inReviews && reviewsEnd === null) reviewsEnd = await stored(page)
       if (s.state === 'home') break
@@ -235,7 +235,7 @@ test('simulated learner: placement and 30 days of sessions', async ({ page: firs
           await tap(clock, page.getByRole('button', { name: 'Next' }))
           break
         case 'repeat': {
-          const kicker = await page.locator('h1.kicker').textContent()
+          const kicker = await page.locator('main.session').getAttribute('data-phase')
           if (kicker === 'Repeat round' && !sawKeep) row.repeatRound = true
           await tap(clock, page.getByRole('button', { name: 'Next' }))
           break

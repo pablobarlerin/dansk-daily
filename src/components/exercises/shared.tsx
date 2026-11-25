@@ -1,5 +1,5 @@
-import type { ComponentChildren } from 'preact'
-import { useEffect } from 'preact/hooks'
+import { createContext, type ComponentChildren } from 'preact'
+import { useContext, useEffect } from 'preact/hooks'
 import { checkAnswer } from '../../lib/answers'
 import { canPlay as audioCanPlay, play, prepare } from '../../lib/audio'
 import type { Exercise } from '../../lib/exercises'
@@ -48,11 +48,19 @@ export function Speaker({ text, canPlay, speed, big }: { text: string; canPlay: 
   )
 }
 
-/** Exercise heading plus an optional prompt bubble (kept on several lines with pre-line). */
+/** A muted line under every exercise title on a screen, e.g. "Checkpoint · Præsentation 1". */
+export const QuestionContext = createContext<string | null>(null)
+
+/**
+ * Exercise heading (the screen's h1: the task, e.g. "Type in Danish") plus an optional prompt
+ * bubble (kept on several lines with pre-line).
+ */
 export function Question({ title, bubble, children }: { title: string; bubble?: string; children?: ComponentChildren }) {
+  const context = useContext(QuestionContext)
   return (
     <div class="q">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
+      {context && <p class="q-sub">{context}</p>}
       {(bubble !== undefined || children) && (
         <div class="prompt">
           {children}

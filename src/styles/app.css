@@ -144,6 +144,19 @@
 .home-cta {
   margin: 18px var(--gutter) 0;
 }
+/* Caption under the primary button (draft phone 1): today's counts left, the next page right */
+.cta-cap {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: 10px;
+  font-size: var(--text-caption);
+  color: var(--color-muted);
+  font-variant-numeric: var(--font-numeric);
+}
+.cta-cap span:last-child {
+  flex: none;
+}
 
 /* Backup nudge */
 .nudge {
@@ -195,6 +208,16 @@
 }
 .unit-h b {
   font-size: var(--text-body);
+}
+/* Amber dot after the title of a unit with slipped words (draft phone 1) */
+.slip-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-left: var(--space-2);
+  border-radius: 50%;
+  background: var(--color-almost);
+  vertical-align: middle;
 }
 .unit-h span {
   flex: none;
@@ -508,6 +531,9 @@
   padding: 10px 0 env(safe-area-inset-bottom);
   border-top: var(--border-width) solid var(--color-line);
   background: var(--color-bg);
+  /* the same column as the content on wide screens */
+  max-width: 480px;
+  margin: 0 auto;
 }
 .tab {
   display: flex;
@@ -709,4 +735,30 @@ label.opt-btn:focus-within {
 .sheet-confirm {
   z-index: 7;
   background: var(--color-surface);
+}
+
+/* Units tab: the same top air as Home, and room between the title and the first card */
+.units-screen .set-h {
+  padding-top: var(--space-4);
+}
+.units-screen .units {
+  margin-top: var(--space-4);
+}
+
+/* Save backup file: the label on one line, the file name under it as a muted caption */
+.save-t {
+  display: grid;
+  min-width: 0;
+}
+.save-label {
+  white-space: nowrap;
+}
+.save-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--color-muted);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-regular);
+  font-variant-numeric: var(--font-numeric);
 }
