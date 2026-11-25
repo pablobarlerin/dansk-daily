@@ -7,7 +7,7 @@ import { findItem } from '../lib/path'
 import type { Progress } from '../lib/progressTypes'
 import type { Rng } from '../lib/rng'
 import { reportTargets } from '../state/reporting'
-import { answerRun, reportRun, startRun, type Run } from '../state/run'
+import { answeredRight, answerRun, reportRun, startRun, type Run } from '../state/run'
 import { checkpointIds } from './UnitDetail'
 
 export const CHECKPOINT_SIZE = 10
@@ -109,8 +109,8 @@ export function Checkpoint({ content, unit, p, today, update, activity, onExit, 
         reportTargets={reportTargets(content, ex)}
         onAnswer={r => {
           activity()
-          const { first, save } = answerRun(run, ex, r.verdict, today)
-          for (const id of first) firstResult.current.set(id, r.verdict !== 'wrong')
+          const { first, save } = answerRun(run, ex, r.verdict, today, r.missedIds)
+          for (const id of first) firstResult.current.set(id, answeredRight(r, id))
           update(save)
         }}
         onReport={(target, note, r) => {

@@ -177,6 +177,26 @@ describe('SessionRunner', () => {
     expect(after[head]).toEqual({ ...out[head], seen: out[head].seen + 1 })
   })
 
+  it('a wrong match grades only the missed ids wrong; pairs matched right are correct', () => {
+    const states = all(1)
+    const { r, graded } = matchRunner(states)
+    const [miss, hit] = graded
+    const out = r.answer('wrong', TODAY, [miss]).states
+    expect(out[miss]).toEqual(review(states[miss], 'wrong', TODAY))
+    expect(out[hit]).toEqual(review(states[hit], 'correct', TODAY))
+    // only the missed id is asked again
+    expect(r.remaining()).toBe(1)
+    expect(r.current()!.itemIds[0]).toBe(miss)
+  })
+
+  it('undoLast after a per-pair match restores both the missed and the right pair', () => {
+    const states = all(1)
+    const { r, graded } = matchRunner(states)
+    r.answer('wrong', TODAY, [graded[0]])
+    expect(r.undoLast(graded[0]).states[graded[0]]).toEqual(states[graded[0]])
+    expect(r.undoLast(graded[1]).states[graded[1]]).toEqual(states[graded[1]])
+  })
+
   it('undoLast on an id graded inside a match restores its pre-wrong state', () => {
     const states = all(0)
     const { r, graded } = matchRunner(states)

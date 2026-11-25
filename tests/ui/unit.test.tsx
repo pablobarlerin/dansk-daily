@@ -1,16 +1,25 @@
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/preact'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { App } from '../../src/app'
 import { computeContent } from '../../src/content/load'
 import type { Content } from '../../src/content/types'
 import { findItem } from '../../src/lib/path'
 import type { DayLog, Progress } from '../../src/lib/progressTypes'
 import type { ItemState } from '../../src/lib/srs'
+import { tapClock } from '../../src/lib/tapGuard'
 import { TODAY, fixedNow, fixtureContent, fixtureUnits, placedProgress, storageWith, stored } from './fixtures'
+
+// Each tap is a second apart (intro and repeat ignore double taps).
+const realTapClock = tapClock.now
+beforeEach(() => {
+  let t = 0
+  tapClock.now = () => (t += 1000)
+})
 
 afterEach(() => {
   cleanup()
   vi.restoreAllMocks()
+  tapClock.now = realTapClock
 })
 
 const content = fixtureContent()

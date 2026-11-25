@@ -1,17 +1,26 @@
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/preact'
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { App } from '../../src/app'
 import { computeContent } from '../../src/content/load'
 import type { Content } from '../../src/content/types'
 import { findItem } from '../../src/lib/path'
 import type { DayLog, Progress } from '../../src/lib/progressTypes'
 import { seeded } from '../../src/lib/rng'
-import type { ItemState } from '../../src/lib/srs'
+import { review, type ItemState } from '../../src/lib/srs'
+import { tapClock } from '../../src/lib/tapGuard'
 import { TODAY, fixedNow, fixtureContent, fixtureUnits, placedProgress, storageWith, stored } from './fixtures'
+
+// Each tap is a second apart unless a test says otherwise (intro and repeat ignore double taps).
+const realTapClock = tapClock.now
+beforeEach(() => {
+  let t = 0
+  tapClock.now = () => (t += 1000)
+})
 
 afterEach(() => {
   cleanup()
   vi.restoreAllMocks()
+  tapClock.now = realTapClock
 })
 
 const content = fixtureContent()
@@ -144,6 +153,50 @@ describe('daily session', () => {
     p = stored(s)
     expect(p.days[TODAY].newIntroduced).toBe(2)
     expect(p.states['u01-p09-farvel']).toMatchObject({ strength: 3, known: true })
+  })
+
+  it('a double tap on intro "Next" introduces one card, not two', () => {
+    let t = 10_000
+    tapClock.now = () => t
+    const s = startSession(prog())
+    fireEvent.click(button('Next')) // hej
+    t += 120
+    fireEvent.click(button('Next')) // the second tap of a double tap lands on farvel's card
+    expect(screen.getByTestId('intro-card').textContent).toContain('farvel')
+    let p = stored(s)
+    expect(p.days[TODAY].newIntroduced).toBe(1)
+    expect(p.states['u01-p09-farvel']).toBeUndefined()
+    t += 1000
+    fireEvent.click(button('Next'))
+    p = stored(s)
+    expect(p.days[TODAY].newIntroduced).toBe(2)
+    expect(p.states['u01-p09-farvel']).toBeDefined()
+  })
+
+  it('a double tap on "I know this" marks one card only', () => {
+    let t = 10_000
+    tapClock.now = () => t
+    const s = startSession(prog())
+    fireEvent.click(button(/i know this/i)) // hej
+    t += 120
+    fireEvent.click(button(/i know this/i))
+    expect(screen.getByTestId('intro-card').textContent).toContain('farvel')
+    expect(stored(s).days[TODAY].newIntroduced).toBe(1)
+    expect(stored(s).states['u01-p09-farvel']).toBeUndefined()
+  })
+
+  it('a double tap on the last intro card never skips the repeat line after it', () => {
+    let t = 10_000
+    tapClock.now = () => t
+    startSession(prog({ settings: { audio: false, speed: 1, newPerDay: 3, backupNudge: true } }))
+    fireEvent.click(button('Next')) // hej
+    t += 1000
+    fireEvent.click(button('Next')) // farvel
+    t += 1000
+    fireEvent.click(button('Next')) // bil, the last card
+    t += 120
+    fireEvent.click(button('Next')) // lands on the repeat line's Next
+    expect(screen.getByTestId('repeat-line').textContent).toContain('Hvad hedder du?')
   })
 
   it('after the intro cards: the lesson\'s repeat lines, then a first test of only the ids introduced with Next', () => {
@@ -304,7 +357,7 @@ describe('daily session', () => {
     expect(screen.getByRole('heading', { name: /keep going/i })).toBeTruthy()
   })
 
-  it('report on a wrong MATCH undoes every graded id, keeps the exercise shown, leaves reviewsDone, and they don\'t come back', () => {
+  it('report on a wrong MATCH undoes every id it graded (right pairs too), keeps the exercise shown, leaves reviewsDone, and they don\'t come back', () => {
     const due = dueToday(1)
     const initial = prog({ states: statesFor(ALL, due), lessonsDone: { 'u02-l02': true } })
     let s: ReturnType<typeof storageWith> | null = null
@@ -320,10 +373,11 @@ describe('daily session', () => {
     const ids = shownIds()
     expect(ids.length).toBeGreaterThanOrEqual(4)
 
-    solve(false)
+    solve(false) // misses the first two pairs only
     let p = stored(s!)
     expect(p.days[TODAY].reviewsDone).toBe(ids.length)
-    for (const id of ids) expect(p.states[id]).not.toEqual(due)
+    // graded per pair: the two missed pairs wrong, the pairs matched right correct
+    ids.forEach((id, k) => expect(p.states[id]).toEqual(review(due, k < 2 ? 'wrong' : 'correct', TODAY)))
 
     fireEvent.click(button(/report a problem/i))
     const dialog = screen.getByRole('dialog', { name: /report/i })

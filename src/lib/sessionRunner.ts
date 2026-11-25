@@ -50,7 +50,11 @@ export class SessionRunner {
     return ex
   }
 
-  answer(verdict: Verdict, today: string): { states: Record<string, ItemState> } {
+  /**
+   * Grade the shown exercise. For a wrong `match`, `missedIds` (when given) names the pairs
+   * actually missed: only those are graded wrong and asked again; the others count as correct.
+   */
+  answer(verdict: Verdict, today: string, missedIds?: string[]): { states: Record<string, ItemState> } {
     const ex = this.current()
     if (!ex) return { states: { ...this.states } }
     const head = this.queue.shift()!
@@ -68,8 +72,10 @@ export class SessionRunner {
     for (const id of graded) {
       const before = this.states[id]
       this.lastBefore.set(id, before)
+      const v: Verdict =
+        verdict === 'wrong' && ex.kind === 'match' && missedIds !== undefined && !missedIds.includes(id) ? 'correct' : verdict
       let next = before
-      if (verdict === 'wrong') {
+      if (v === 'wrong') {
         if (this.wrong.has(id)) {
           next = { ...before, seen: before.seen + 1 }
         } else {
@@ -81,7 +87,7 @@ export class SessionRunner {
       } else if (this.wrong.has(id)) {
         next = { ...before, known: true, seen: before.seen + 1 }
       } else if (this.opts.mode === 'scheduled') {
-        next = review(before, verdict, today)
+        next = review(before, v, today)
       }
       this.states[id] = next
     }

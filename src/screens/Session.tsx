@@ -10,8 +10,9 @@ import { OVERLOAD, buildDailyQueue, type DailyQueue } from '../lib/queue'
 import { reportedIds } from '../lib/reports'
 import type { Rng } from '../lib/rng'
 import { newState, setStrength, type ItemState } from '../lib/srs'
+import { DOUBLE_TAP_MS, tapClock } from '../lib/tapGuard'
 import { reportProgress, reportTargets, type ReportTarget } from '../state/reporting'
-import { answerRun, reportRun, startRun, withDay, type Run } from '../state/run'
+import { answeredRight, answerRun, reportRun, startRun, withDay, type Run } from '../state/run'
 import { LessonIntro } from './LessonIntro'
 import { RepeatAfterMe } from './RepeatAfterMe'
 import { Summary } from './Summary'
@@ -78,7 +79,19 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
   const stepKey = useRef(0)
   const lessonEnded = useRef(false)
   const visit = useRef({ reviewed: 0, learned: 0, first: 0, good: 0 })
+  const lastTap = useRef(-Infinity)
   const canPlay = playable(p.settings)
+
+  /**
+   * Intro and repeat cards replace each other under the same buttons, so the second tap of a
+   * double tap would land on the next card unseen. Taps that soon after an accepted one are ignored.
+   */
+  const settled = (): boolean => {
+    const t = tapClock.now()
+    if (t >= lastTap.current && t - lastTap.current < DOUBLE_TAP_MS) return false
+    lastTap.current = t
+    return true
+  }
 
   /** The latest saved progress (the prop can lag behind an update made in the same handler). */
   const read = (): Progress => {
@@ -282,10 +295,10 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
           reportTargets={reportTargets(content, ex)}
           onAnswer={r => {
             activity()
-            const { first, save } = answerRun(run, ex, r.verdict, today)
+            const { first, save } = answerRun(run, ex, r.verdict, today, r.missedIds)
             const v = visit.current
             v.first += first.length
-            if (r.verdict !== 'wrong') v.good += first.length
+            v.good += first.filter(id => answeredRight(r, id)).length
             if (run.countReviews) v.reviewed += first.length
             update(save)
           }}
@@ -331,10 +344,14 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
           canPlay={canPlay}
           speed={p.settings.speed}
           onNext={() => {
+            if (!settled()) return
             if (!has(read().states, id)) phase.introduced.push(id)
             introduce(prev => (has(prev.states, id) ? null : newState(today)))
           }}
-          onKnow={() => introduce(prev => setStrength(has(prev.states, id) ? prev.states[id] : undefined, 3, today))}
+          onKnow={() => {
+            if (!settled()) return
+            introduce(prev => setStrength(has(prev.states, id) ? prev.states[id] : undefined, 3, today))
+          }}
         />
       )
       break
@@ -350,6 +367,7 @@ export function Session({ content, p, today, update, activity, onExit, rng = () 
           canPlay={canPlay}
           speed={p.settings.speed}
           onNext={() => {
+            if (!settled()) return
             activity()
             if (phase.i + 1 < phase.lines.length) setPhase({ ...phase, i: phase.i + 1 })
             else advance()

@@ -15,7 +15,8 @@ function shuffledIndexes(n: number): number[] {
 
 /**
  * Match pairs. Graded per pair: a pair tapped wrong at least once is "missed" (both pairs
- * involved). The exercise is correct only when no pair was missed.
+ * involved). The exercise is correct only when no pair was missed; when it is wrong, only the
+ * missed pairs' items are graded wrong (`missedIds`), the others right.
  */
 export function Match({ exercise, onAnswer, locked }: ExerciseProps) {
   const pairs = exercise.pairs ?? []
@@ -39,8 +40,14 @@ export function Match({ exercise, onAnswer, locked }: ExerciseProps) {
       const next = new Set(matched).add(da)
       setMatched(next)
       if (next.size === pairs.length) {
-        const miss = [...missed].sort((a, b) => a - b).map(k => pairs[k])
-        onAnswer({ verdict: miss.length ? 'wrong' : 'correct', expected: '', graded: [...exercise.itemIds], missed: miss })
+        const ks = [...missed].sort((a, b) => a - b)
+        onAnswer({
+          verdict: ks.length ? 'wrong' : 'correct',
+          expected: '',
+          graded: [...exercise.itemIds],
+          missed: ks.map(k => pairs[k]),
+          missedIds: ks.map(k => exercise.itemIds[k]),
+        })
       }
     } else {
       setMissed(new Set(missed).add(da).add(en))

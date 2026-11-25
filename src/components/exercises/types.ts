@@ -11,6 +11,8 @@ export interface AnswerResult {
   graded: string[]
   /** `match` only: the pairs the learner got wrong at least once. */
   missed?: { da: string; en: string }[]
+  /** `match` only: the item ids of those pairs. Only these are graded wrong; the rest are right. */
+  missedIds?: string[]
 }
 
 export interface ExerciseProps {

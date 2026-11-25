@@ -35,7 +35,8 @@ export function reportProgress(p: Progress, c: Content, target: ReportTarget, no
 
 /**
  * The exercise's ids whose state the runner changed when grading it: call with the states from
- * before and after `runner.answer`. For a wrong match these are exactly its queued ids.
+ * before and after `runner.answer`. For a wrong scheduled match these are exactly its queued ids
+ * (the missed pairs graded wrong, the others right), so a report undoes all of them.
  */
 export function gradedIds(ex: Exercise, before: Record<string, ItemState>, after: Record<string, ItemState>): string[] {
   return ex.itemIds.filter(

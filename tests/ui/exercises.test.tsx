@@ -152,6 +152,25 @@ describe('choices, tiles and match', () => {
     expect(onAnswer.mock.calls[0][0].verdict).toBe('wrong')
   })
 
+  it('a multiple-choice option that folds to the answer (bor for bør) is wrong, never almost', () => {
+    const { onAnswer } = renderStep({
+      kind: 'mc-en-da', itemIds: ['u01-p09-hej'], prompt: 'Which is "should"?',
+      options: ['bor', 'bør', 'ja', 'hej'], accepted: ['bør'],
+    })
+    fireEvent.click(screen.getByRole('button', { name: 'bor' }))
+    expect(onAnswer.mock.calls[0][0].verdict).toBe('wrong')
+    expect(screen.getByRole('region', { name: /feedback/i }).textContent).toMatch(/Correct answer: bør/)
+  })
+
+  it('the right multiple-choice option is correct', () => {
+    const { onAnswer } = renderStep({
+      kind: 'mc-en-da', itemIds: ['u01-p09-hej'], prompt: 'Which is "should"?',
+      options: ['bor', 'bør', 'ja', 'hej'], accepted: ['bør'],
+    })
+    fireEvent.click(screen.getByRole('button', { name: 'bør' }))
+    expect(onAnswer.mock.calls[0][0]).toMatchObject({ verdict: 'correct', expected: 'bør' })
+  })
+
   it('tiles: building the sentence and checking is correct', () => {
     const { onAnswer } = renderStep({
       kind: 'tiles', itemIds: ['u01-p09-bil'], prompt: 'Build the sentence: I have a car.',
@@ -189,6 +208,15 @@ describe('choices, tiles and match', () => {
     tapPair('ja', 'yes')
     expect(onAnswer.mock.calls[0][0].verdict).toBe('wrong')
     expect(screen.getByRole('region', { name: /feedback/i }).textContent).toMatch(/hej = hello/)
+  })
+
+  it('match: only the pairs actually missed are reported as missed ids', () => {
+    const { onAnswer } = renderStep(matchEx)
+    tapPair('hej', 'goodbye')
+    tapPair('hej', 'hello')
+    tapPair('farvel', 'goodbye')
+    tapPair('ja', 'yes')
+    expect(onAnswer.mock.calls[0][0].missedIds).toEqual(['u01-p09-hej', 'u01-p09-farvel'])
   })
 })
 

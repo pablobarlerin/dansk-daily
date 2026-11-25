@@ -9,6 +9,7 @@ import { SessionRunner } from '../lib/sessionRunner'
 import type { ItemState, Level } from '../lib/srs'
 import { gradedIds, reportWithRunner, type ReportTarget } from './reporting'
 import { playable } from '../components/exercises/shared'
+import type { AnswerResult } from '../components/exercises/types'
 
 /** One runner-driven practice block (daily session, "Start this lesson", checkpoint). */
 export interface Run {
@@ -59,8 +60,13 @@ export function startRun(
   return { run, ex }
 }
 
+/** Was `id` answered right? A wrong match still has its pairs matched right first time. */
+export function answeredRight(r: Pick<AnswerResult, 'verdict' | 'missedIds'>, id: string): boolean {
+  return r.verdict !== 'wrong' || (r.missedIds !== undefined && !r.missedIds.includes(id))
+}
+
 /**
- * Grade the shown exercise in the runner. Returns the ids answered for the first time and the
+ * Grade the shown exercise in the runner (a wrong match only grades its `missedIds` wrong). Returns the ids answered for the first time and the
  * progress change to save: the graded ids get the runner's own state objects (not copies), and
  * scheduled reviews add their first attempts to `reviewsDone`.
  */
@@ -69,11 +75,12 @@ export function answerRun(
   ex: Exercise,
   verdict: Verdict,
   today: string,
+  missedIds?: string[],
 ): { first: string[]; save: (prev: Progress) => Progress } {
   const first = ex.itemIds.filter(id => run.pending.has(id))
   for (const id of first) run.pending.delete(id)
   const before = run.states
-  const after = run.runner.answer(verdict, today).states
+  const after = run.runner.answer(verdict, today, missedIds).states
   run.states = after
   run.answered++
   const graded = gradedIds(ex, before, after)

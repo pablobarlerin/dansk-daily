@@ -1,7 +1,7 @@
 import { useState } from 'preact/hooks'
 import { normaliseAnswer } from '../../lib/answers'
-import { grade, Question, Speaker } from './shared'
-import type { ExerciseProps } from './types'
+import { Question, Speaker } from './shared'
+import type { AnswerResult, ExerciseProps } from './types'
 
 interface Props extends ExerciseProps {
   title: string
@@ -10,6 +10,15 @@ interface Props extends ExerciseProps {
   speak?: string
   /** Options are Danish (sets lang="da" on them). */
   danishOptions?: boolean
+}
+
+/**
+ * A tapped option is right or wrong: exact match after normalising, never "almost" (the
+ * typing rules would let the distractor "bor" pass for "bør").
+ */
+function gradeChoice(option: string, ex: ExerciseProps['exercise']): AnswerResult {
+  const hit = ex.accepted.find(a => normaliseAnswer(a) === normaliseAnswer(option))
+  return { verdict: hit === undefined ? 'wrong' : 'correct', expected: hit ?? ex.accepted[0] ?? '', graded: [...ex.itemIds] }
 }
 
 /** Shared multiple-choice body: one tap answers. */
@@ -39,7 +48,7 @@ export function Choice({ exercise, onAnswer, canPlay, speed, locked, title, bubb
               onClick={() => {
                 if (locked) return
                 setChosen(i)
-                onAnswer(grade(o, exercise))
+                onAnswer(gradeChoice(o, exercise))
               }}
             >
               {o}
